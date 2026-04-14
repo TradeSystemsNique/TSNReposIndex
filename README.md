@@ -108,6 +108,6 @@ If you use any of my projects, please keep in mind:
 ---
 
 ## License
-The contents of this index repository are licensed under [MIT](./LICENSE.md).
+The contents of this index repository are licensed under [MIT](./LICENSE).
 Note: Each repository listed above is governed by its own license.
 
