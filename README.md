@@ -28,7 +28,7 @@
 | CLByLeo | OpenCL Wrrpers in MQL5| MQL5 | [NL-NC] | ✅ Active | 🔒 Request access  | Lib | 
 | ChallangeSimulator | Simulate funding tests in MQL5, useful for validating whether a bot passes a funding test or not. | MQL5 | ?| ✅ Active | ⛔ Unavailable   | Lib | 
 | EasyAndFastMod | This repository is a modified version of EasyAndFastGUI. | MQL5, FGBLC | [NL-NC] | ✅ Active | 🔒 Request access  |Lib | 
-| EasySbAi | EA that implements the Silver Bullet strategy (easy version) implemented with AI that filters signals and predicts the TP/SL | MQL5, YAML | [PROP] |  ✅ Active | 🌐 Public | Bot | 
+| EasySbAi | EA that implements the Silver Bullet strategy (easy version) implemented with AI that filters signals and predicts the TP/SL | MQL5, YAML | [FPU] |  ✅ Active | 🌐 Public | Bot | 
 | ExtraCodes | Utility codes, such as compiling eas, etc. | MQL5 | [NL-NC] | ✅ Active | 🔒 Request access  |Lib | 
 | FastNL | Pure MQL5 news library without DLL\WebRequeset, works in tester\live (EX5 Wrraper Library + Extra libs) | MQL5 | [NL-ND]  | ✅ Active | 💰 Paid  |Lib | 
 | GameTestLib | Simple video games implemented in mql5 | MQL5, CL | ? | 🗄️ Archived| 🌐 Public | Bots | 
@@ -37,7 +37,7 @@
 | Gurus1.2 | Trading bots, ICT, Price action, Statistics, etc. | MQL5 | ? | ✅ Active | ⛔ Unavailable  | Bots | 
 | ICTEstrategias | ICT Trading bots | MQL5 | ? | ✅ Active | ⛔ Unavailable  | Bots |
 | ICTLibrary | Fast ICT library with more than 35 concepts (EX5 Wrraper Library + Extra concepts) | MQL5 | [NL-ND] | ✅ Active | 💰 Paid  | Lib | 
-| ICTLibraryEasy | ICTLibraryEasy is a fast and simple ICT library that allows you to work with the most well-known ICT concepts such as FVG, Boschoch, Swing, etc. through classes and using the MQLArticles base framework. | MQL5 | Apache 2.0 (with modifications) + [PROP] |  ✅ Active | 🌐 Public  | Libs + Bots | 
+| ICTLibraryEasy | ICTLibraryEasy is a fast and simple ICT library that allows you to work with the most well-known ICT concepts such as FVG, Boschoch, Swing, etc. through classes and using the MQLArticles base framework. | MQL5 | Apache 2.0 (with modifications) + [FPU] Only for examples |  ✅ Active | 🌐 Public  | Libs + Bots | 
 | ICTLibraryExamples | Examples of ICT library usage include more than 50 example bots and implementations of ICT YouTuber strategies in MQL5 | MQL5 | [NL-ND]  | ✅ Active | 🔗 Unlockable (requires ICTLibrary) | Bots | 
 | IctKiller | Complex AI bot with more than 8 strategies | MQL5 | Custom | 🚧 WIP | ⛔ Unavailable | Bots |
 | Introsort | Fork of [amrali/Introsort](https://forge.mql5.io/amrali/Introsort) | MQL5 | [INHERITED] | ✅ Active | 🌐 Public | Lib |
@@ -51,8 +51,8 @@
 | QuantumErnLeo | Quantum exploration | MQL5 | ? | 🗄️ Archived | ⛔ Unavailable | Lib |
 | ScalerByLeo | ScalerByLeo is a library for preprocessing data for ML models using scalers such as maxmin, robust, standard scaler, and also OpenCL can be used for bulk data scaling. | MQL5, OpenCL | [NL-NC]  | ✅ Active | 🌐 Public | Lib |
 | StatTrading | Patterns Statics | MQL5 | ? | 🗄️ Archived | 🌐 Public | Lib |
-| StrategyBuilder | Building strategies in MQL5 using a custom language | MQL5, CMODEL, CPATTERN | [PROP] |  🚧 WIP | ⛔ Unavailable | Lib |
-| StrategyBuilderApp | CMODEL code editor for building strategies in MQL5 | MQL5, CMODEL, CPATTERN | [PROP] | 🚧 WIP | ⛔ Unavailable | Bots |
+| StrategyBuilder | Building strategies in MQL5 using a custom language | MQL5, CMODEL, CPATTERN | [ARR] |  🚧 WIP | ⛔ Unavailable | Lib |
+| StrategyBuilderApp | CMODEL code editor for building strategies in MQL5 | MQL5, CMODEL, CPATTERN | [ARR] | 🚧 WIP | ⛔ Unavailable | Bots |
 | TSNReposIndex | Index of all my repositories, licenses and projects. TSN Ecosystem | MD | [MIT] | 🚧 WIP | 🌐 Public | Doc |
 | TbpWrraper | A set of wrapper classes that make using TheBotPlace API easier. | MQL5, YAML| [NL-NC] | ✅ Active | 🌐 Public | Lib |
 | Team9 | Simple EMA trading bots/Chart patterns | MQL5 | ? | 🗄️ Archived | ⛔ Unavailable | Bot |
@@ -65,9 +65,9 @@
 | Xoshiro256 | Fork of [amrali/Xoshiro256](https://forge.mql5.io/amrali/Xoshiro256)  | MQL5 | [INHERITED]  | ✅ Active | 🌐 Public | Lib |
 | YamlParserByLeo | Fast parser of the YAML format in pure MQL5. With the possibility of fast reading and partial writing. | MQL5, YAML | [NL-NC] | ✅ Active | 🔗 Unlockable (requires FastNL)| Lib |
 | fast_json | Fork of [14134597/fast_json](https://forge.mql5.io/14134597/fast_json)  | MQL5, JSON | [INHERITED]  | ✅ Active | 🌐 Public | Lib |
-| ICT | ICT concept library in MQL5 | MQL5 | [PROP] | ✅ Active  | ⛔ Unavailable  | Lib | 
-| NewsLibrary | News Library | MQL5 | [PROP] | ✅ Active  | ⛔ Unavailable  | Lib | 
-| Distribuciones| Library of statistical distributions, for predicting events in probability and studying patterns | MQL5 | [PROP] | ✅ Active  | ⛔ Unavailable  |  Lib | 
+| ICT | ICT concept library in MQL5 | MQL5 | [ARR] | ✅ Active  | ⛔ Unavailable  | Lib | 
+| NewsLibrary | News Library | MQL5 | [ARR] | ✅ Active  | ⛔ Unavailable  | Lib | 
+| Distribuciones| Library of statistical distributions, for predicting events in probability and studying patterns | MQL5 | [ARR] | ✅ Active  | ⛔ Unavailable  |  Lib | 
  
  
 ---
@@ -90,8 +90,10 @@ If you use any of my projects, please keep in mind:
 |-----|------|-------------|
 | [NL-NC] | Custom No-LLM Non-Commercial | Free for non-commercial use. Commercial use requires substantial innovation and written authorization. No public redistribution without permission. |
 | [NL-ND] | Custom No-LLM No-Derivatives | Like NL-NC but redistribution of source code is fully prohibited. Library derivatives cannot be sold in any form. |
-| [PROP] | Proprietary | All rights reserved. No redistribution, modification or commercial use permitted, only personal use available. |
+| [FPU] | For Personal Use | Personal use only. Modifications allowed but must remain strictly private. No redistribution or commercial use permitted. |
+| [ARR] | All Rights Reserved | No use, access, copying, modification or distribution permitted in any form. |
 | [INHERITED] | Inherited License | License defined by the original/parent repository. Refer to the parent repo for full terms. |
+| ? | None | The license has not yet been defined for that repository |
 
 ### Development status
 | Badge | Meaning |
