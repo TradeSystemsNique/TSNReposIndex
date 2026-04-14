@@ -28,7 +28,7 @@
 | FastNL | Pure MQL5 news library without DLL\WebRequeset, works in tester\live (EX5 Wrraper Library + Extra libs) | MQL5 | [NL-ND]  | ✅ Active | 💰 Paid  |
 | GameTestLib | Simple video games implemented in mql5 | MQL5, CL | ? | 🗄️ Archived| 🌐 Public |
 | GeneralByLeo | Indicators, and trailing stop | MQL5 | [NL-NC] | ✅ Active | 🔗 Unlockable (requires FastNL or ICTLibrary) |
-| GrapichsByLeo | framework that contains several libraries for creating graphics in MQL5, such as histograms, text, etc., using a class derived from CCanvas | ? | ✅ Active | 🌐 Public |
+| GrapichsByLeo | framework that contains several libraries for creating graphics in MQL5, such as histograms, text, etc., using a class derived from CCanvas | MQL5 | ? | ✅ Active | 🌐 Public |
 | Gurus1.2 | Trading bots, ICT, Price action, Statistics, etc. | MQL5 | ? | ✅ Active | ⛔ Unavailable  |
 | ICTEstrategias | ICT Trading bots | MQL5 | ? | ✅ Active | ⛔ Unavailable  |
 | ICTLibrary | Fast ICT library with more than 35 concepts (EX5 Wrraper Library + Extra concepts) | MQL5 | [NL-ND] | ✅ Active | 💰 Paid  |
