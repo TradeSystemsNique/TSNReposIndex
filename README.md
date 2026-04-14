@@ -88,8 +88,8 @@ If you use any of my projects, please keep in mind:
 
 | Tag | Name | Description |
 |-----|------|-------------|
-| [NL-NC] | Custom No-LLM Non-Commercial | Free for non-commercial use. Commercial use requires substantial innovation and written authorization. No public redistribution without permission. |
-| [NL-ND] | Custom No-LLM No-Derivatives | Like NL-NC but redistribution of source code is fully prohibited. Library derivatives cannot be sold in any form. |
+| [NL-NC] | Custom No-LLM Non-Commercial | Personal use and free redistribution permitted. Commercial sale of source code requires substantial innovation and written authorization. Selling a compiled End-User Application that incorporates the Software is permitted without authorization. |
+| [NL-ND] | Custom No-LLM No-Derivatives | Like NL-NC but commercial sale of source code or any Derivative Work is absolutely prohibited with no exceptions or authorization process. Selling a compiled End-User Application that incorporates the Software as a single binary is permitted. |
 | [FPU] | For Personal Use | Personal use only. Modifications allowed but must remain strictly private. No redistribution or commercial use permitted. |
 | [ARR] | All Rights Reserved | No use, access, copying, modification or distribution permitted in any form. |
 | [INHERITED] | Inherited License | License defined by the original/parent repository. Refer to the parent repo for full terms. |
