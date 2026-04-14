@@ -25,6 +25,7 @@
 <a href="./LICENSE">
   <img src="https://img.shields.io/badge/License-Nique%26Leo%20FPU-orange.svg"/>
 </a>
+
 ```html
 <a href="./LICENSE">
   <img src="https://img.shields.io/badge/License-Nique%26Leo%20FPU-orange.svg"/>
@@ -35,6 +36,7 @@
 <a href="./LICENSE">
   <img src="https://img.shields.io/badge/License-All_Rights_Reserved-darkred.svg"/>
 </a>
+
 ```html
 <a href="./LICENSE">
   <img src="https://img.shields.io/badge/License-All_Rights_Reserved-darkred.svg"/>
