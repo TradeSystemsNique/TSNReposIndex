@@ -32,7 +32,7 @@
 | ExtraCodes | Utility codes, such as compiling eas, etc. | MQL5 | [NL-NC] | ✅ Active | 🔒 Request access  |Lib | 
 | FastNL | Pure MQL5 news library without DLL\WebRequeset, works in tester\live (EX5 Wrraper Library + Extra libs) | MQL5 | [NL-ND-P] | ✅ Active | 💰 Paid  |Lib | 
 | GameTestLib | Simple video games implemented in mql5 | MQL5, CL | ? | 🗄️ Archived| 🌐 Public | Bots | 
-| GeneralByLeo | Indicators, and trailing stop | MQL5 | [NL-NC] | ✅ Active | 🔗 Unlockable (requires FastNL or ICTLibrary) | Lib + Indicators | 
+| GeneralByLeo | Indicators, and trailing stop | MQL5 | [NL-NC-P] | ✅ Active | 🔗 Unlockable (requires FastNL or ICTLibrary) | Lib + Indicators | 
 | GrapichsByLeo | framework that contains several libraries for creating graphics in MQL5, such as histograms, text, etc., using a class derived from CCanvas | MQL5 | ? | ✅ Active | 🌐 Public | Lib | 
 | Gurus1.2 | Trading bots, ICT, Price action, Statistics, etc. | MQL5 | ? | ✅ Active | ⛔ Unavailable  | Bots | 
 | ICTEstrategias | ICT Trading bots | MQL5 | ? | ✅ Active | ⛔ Unavailable  | Bots |
