@@ -1,4 +1,4 @@
-# <Type> License - Personal Use Only
+# <Type> License - For Personal Use (FPU) Only
 
 Copyright (c) 2026 Niquel and Leo. 
 All rights reserved.
