@@ -58,7 +58,7 @@
 | TimeUtils | Fork of [amrali/TimeUtils](https://forge.mql5.io/amrali/TimeUtils) | MQL5 | [INHERITED]  | ✅ Active | 🌐 Public |
 | WorkflowsByLeo | A library that allows you to run workflows in an MT5 bot. Both asynchronous and synchronous jobs that require OnTimer\OnChartEvent to function... all through a YAML file where the user defines each step of the flow. | MQL5, YAML | [NL-NC] | ✅ Active | 🌐 Public |
 | Xoshiro256 | Fork of [amrali/Xoshiro256](https://forge.mql5.io/amrali/Xoshiro256)  | MQL5 | [INHERITED]  | ✅ Active | 🌐 Public |
-| YamlParserByLeo | Fast parser of the YAML format in pure MQL5. With the possibility of fast reading and partial writing. | MQL5, YAML | [NL-NC] | ✅ Active | 🌐 Public |
+| YamlParserByLeo | Fast parser of the YAML format in pure MQL5. With the possibility of fast reading and partial writing. | MQL5, YAML | [NL-NC] | ✅ Active | 🔗 Unlockable (requires FastNL)|
 | fast_json | Fork of [14134597/fast_json](https://forge.mql5.io/14134597/fast_json)  | MQL5, JSON | [INHERITED]  | ✅ Active | 🌐 Public |
 | ICT | ICT concept library in MQL5 | MQL5 | [PROP] | ✅ Active  | ⛔ Unavailable  |
 | NewsLibrary | News Library | MQL5 | [PROP] | ✅ Active  | ⛔ Unavailable  |
