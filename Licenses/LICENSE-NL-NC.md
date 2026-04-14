@@ -27,9 +27,9 @@ By accessing, copying, modifying or distributing the Software, you agree to be b
 
 - **"Public Repository":** Any version control hosting service or code platform accessible to the public or to uncontrolled third parties, including but not limited to GitHub, GitLab, Bitbucket, Codeberg, or any similar platform, regardless of whether the repository is indexed by search engines.
 
-- **"Authorized Platform":** MQL5 Algo Forge (algforge.mql5.com), operated by the original authors of the Software.
+- **"Authorized Platform":** MQL5 Algo Forge (https://forge.mql5.io), operated by the original authors of the Software.
 
-- **"Text Generation Model":** Any artificial intelligence system specifically designed to generate, complete, summarize, translate or otherwise produce natural language text, including but not limited to Large Language Models (LLMs), generative pre-trained transformers, instruction-tuned models, chat models, and text-based foundation models (e.g. GPT, Claude, LLaMA, Mistral, Gemini, and similar architectures), whether proprietary or open source. This definition does NOT include machine learning systems whose primary purpose is unrelated to natural language text generation, such as classification models, regression models, recommendation systems, computer vision models, tabular data models, or audio processing models.
+- **"Text Generation Model":** Any artificial intelligence system specifically designed to generate, complete, summarize, translate or otherwise produce natural language text, including but not limited to Large Language Models (LLMs), generative pre-trained transformers, instruction-tuned models, chat models, and text-based foundation models (e.g. GPT, Claude, LLaMA, Mistral, Gemini, Grok, QWen, GPT OSS, GLM, Gemini, and similar architectures), whether proprietary or open source. This definition does NOT include machine learning systems whose primary purpose is unrelated to natural language text generation, such as classification models, regression models, recommendation systems, computer vision models, tabular data models, or audio processing models.
 
 ---
 
@@ -37,24 +37,39 @@ By accessing, copying, modifying or distributing the Software, you agree to be b
 
 A limited, non-exclusive permission is granted to:
 
-- Use, copy and modify the Software for **non-commercial purposes**.
+- Use, copy and modify the Software for **personal use**, whether commercial or non-commercial, without prior authorization.
+- Modify the Software for **personal, non-commercial use** without prior authorization.
 - Create Derivative Works, subject to the conditions set forth in this Agreement.
 - Use the Software in machine learning pipelines, datasets or systems that are **not** Text Generation Models as defined in Section 1.
 - Store the Software in a **private repository** (not publicly accessible) for personal backup or version control purposes.
+- **Freely redistribute** the Software — original or modified — at no cost, on any platform, provided the conditions of Section 3(c) are met.
 
 ---
 
-## SECTION 3 - DISTRIBUTION RESTRICTION
+## SECTION 3 - DISTRIBUTION
 
-Public distribution of the Software's source code is **restricted** as follows:
+Distribution of the Software's source code is governed as follows:
 
-**(a)** Uploading or hosting the Software's source code on any Public Repository is **prohibited**.
+**(a)** Storage and hosting of the Software's source code is permitted under the following conditions:
+  - On the **Authorized Platform** (MQL5 Algo Forge): public or private repositories are permitted,
+    subject to the distribution conditions of sections (b) and (c).
+  - On **any other platform**: storage is permitted exclusively in private repositories that
+    guarantee no public access, no indexing by search engines, and no access by automated
+    crawlers or data collection systems.
+  - Hosting the Software on any other platform in a publicly accessible form is **strictly prohibited**.
 
-**(b)** The only authorized public distribution channel for the Software is the **Authorized Platform** (MQL5 Algo Forge), exclusively under the control of the original authors.
+**(b)** Free redistribution of the Software — original or modified — is **permitted**,
+  provided:
+  - The storage and hosting conditions of section (a) are met.
+  - The original license is preserved and included in full.
+  - The original authors (Nique_372 and Leo) are clearly attributed.
+  - The redistributed version is not presented as an original independent work.
+  - Forks are only permitted on the Authorized Platform or in strictly private
+    repositories meeting the conditions of section (a).
 
-**(c)** Redistribution of the Software's source code to third parties — in original or modified form — is **subject to explicit written authorization by the original authors**. Unauthorized redistribution is prohibited.
-
-**(d)** Storing the Software in a genuinely private repository (access restricted exclusively to the user) for personal backup purposes is **permitted**, provided no redistribution occurs.
+**(c)** Any commercial redistribution, sale, or monetization of the Software or any 
+  Derivative Work requires prior contact with the original authors and explicit written 
+  authorization. Full conditions are defined in Section 4.
 
 ---
 
@@ -63,11 +78,13 @@ Public distribution of the Software's source code is **restricted** as follows:
 Commercial Use of the Software is **conditioned** as follows:
 
 1. The sale, licensing or commercialization of the Software in its original form is **prohibited**.
-2. The commercialization of Derivative Works that do not incorporate Substantial Innovation over the original Software is **prohibited**.
-3. Commercialization is **permitted** only for Derivative Works that incorporate verifiable and documented Substantial Innovation, and only with **explicit written authorization by the original authors**.
-
-In case of doubt as to whether a modification constitutes Substantial Innovation, the original author reserves the right to make that determination.
-
+2. The commercialization of Derivative Works that do not incorporate Substantial Innovation
+   over the original Software is **prohibited**.
+3. Commercialization is **permitted** only for Derivative Works that incorporate verifiable
+   and documented Substantial Innovation, and only with **explicit written authorization
+   by the original authors**, who reserve the sole right to determine whether Substantial
+   Innovation has been achieved.
+   
 ---
 
 ## SECTION 5 - PROHIBITION ON USE IN TEXT GENERATION AI MODELS
