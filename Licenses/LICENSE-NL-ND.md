@@ -11,7 +11,7 @@ Copyright 2026 Nique_372 and Leo.
 
 This license governs the terms of use, reproduction, distribution and modification of the software contained in this repository (hereinafter, "the Software"). It is inspired by the **OpenRAIL** (Open & Responsible AI License) framework from the RAIL Initiative, with additional restrictions to protect the author against unauthorized distribution, commercial exploitation of the source code, and the use of the Software in the training of text generation AI systems.
 
-This license is **more restrictive** than the standard Nique_372 Custom No-LLM license. If you are looking for a less restrictive version, refer to the standard license available in other repositories by the same author.
+This license is **more restrictive** than the Level 1 / NL-NC license. If you are looking for a less restrictive version, refer to the NL-NC license available in other repositories by the same author.
 
 By accessing, copying, modifying or using the Software, you agree to be bound by the terms of this Agreement.
 
@@ -23,15 +23,13 @@ By accessing, copying, modifying or using the Software, you agree to be bound by
 
 - **"Derivative Work":** Any work based in whole or in part on the Software, including modifications, adaptations, ports, wrappers, forks or repackaged versions, whether distributed as source code or compiled binaries.
 
-- **"Library Derivative":** A Derivative Work whose primary purpose is to function as a reusable software library, module, framework or code component intended to be linked against or imported by other software.
-
-- **"End-User Application":** A compiled, executable product (e.g. a trading bot, Expert Advisor, script or tool) that uses or links against the Software as a dependency, but does not expose or redistribute the Software's source code.
+- **"End-User Application":** A single compiled executable product (e.g. a trading bot or Expert Advisor) whose binary incorporates the Software compiled within it, such that the Software's source code is not exposed, separable, or independently redistributable from the product. A product that ships the Software as a separate compiled binary (e.g. a standalone .ex5 library file) does NOT qualify as an End-User Application under this definition.
 
 - **"Commercial Use":** Any use of the Software or Derivative Works that generates or is intended to generate economic benefit, whether direct or indirect.
 
 - **"Public Repository":** Any version control hosting service or code platform accessible to the public or to uncontrolled third parties, including but not limited to GitHub, GitLab, Bitbucket, Codeberg, or any similar platform, regardless of whether the repository is indexed by search engines.
 
-- **"Authorized Platform":** MQL5 Algo Forge (algforge.mql5.com), operated by the original authors of the Software.
+- **"Authorized Platform":** MQL5 Algo Forge (https://forge.mql5.io/), operated by the original authors of the Software.
 
 - **"Text Generation Model":** Any artificial intelligence system specifically designed to generate, complete, summarize, translate or otherwise produce natural language text, including but not limited to Large Language Models (LLMs), generative pre-trained transformers, instruction-tuned models, chat models, and text-based foundation models (e.g. GPT, Claude, LLaMA, Mistral, Gemini, and similar architectures), whether proprietary or open source. This definition does NOT include machine learning systems whose primary purpose is unrelated to natural language text generation, such as classification models, regression models, recommendation systems, computer vision models, tabular data models, or audio processing models.
 
@@ -41,24 +39,34 @@ By accessing, copying, modifying or using the Software, you agree to be bound by
 
 A limited, non-exclusive, non-transferable permission is granted to:
 
-- Use and modify the Software for **personal, non-commercial purposes**.
-- Store the Software in a **private repository** (not publicly accessible) for personal backup or version control purposes.
-- Develop and **commercially sell End-User Applications** (e.g. trading bots, Expert Advisors) that use or link against the Software as a compiled dependency, provided the Software's source code is not included, exposed or redistributable within that product.
+- Use and modify the Software for **personal use**, whether commercial or non-commercial, without prior authorization.
+- Store the Software in a private repository for personal backup or version control purposes, subject to the conditions of Section 3(a).
+- Create Derivative Works for **personal use only**, subject to the conditions of this Agreement.
+- Develop and **commercially sell End-User Applications** as defined in Section 1, provided the conditions of Section 4(c) are met.
 - Use the Software in machine learning pipelines, datasets or systems that are **not** Text Generation Models as defined in Section 1.
 
 ---
 
-## SECTION 3 - SOURCE CODE DISTRIBUTION RESTRICTION
+## SECTION 3 - DISTRIBUTION
 
-The distribution of the Software's source code is **strictly restricted** as follows:
+Distribution of the Software's source code is governed as follows:
 
-**(a)** Redistributing, sharing, publishing or transmitting the Software's source code to any third party, in original or modified form, is **prohibited**.
+**(a)** Storage and hosting of the Software's source code is permitted under the following conditions:
 
-**(b)** Uploading or hosting the Software's source code on any Public Repository is **prohibited**, even if the repository is marked as private on that platform, unless the platform guarantees that the content is inaccessible to the platform operator and to automated data collection systems.
+  - On the **Authorized Platform** (MQL5 Algo Forge): public or private repositories are permitted, subject to the distribution conditions of sections (b) and (c).
+  - On **any other platform**: storage is permitted exclusively in private repositories that guarantee no public access, no indexing by search engines, and no access by automated crawlers or data collection systems.
+  - Hosting the Software on any other platform in a publicly accessible form is **strictly prohibited**.
 
-**(c)** The only authorized public distribution channel for the Software is the **Authorized Platform** (MQL5 Algo Forge), exclusively under the control of the original authors.
+**(b)** Free redistribution of the Software — original or modified — is **permitted**, provided:
+  - The storage and hosting conditions of section (a) are met.
+  - The original license is preserved and included in full.
+  - The original authors (Nique_372 and Leo) are clearly attributed.
+  - The redistributed version is not presented as an original independent work.
+  - Forks are only permitted on the Authorized Platform or in strictly private repositories meeting the conditions of section (a).
 
-**(d)** Storing the Software in a **genuinely private repository** (access restricted exclusively to the user) for personal backup purposes is **permitted**, provided no redistribution occurs.
+**(c)** Any commercial redistribution, sale, or monetization of the Software's source code —
+  original or modified — is **strictly and absolutely prohibited**, without exception and
+  without possibility of authorization. This prohibition is non-waivable.
 
 ---
 
@@ -66,16 +74,19 @@ The distribution of the Software's source code is **strictly restricted** as fol
 
 Commercial use of the Software is **conditioned** as follows:
 
-**(a)** The sale, licensing or commercialization of the Software's source code in its original or modified form is **prohibited**.
+**(a)** The sale, licensing or commercialization of the Software's source code in its original or modified form is **strictly and absolutely prohibited**, without exception.
 
-**(b)** The sale, licensing or commercialization of any Library Derivative — whether distributed as source code or as compiled binaries whose primary purpose is to serve as a reusable library or module — is **prohibited**, regardless of the degree of modification or innovation introduced.
+**(b)** The sale, licensing or commercialization of any Derivative Work distributed as source code or as a separately compiled binary (e.g. a standalone .ex5 library file) is **strictly prohibited**, regardless of the degree of modification or innovation introduced.
 
-**(c)** The sale of End-User Applications (e.g. trading bots, Expert Advisors, scripts or tools) that use or link against the Software as a compiled dependency is **permitted**, provided:
-  - The Software's source code is not included or exposed in the product.
-  - The product is not itself a library, module or reusable code component.
+**(c)** The sale of End-User Applications as defined in Section 1 is **permitted**, provided:
+  - The Software is compiled within the End-User Application as a single binary and is not shipped as a separate file.
+  - The Software's source code is not included, exposed, or independently redistributable within the product.
+  - The product is not itself a library, module, or reusable code component.
   - This license is referenced in the product's documentation.
 
-**Example:** Selling an Expert Advisor (EA) that imports this library as a compiled dependency is permitted. Selling a modified or extended version of this library's source code, or a compiled library derived from it, is prohibited.
+**Example:** Selling a trading bot or Expert Advisor (EA) as a single compiled .ex5 file that incorporates this library's code within it is permitted. Selling the library's source code, a modified version of it, or shipping the library as a separate .ex5 file alongside any product is prohibited.
+
+**(d)** Unlike the Level 1 / NL-NC license, there is **no review or authorization process** available for commercial use of the source code or any Derivative Work. This restriction is absolute and non-negotiable.
 
 ---
 
