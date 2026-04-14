@@ -76,6 +76,7 @@ If you use any of my projects, please keep in mind:
 3. If in doubt about whether your use case is allowed, open an issue or contact me.
 
 ---
+
 ## Legends
 
 ### Licenses
@@ -102,3 +103,11 @@ If you use any of my projects, please keep in mind:
 | 🔗 Unlockable | Access granted by purchasing a linked repo |
 | 🔒 Request access | Private — contact me to get access |
 | ⛔ Unavailable | Not accessible at this time |
+
+
+---
+
+## License
+The contents of this index repository are licensed under [MIT](./LICENSE.md).
+Note: Each repository listed above is governed by its own license.
+
