@@ -30,18 +30,18 @@
 | EasyAndFastMod | This repository is a modified version of EasyAndFastGUI. | MQL5, FGBLC | [NL-NC] | ✅ Active | 🔒 Request access  |Lib | 
 | EasySbAi | EA that implements the Silver Bullet strategy (easy version) implemented with AI that filters signals and predicts the TP/SL | MQL5, YAML | [FPU] |  ✅ Active | 🌐 Public | Bot | 
 | ExtraCodes | Utility codes, such as compiling eas, etc. | MQL5 | [NL-NC] | ✅ Active | 🔒 Request access  |Lib | 
-| FastNL | Pure MQL5 news library without DLL\WebRequeset, works in tester\live (EX5 Wrraper Library + Extra libs) | MQL5 | [NL-ND]  | ✅ Active | 💰 Paid  |Lib | 
+| FastNL | Pure MQL5 news library without DLL\WebRequeset, works in tester\live (EX5 Wrraper Library + Extra libs) | MQL5 | [NL-ND-P] | ✅ Active | 💰 Paid  |Lib | 
 | GameTestLib | Simple video games implemented in mql5 | MQL5, CL | ? | 🗄️ Archived| 🌐 Public | Bots | 
 | GeneralByLeo | Indicators, and trailing stop | MQL5 | [NL-NC] | ✅ Active | 🔗 Unlockable (requires FastNL or ICTLibrary) | Lib + Indicators | 
 | GrapichsByLeo | framework that contains several libraries for creating graphics in MQL5, such as histograms, text, etc., using a class derived from CCanvas | MQL5 | ? | ✅ Active | 🌐 Public | Lib | 
 | Gurus1.2 | Trading bots, ICT, Price action, Statistics, etc. | MQL5 | ? | ✅ Active | ⛔ Unavailable  | Bots | 
 | ICTEstrategias | ICT Trading bots | MQL5 | ? | ✅ Active | ⛔ Unavailable  | Bots |
-| ICTLibrary | Fast ICT library with more than 35 concepts (EX5 Wrraper Library + Extra concepts) | MQL5 | [NL-ND] | ✅ Active | 💰 Paid  | Lib | 
+| ICTLibrary | Fast ICT library with more than 35 concepts (EX5 Wrraper Library + Extra concepts) | MQL5 | [NL-ND-P] | ✅ Active | 💰 Paid  | Lib | 
 | ICTLibraryEasy | ICTLibraryEasy is a fast and simple ICT library that allows you to work with the most well-known ICT concepts such as FVG, Boschoch, Swing, etc. through classes and using the MQLArticles base framework. | MQL5 | Apache 2.0 (with modifications) + [FPU] Only for examples |  ✅ Active | 🌐 Public  | Libs + Bots | 
-| ICTLibraryExamples | Examples of ICT library usage include more than 50 example bots and implementations of ICT YouTuber strategies in MQL5 | MQL5 | [NL-ND]  | ✅ Active | 🔗 Unlockable (requires ICTLibrary) | Bots | 
+| ICTLibraryExamples | Examples of ICT library usage include more than 50 example bots and implementations of ICT YouTuber strategies in MQL5 | MQL5 | [NL-ND-P] | ✅ Active | 🔗 Unlockable (requires ICTLibrary) | Bots | 
 | IctKiller | Complex AI bot with more than 8 strategies | MQL5 | Custom | 🚧 WIP | ⛔ Unavailable | Bots |
 | Introsort | Fork of [amrali/Introsort](https://forge.mql5.io/amrali/Introsort) | MQL5 | [INHERITED] | ✅ Active | 🌐 Public | Lib |
-| LLmAgentsByLeo | Library that allows you to integrate the LLM agent API as GPT, with memory and tools. | MQL5 | [NL-ND]  | ✅ Active | 💰 Paid | Lib |
+| LLmAgentsByLeo | Library that allows you to integrate the LLM agent API as GPT, with memory and tools. | MQL5 | [NL-ND-P] | ✅ Active | 💰 Paid | Lib |
 | LitCycleKiller | Bot ict based on the LitCycle strategy | MQL5 | ? | ✅ Active | ⛔ Unavailable | Bot | 
 | MQL5Book | Fork of [rosh/MQL5Book](https://forge.mql5.io/rosh/MQL5Book) | MQL5 | [INHERITED] | ✅ Active | 🌐 Public | All | 
 | MQLArticles | MQL Articles is a repository that contains the basic structure of the complete framework by Leo\Nique_372, in addition to containing the codes that nique_372 implemented in his MQL5 articles (Ict, Risk Management, Position Management). | MQL5, SFILTER | ? | ✅ Active | 🌐 Public | Lib + Bots + Indicators |
@@ -56,14 +56,14 @@
 | TSNReposIndex | Index of all my repositories, licenses and projects. TSN Ecosystem | MD | [MIT] | 🚧 WIP | 🌐 Public | Doc |
 | TbpWrraper | A set of wrapper classes that make using TheBotPlace API easier. | MQL5, YAML| [NL-NC] | ✅ Active | 🌐 Public | Lib |
 | Team9 | Simple EMA trading bots/Chart patterns | MQL5 | ? | 🗄️ Archived | ⛔ Unavailable | Bot |
-| TelegramByLeo | Modified and fast Telegram library based on MQL5 article codes  | MQL5 |  [NL-NC] | ✅ Active  | 🔗 Unlockable (requires FastNL) | Lib | 
+| TelegramByLeo | Modified and fast Telegram library based on MQL5 article codes  | MQL5 |  [NL-ND-P] | ✅ Active  | 🔗 Unlockable (requires FastNL) | Lib | 
 | TelegramComplex | Telegram bot to send screenshots\messages at OnTradeTransaction events | MQL5 | [NL-NC] | ✅ Active | ⛔ Unavailable  | Bot |
 | TelegramControler | Bot that allows control of MT5 through LLM APIs and commands | MQL5 | ? | 🚧 WIP | ⛔ Unavailable  | Bot |
 | TheSmcIctindicator | Part of the code for TheSmcIctIndicator | MQL5 | ? | 🚧 WIP | ⛔ Unavailable  | Indicator |
 | TimeUtils | Fork of [amrali/TimeUtils](https://forge.mql5.io/amrali/TimeUtils) | MQL5 | [INHERITED]  | ✅ Active | 🌐 Public | Lib |
 | WorkflowsByLeo | A library that allows you to run workflows in an MT5 bot. Both asynchronous and synchronous jobs that require OnTimer\OnChartEvent to function... all through a YAML file where the user defines each step of the flow. | MQL5, YAML | [NL-NC] | ✅ Active | 🌐 Public | Lib |
 | Xoshiro256 | Fork of [amrali/Xoshiro256](https://forge.mql5.io/amrali/Xoshiro256)  | MQL5 | [INHERITED]  | ✅ Active | 🌐 Public | Lib |
-| YamlParserByLeo | Fast parser of the YAML format in pure MQL5. With the possibility of fast reading and partial writing. | MQL5, YAML | [NL-NC] | ✅ Active | 🔗 Unlockable (requires FastNL)| Lib |
+| YamlParserByLeo | Fast parser of the YAML format in pure MQL5. With the possibility of fast reading and partial writing. | MQL5, YAML | [NL-ND-P] | ✅ Active | 🔗 Unlockable (requires FastNL)| Lib |
 | fast_json | Fork of [14134597/fast_json](https://forge.mql5.io/14134597/fast_json)  | MQL5, JSON | [INHERITED]  | ✅ Active | 🌐 Public | Lib |
 | ICT | ICT concept library in MQL5 | MQL5 | [ARR] | ✅ Active  | ⛔ Unavailable  | Lib | 
 | NewsLibrary | News Library | MQL5 | [ARR] | ✅ Active  | ⛔ Unavailable  | Lib | 
@@ -90,6 +90,7 @@ If you use any of my projects, please keep in mind:
 |-----|------|-------------|
 | [NL-NC] | Custom No-LLM Non-Commercial | Personal use and free redistribution permitted. Commercial sale of source code requires substantial innovation and written authorization. Selling a compiled End-User Application that incorporates the Software is permitted without authorization. |
 | [NL-ND] | Custom No-LLM No-Derivatives | Like NL-NC but commercial sale of source code or any Derivative Work is absolutely prohibited with no exceptions or authorization process. Selling a compiled End-User Application that incorporates the Software as a single binary is permitted. |
+| [NL-ND-P] | Custom No-LLM No-Derivatives (Paid) | Applies to Software obtained through purchase or unlock mechanism. Source code must remain strictly private on any platform including Forge. No public redistribution permitted under any circumstance. Selling a compiled End-User Application that incorporates the Software as a single binary is permitted. |
 | [FPU] | For Personal Use | Personal use only. Modifications allowed but must remain strictly private. No redistribution or commercial use permitted. |
 | [ARR] | All Rights Reserved | No use, access, copying, modification or distribution permitted in any form. |
 | [INHERITED] | Inherited License | License defined by the original/parent repository. Refer to the parent repo for full terms. |
