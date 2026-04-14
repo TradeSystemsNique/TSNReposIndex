@@ -10,7 +10,7 @@
 - **Organization:** TSN
 - **Platform:** [Only MQL5 Algo Forge for repositories](https://forge.mql5.io)
 - **Products:** [MQL5 Market](https://www.mql5.com/es/users/nique_372/seller) and [TheBotPlace](https://www.thebotplace.com/user/46vILTzIIBbqDhugEvqWGlc8rl52)
-- **Contact**
+- **Contact:**
 > - [MQL5 Chats](https://www.mql5.com/es/users/nique_372)
 > - [Telegram](http://t.me/trade_system_nique)
   
