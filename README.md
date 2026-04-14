@@ -42,7 +42,7 @@
 | MQLArticles | MQL Articles is a repository that contains the basic structure of the complete framework by Leo\Nique_372, in addition to containing the codes that nique_372 implemented in his MQL5 articles (Ict, Risk Management, Position Management). | MQL5, SFILTER | ? | ✅ Active | 🌐 Public |
 | MqlCIByLeo | CI framework for MQL5. Automatically compiles and validates EAs and libraries. | MQL5, Python | [NL-ND]  |  ✅ Active | 🌐 Public |
 | PracticeCode | Extra practice code | MQL5 |  ? | 🗄️ Archived | 🌐 Public |
-| PyBase | PyBase is a base repository that contains basic utilities for simple logging and basic functions. | MQL5 | [NL-NC] | ✅ Active | 🌐 Public |
+| PyBase | PyBase is a base repository that contains basic utilities for simple logging and basic functions. | Python | [NL-NC] | ✅ Active | 🌐 Public |
 | QuantumErnLeo | Quantum exploration | MQL5 | ? | 🗄️ Archived | ⛔ Unavailable |
 | ScalerByLeo | ScalerByLeo is a library for preprocessing data for ML models using scalers such as maxmin, robust, standard scaler, and also OpenCL can be used for bulk data scaling. | MQL5, OpenCL | [NL-NC]  | ✅ Active | 🌐 Public |
 | StatTrading | Patterns Statics | MQL5 | ? | 🗄️ Archived | 🌐 Public |
