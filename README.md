@@ -46,6 +46,7 @@
 | MQL5Book | Fork of [rosh/MQL5Book](https://forge.mql5.io/rosh/MQL5Book) | MQL5 | [INHERITED] | ✅ Active | 🌐 Public | All | 
 | MQLArticles | MQL Articles is a repository that contains the basic structure of the complete framework by Leo\Nique_372, in addition to containing the codes that nique_372 implemented in his MQL5 articles (Ict, Risk Management, Position Management). | MQL5, SFILTER | ? | ✅ Active | 🌐 Public | Lib + Bots + Indicators |
 | MqlCIByLeo | CI framework for MQL5. Automatically compiles and validates EAs and libraries. | MQL5, Python | [NL-ND]  |  ✅ Active | 🌐 Public | Lib |
+| MultirangesInd | MetaTrader 5 Indicator that detects consolidation ranges and generates signals based on three customizable strategies | MQL5 | [FPU] | ✅ Active |  🌐 Public | Indicator |
 | PracticeCode | Extra practice code | MQL5 |  ? | 🗄️ Archived | 🌐 Public | Lib + Bots |
 | PyBase | PyBase is a base repository that contains basic utilities for simple logging and basic functions. | Python | [NL-NC] | ✅ Active | 🌐 Public |
 | QuantumErnLeo | Quantum exploration | MQL5 | ? | 🗄️ Archived | ⛔ Unavailable | Lib |
