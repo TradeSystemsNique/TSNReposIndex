@@ -60,6 +60,7 @@
 | TelegramByLeo | Modified and fast Telegram library based on MQL5 article codes  | MQL5 |  [NL-ND-P] | ✅ Active  | 🔗 Unlockable (requires FastNL) | Lib | 
 | TelegramComplex | Telegram bot to send screenshots\messages at OnTradeTransaction events | MQL5 | [NL-NC] | ✅ Active | ⛔ Unavailable  | Bot |
 | TelegramControler | Bot that allows control of MT5 through LLM APIs and commands | MQL5 | ? | 🚧 WIP | ⛔ Unavailable  | Bot |
+| TheSmcIctIndEx | MQL5 EA examples using The Smc Ict Indicator buffers| MQL5 | [MIT] | 🚧 WIP | 🌐 Public  | Bots + Lib |
 | TheSmcIctindicator | Part of the code for TheSmcIctIndicator | MQL5 | ? | 🚧 WIP | ⛔ Unavailable  | Indicator |
 | TimeUtils | Fork of [amrali/TimeUtils](https://forge.mql5.io/amrali/TimeUtils) | MQL5 | [INHERITED]  | ✅ Active | 🌐 Public | Lib |
 | WorkflowsByLeo | A library that allows you to run workflows in an MT5 bot. Both asynchronous and synchronous jobs that require OnTimer\OnChartEvent to function... all through a YAML file where the user defines each step of the flow. | MQL5, YAML | [NL-NC] | ✅ Active | 🌐 Public | Lib |
