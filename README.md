@@ -45,6 +45,7 @@
 | LitCycleKiller | Bot ict based on the LitCycle strategy | MQL5 | ? | ✅ Active | ⛔ Unavailable | Bot | 
 | MQL5Book | Fork of [rosh/MQL5Book](https://forge.mql5.io/rosh/MQL5Book) | MQL5 | [INHERITED] | ✅ Active | 🌐 Public | All | 
 | MQLArticles | MQL Articles is a repository that contains the basic structure of the complete framework by Leo\Nique_372, in addition to containing the codes that nique_372 implemented in his MQL5 articles (Ict, Risk Management, Position Management). | MQL5, SFILTER | ? | ✅ Active | 🌐 Public | Lib + Bots + Indicators |
+| McpServer | Library that facilitates the connection of any tool that supports the MCP protocol with functions defined by you for MQL5. | MQL5, Python | [NL-ND-P] | ✅ Active | 🔒 Request access  | Lib |
 | MqlCIByLeo | CI framework for MQL5. Automatically compiles and validates EAs and libraries. | MQL5, Python | [NL-ND]  |  ✅ Active | 🌐 Public | Lib |
 | MultirangesInd | MetaTrader 5 Indicator that detects consolidation ranges and generates signals based on three customizable strategies | MQL5 | [FPU] | ✅ Active |  🌐 Public | Indicator |
 | PracticeCode | Extra practice code | MQL5 |  ? | 🗄️ Archived | 🌐 Public | Lib + Bots |
@@ -92,7 +93,7 @@ If you use any of my projects, please keep in mind:
 |-----|------|-------------|
 | [NL-NC] | Custom No-LLM Non-Commercial | Personal use and free redistribution permitted. Commercial sale of source code requires substantial innovation and written authorization. Selling a compiled End-User Application that incorporates the Software is permitted without authorization. |
 | [NL-ND] | Custom No-LLM No-Derivatives | Like NL-NC but commercial sale of source code or any Derivative Work is absolutely prohibited with no exceptions or authorization process. Selling a compiled End-User Application that incorporates the Software as a single binary is permitted. |
-| [NL-ND-P] | Custom No-LLM No-Derivatives (Paid) | Applies to Software obtained through purchase or unlock mechanism. Source code must remain strictly private on any platform including Forge. No public redistribution permitted under any circumstance. Selling a compiled End-User Application that incorporates the Software as a single binary is permitted. |
+| [NL-ND-P] | Custom No-LLM No-Derivatives P=(Requerid acces for Private repos or Paid or Unlocked) | Applies to Software obtained through purchase or unlock or (requerid acces, private) mechanism. Source code must remain strictly private on any platform including Forge. No public redistribution permitted under any circumstance. Selling a compiled End-User Application that incorporates the Software as a single binary is permitted. |
 | [FPU] | For Personal Use | Personal use only. Modifications allowed but must remain strictly private. No redistribution or commercial use permitted. |
 | [ARR] | All Rights Reserved | No use, access, copying, modification or distribution permitted in any form. |
 | [INHERITED] | Inherited License | License defined by the original/parent repository. Refer to the parent repo for full terms. |
