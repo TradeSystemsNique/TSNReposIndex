@@ -81,7 +81,7 @@
 If you use any of my projects, please keep in mind:
 
 1. Always include the original license when redistributing.
-2. If you use the code with an LLM-based tool (Claude, Copilot, etc.), disable any data-for-training option first.
+2. Accept the license of the repository you wish to use with all its conditions.... if you do not agree, do not use the code from that repository for any purpose.
 3. If in doubt about whether your use case is allowed, open an issue or contact me.
 
 ---
