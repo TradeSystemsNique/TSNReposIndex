@@ -22,7 +22,7 @@
 | Repo | Description | Language | License | Status | Access | Type |
 |------|-------------|----------|---------|--------|--------|------|
 | AiDataGenByLeo | Build AI-powered trading systems with automatic feature generation, DSL-based configuration, and 85+ built-in features. | MQL5, Python, FGBLC | [NL-ND]  | ✅ Active | 🌐 Public | Lib | 
-| AiDataTaskRuner | AiDataTaskRuner is a bot with a complex GUI that facilitates data generation and training of ML models based on the AiDataGenByLeo library.| MQL5, C++, Bat, FGBLC, JSON, YAML | [NL-ND]  | ✅ Active | 🌐 Public | Lib | 
+| AiDataTaskRuner | AiDataTaskRuner is a bot with a complex GUI that facilitates data generation and training of ML models based on the AiDataGenByLeo library.| MQL5, C++, Bat, FGBLC, JSON, YAML, Python | [NL-ND]  | ✅ Active | 🌐 Public | Lib | 
 | AiFullTab | This library simplifies the integration of a subtab (allowing you to configure a Tlgram bot or launch an MCP server) into the desired panel. The idea is to enable a panel to have a tab where the user can configure everything related to an LLM AI model so that it "controls" the panel. | MQL5 |  [NL-ND-P] | 🚧 WIP  | 🔒 Request access | Lib |
 | AiModels | Ai models (Linear regression, etc) in pure MQL5 | MQL5 |  [NL-ND-P] | ✅ Active | 🔒 Request access | Lib | 
 | BotKr4v3n5 | MQL5 CRT Trading bot | MQL5 | ? | 🚧 WIP | ⛔ Unavailable  | Bot | 
