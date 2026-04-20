@@ -26,10 +26,19 @@ The user who obtains access to this repository is permitted solely to:
 - USE the bot on personal, institutional, prop firm, demo, or live trading accounts
 - CONFIGURE the bot parameters to adapt it to personal trading needs
 - RUN the bot on multiple owned accounts simultaneously
-- MODIFY the bot's source code exclusively for personal use, provided that:
-  - Any modification remains strictly private and is never shared, published, or distributed
-  - Modified versions are subject to all the same restrictions as the original
-  - No modified version may be presented as an original or independent work
+- MODIFY the bot's source code, provided that:<br>
+&nbsp;- Any distribution or hosting of modifications is subject to the conditions of the Distribution and Hosting section<br>
+&nbsp;- Modified versions are subject to all the same restrictions as the original<br>
+&nbsp;- No modified version may be presented as an original or independent work
+
+
+---
+
+## Distribution and Hosting
+Storage and hosting of the Software's source code — original or modified — is permitted exclusively under the following conditions:
+- On MQL5 Algo Forge (https://forge.mql5.io/): public or private repositories are permitted, provided the original license is preserved in full and the original authors are clearly attributed.
+- On any other platform: storage is permitted exclusively in strictly private repositories that guarantee no public access, no indexing by search engines, and no access by automated crawlers or data collection systems.
+- Hosting on any other platform in a publicly accessible form is strictly prohibited.
 
 ---
 
@@ -39,14 +48,14 @@ The following are strictly PROHIBITED, without exception:
 
 - Selling the bot, whether compiled or in source code form, original or modified
 - Redistributing the bot by any means, free of charge or commercially, in any form
-- Publishing, sharing, or uploading the code — original or modified — to any public or private  
-  repository accessible to third parties (GitHub, GitLab, Bitbucket, MQL5 CodeBase, or others)
+- Publishing, sharing, or uploading the code — original or modified — to any public or private repository accessible to third parties, except as expressly permitted under the Distribution and Hosting section above.
 - Sublicensing, assigning, or transferring usage rights to third parties
 - Creating derivative works intended for distribution, sale, or public access of any kind
 - Using the code, in whole or in part, to train artificial intelligence models or LLMs
 - Including the code — original or modified — in commercial products, subscription services,  
   trading signals, or similar offerings
 - Reverse engineering the code for redistribution or commercialization purposes
+- Selling, licensing or commercializing any compiled binary (e.g. .ex5 files) derived from or incorporating this Software, whether on MQL5 Market or any other platform, is strictly prohibited
 
 ---
 
