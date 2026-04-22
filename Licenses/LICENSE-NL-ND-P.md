@@ -119,6 +119,39 @@ Failure to comply with this section constitutes a violation of Section 5(d) of t
 
 ---
 
+## Trademarks and Brand Identity
+
+The following names, usernames, aliases, and all associated logos, icons,
+and visual assets included in this repository are the exclusive property
+of their respective authors:
+
+- "Nique"
+- "Leo"
+- "Nique-Leo"
+- "NiqueAndLeo"
+- "nique_372"
+- "TSN"
+- "Trade Systems Nique"
+- The name and title of the specific product or repository
+  to which this license file is attached
+
+The following are strictly PROHIBITED:
+
+* Using any of the above names, usernames, or logos to endorse, promote,
+  or misrepresent any product, service, or derivative work
+* Presenting any modified or unmodified version of this software
+  as being officially created, endorsed, or affiliated with the authors
+* Reproducing or distributing any logo, icon, or brand asset
+  included in this repository for any purpose other than running
+  the software as originally intended
+* Using any of the above names in domain names, social media handles,
+  product names, or commercial offerings without explicit written
+  permission from the authors
+
+No trademark or brand rights of any kind are granted under this license.
+
+---
+
 ## SECTION 6 - DISCLAIMER OF WARRANTIES
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING FROM THE USE OF THE SOFTWARE.
