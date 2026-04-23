@@ -1,37 +1,37 @@
-# Convenciones MQL5 - Ecosistema TSN
+# MQL5 Conventions - TSN Ecosystem
 
-> Estándares y mejores prácticas para escribir código MQL5 en el ecosistema TSN
-
----
-
-## Tabla de contenidos
-
-1. [Nomenclatura](#nomenclatura)
-2. [Estructura de archivos](#estructura-de-archivos)
-3. [Estilo de código](#estilo-de-código)
-4. [Estructura de EAs](#estructura-de-eas)
-5. [Comentarios y documentación](#comentarios-y-documentación)
-6. [Idioma](#idioma)
+> Standards and best practices for writing MQL5 code in the TSN ecosystem
 
 ---
 
-## Nomenclatura
+## Table of Contents
 
-### Clases
-- **Prefijo:** `C`
-- **Tipo:** `PascalCase`
-- **Ejemplos:** `CMyClass`, `CIndicator`, `COrderBlock`, `CRiskManagement`
+1. [Naming](#naming)
+2. [File Structure](#file-structure)
+3. [Code Style](#code-style)
+4. [EA Structure](#ea-structure)
+5. [Comments and Documentation](#comments-and-documentation)
+6. [Language](#language)
+
+---
+
+## Naming
+
+### Classes
+- **Prefix:** `C`
+- **Type:** `PascalCase`
+- **Examples:** `CMyClass`, `CIndicator`, `COrderBlock`, `CRiskManagement`
 
 ```mql5
 class CStrategy {
-  // implementación
+  // implementation
 };
 ```
 
 ### Interfaces
-- **Prefijo:** `I`
-- **Tipo:** `PascalCase`
-- **Ejemplos:** `IStrategy`, `INotifiable`
+- **Prefix:** `I`
+- **Type:** `PascalCase`
+- **Examples:** `IStrategy`, `INotifiable`
 
 ```mql5
 interface IStrategy {
@@ -39,10 +39,10 @@ interface IStrategy {
 };
 ```
 
-### Estructuras
-- **Prefijo:** Ninguno
-- **Tipo:** `PascalCase`
-- **Ejemplos:** `Bar`, `OrderData`, `SignalInfo`
+### Structures
+- **Prefix:** None
+- **Type:** `PascalCase`
+- **Examples:** `Bar`, `OrderData`, `SignalInfo`
 
 ```mql5
 struct OrderData {
@@ -52,9 +52,9 @@ struct OrderData {
 };
 ```
 
-### Uniones
-- **Prefijo:** Ninguno
-- **Tipo:** `PascalCase`
+### Unions
+- **Prefix:** None
+- **Type:** `PascalCase`
 
 ```mql5
 union DataValue {
@@ -63,21 +63,21 @@ union DataValue {
 };
 ```
 
-### Funciones
-- **Prefijo:** Ninguno
-- **Tipo:** `PascalCase`
-- **Ejemplos:** `CalculateSma()`, `GetSupportLevel()`, `ApplyRiskManagement()`
+### Functions
+- **Prefix:** None
+- **Type:** `PascalCase`
+- **Examples:** `CalculateSma()`, `GetSupportLevel()`, `ApplyRiskManagement()`
 
 ```mql5
 double CalculateSma(const double &series[], int period) {
-  // implementación
+  // implementation
 }
 ```
 
-### Variables miembro (de clase)
-- **Prefijo:** `m_`
-- **Tipo:** `snake_case`
-- **Ejemplos:** `m_period`, `m_buffer`, `m_is_active`
+### Member Variables (Class)
+- **Prefix:** `m_`
+- **Type:** `snake_case`
+- **Examples:** `m_period`, `m_buffer`, `m_is_active`
 
 ```mql5
 class CIndicator {
@@ -88,10 +88,10 @@ private:
 };
 ```
 
-### Variables globales
-- **Prefijo:** `g_`
-- **Tipo:** `snake_case`
-- **Ejemplos:** `g_risk`, `g_order_block`, `g_bar_manager`
+### Global Variables
+- **Prefix:** `g_`
+- **Type:** `snake_case`
+- **Examples:** `g_risk`, `g_order_block`, `g_bar_manager`
 
 ```mql5
 CRiskManagement* g_risk;
@@ -99,10 +99,10 @@ COrderBlockTick g_ob;
 CBarManager g_bar_manager;
 ```
 
-### Variables locales
-- **Prefijo:** Ninguno
-- **Tipo:** `snake_case`
-- **Ejemplos:** `current_price`, `support_level`, `trade_signal`
+### Local Variables
+- **Prefix:** None
+- **Type:** `snake_case`
+- **Examples:** `current_price`, `support_level`, `trade_signal`
 
 ```mql5
 void OnTick() {
@@ -112,10 +112,10 @@ void OnTick() {
 }
 ```
 
-### Parámetros de entrada (Input)
-- **Prefijo:** `Inp`
-- **Tipo:** `PascalCase`
-- **Ejemplos:** `InpPeriod`, `InpStopLoss`, `InpTakeProfitRatio`
+### Input Parameters
+- **Prefix:** `Inp`
+- **Type:** `PascalCase`
+- **Examples:** `InpPeriod`, `InpStopLoss`, `InpTakeProfitRatio`
 
 ```mql5
 input int InpPeriod = 14;
@@ -123,9 +123,9 @@ input double InpStopLoss = 50.0;
 input string InpTelegramToken = "your_token";
 ```
 
-### Constantes \ Defines \ Enums
-- **Tipo:** `UPPER_SNAKE_CASE`
-- **Ejemplos:** `MAX_ITERATIONS`, `DEFAULT_PERIOD`, `VERSION_NUMBER`
+### Constants \ Defines \ Enums
+- **Type:** `UPPER_SNAKE_CASE`
+- **Examples:** `MAX_ITERATIONS`, `DEFAULT_PERIOD`, `VERSION_NUMBER`
 
 ```mql5
 const int DEFAULT_PERIOD = 20;
@@ -137,34 +137,34 @@ enum ENUM_RISK_TYPE
  RISK_TYPE_MONEY
 };
 ```
-### Resolucion de contexto
-En caso se usen librerias como winapi o las funciones interna de la clase\globales entran en conflicto con las nativas se recomienda usar "::" para indicarle a compilador que debe de llamar a dicha funcion nativa, en caso de llamar a funciones de lib como kernel32, por ejemplo para GetLastError(), puede resolver el contexto como "kernel32::GetLastError()"
 
+### Context Resolution
+In case libraries like winapi or internal class/global functions conflict with native functions, it is recommended to use `::` to indicate to the compiler that it should call the native function. For library functions like kernel32, for example `GetLastError()`, you can resolve the context as `kernel32::GetLastError()`
 
 ---
 
-## Estructura de archivos
+## File Structure
 
-### Jerarquía recomendada para EAs 
+### Recommended Hierarchy for EAs
 
-Para EAs **simples o mediamente complejos**, se recomienda dividir en los siguientes archivos:
+For **simple or moderately complex** EAs, it is recommended to divide them into the following files:
 
 ```
 EA_Name/
-├── Global.mqh        (Inicialización global - PRIMERO SIEMPRE)
-├── Defines.mqh       (Includes y variables globales)
-├── Functions.mqh     (Funciones auxiliares)
-├── Main.mqh          (Lógica principal/clases)
-└── EA_Name.mq5       (Evento principal)
+├── Global.mqh        (Global initialization - ALWAYS FIRST)
+├── Defines.mqh       (Includes and global variables)
+├── Functions.mqh     (Helper functions)
+├── Main.mqh          (Main logic/classes)
+└── EA_Name.mq5       (Main event)
 ```
 
-### Orden de includes
+### Include Order
 
-**Siempre** incluye `Global.mqh` primero para evitar errores de "Invalid Pointer" en instancias globales:
+**Always** include `Global.mqh` first to avoid "Invalid Pointer" errors in global instances:
 
 ```mql5
 // Defines.mqh
-#include "Global.mqh"        //  PRIMERO SIEMPRE
+#include "Global.mqh"        //  ALWAYS FIRST
 #include <TSN\\MQLArticles\\Strategy\\Main.mqh>
 #include "Functions.mqh"
 #include "Main.mqh"
@@ -172,44 +172,44 @@ EA_Name/
 
 ```mql5
 // EA_Name.mq5
-#include "Defines.mqh"       // Ya contiene Global.mqh
+#include "Defines.mqh"       // Already contains Global.mqh
 ```
 
 ---
 
-## Estilo de código
+## Code Style
 
-### Configuración del IDE MQL5
+### MQL5 IDE Configuration
 
 **Tools → Options → Stylizer:**
 
-| Opción | Valor |
+| Option | Value |
 |--------|-------|
-| Estilo | MetaQuotes |
-| Sustituir tabulación por espacios |  Sí |
-| Eliminar líneas vacías |  No |
-| Insertar espacios después de coma/punto y coma |  Sí |
-| Insertar espacios alrededor de operadores |  Sí |
+| Style | MetaQuotes |
+| Replace tabs with spaces | Yes |
+| Remove empty lines | No |
+| Insert spaces after comma/semicolon | Yes |
+| Insert spaces around operators | Yes |
 
 **Tools → Options → General:**
 
-| Opción | Valor |
+| Option | Value |
 |--------|-------|
-| Tabulación (caracteres) | 2 |
-| Insertar espacios |  Sí |
-| Insertar () y {} ) ] " ' |  Sí |
-| Resaltar paréntesis pareados |  Sí |
-| Resaltar línea actual |  Sí |
-| Activar historia del portapapeles |  Sí |
-| Auto-lista de nombres |  Sí |
-| Sangría automática |  Sí |
-| Parámetros automáticos |  Sí |
-| Números de líneas |  Sí |
+| Tab (characters) | 2 |
+| Insert spaces | Yes |
+| Insert () and {} ) ] " ' | Yes |
+| Highlight paired parentheses | Yes |
+| Highlight current line | Yes |
+| Enable clipboard history | Yes |
+| Auto name list | Yes |
+| Auto indent | Yes |
+| Auto parameters | Yes |
+| Line numbers | Yes |
 
-### Atajo de teclado
+### Keyboard Shortcuts
 
-- **Formatear código:** `CTRL + ,`, usar siempre cuando se termine de codificar algo.. 
-- **Insertar header de función\clase\seccion general\include:** `CTRL + .`, usar antes de definir una clase o defines\enums\strucuts, funciones:
+- **Format code:** `CTRL + ,`, use it always when you finish coding something
+- **Insert function/class/general section/include header:** `CTRL + .`, use before defining a class or defines\enums\structs, functions:
 
 ```mql5
 //+------------------------------------------------------------------+
@@ -238,48 +238,46 @@ void Draw();
 //+------------------------------------------------------------------+
 void CRect::Draw
 {
- // Logica....
+ // Logic....
 }
 
 ```
 
-### Separación de secciones y comentarios internos
+### Section Separation and Internal Comments
 
-Usa `//---` para dividir secciones lógicas, dentro de bloques de codigo: 
+Use `//---` to divide logical sections within code blocks:
 
 ```mql5
 void OnInit() {
-  //--- Inicializacion
+  //--- Initialization
   g_risk = new CRiskManagement();
   g_ob.init(Symbol(), PERIOD_H1);
 
   //---
-  return INIT_SUCCEDED; 
+  return INIT_SUCCEEDED; 
 }
 }
 ```
 
-
-Usa `//` para comentar ciertas partes, ademas si el texto ya no es visible en una sola linea y requiere HSCROLL entonces hagaglo por encima:
+Use `//` to comment certain parts. Also, if the text is no longer visible in a single line and requires HSCROLL, then place it above:
 
 ```mql5
 void OnInit() {
-  //--- Inicializacion
-  g_risk = new CRiskManagement(); // Instancia dinamica de CRiskManagement (Texto corto aqui)
+  //--- Initialization
+  g_risk = new CRiskManagement(); // Dynamic instance of CRiskManagement (Short text here)
 
-  // ............................................................ Texto muy largo por encima (aprox cubre el 60-70%)
+  // ............................................................ Very long text above (approx covers 60-70%)
   g_ob.init(Symbol(), PERIOD_H1);
 
   //---
-  return INIT_SUCCEDED; 
+  return INIT_SUCCEEDED; 
 }
 }
 ```
 
+### Complete Visual Separation
 
-### Separación visual completa
-
-Para secciones importantes, usa el header completo:
+For important sections, use the complete header:
 
 ```mql5
 //+------------------------------------------------------------------+
@@ -289,24 +287,24 @@ CRiskManagement* g_risk;
 COrderBlockTick g_ob;
 
 //+------------------------------------------------------------------+
-//| Función Principal de Procesamiento                               |
+//| Main Signal Processing Function                                  |
 //+------------------------------------------------------------------+
-void process_signals() {
-  // lógica
+void ProcessSignals() {
+  // logic
 }
 ```
 
-## Estructura de EAs
+## EA Structure
 
-### Flujo recomendado
+### Recommended Flow
 
-1. **Global.mqh** - Configuración inicial (BarManager, librerías base)
-2. **Defines.mqh** - Includes y variables globales
-3. **Functions.mqh** - Funciones auxiliares
-4. **Main.mqh** - Lógica de estrategia (clases)
-5. **EA.mq5** - Eventos del EA
+1. **Global.mqh** - Initial configuration (BarManager, base libraries)
+2. **Defines.mqh** - Includes and global variables
+3. **Functions.mqh** - Helper functions
+4. **Main.mqh** - Strategy logic (classes)
+5. **EA.mq5** - EA events
 
-### Ejemplo: Global.mqh
+### Example: Global.mqh
 
 ```mql5
 //+------------------------------------------------------------------+
@@ -316,54 +314,54 @@ void process_signals() {
 #property link      "https://www.mql5.com/es/users/nique_372"
 #property strict
 
-// Librerías base que requieren inicialización inmediata
+// Base libraries that require immediate initialization
 #include <TSN\\TimeUtils\\TimeUtils.mqh>
 #include <TSN\\ICTLibrary\\Core.mqh>
 
 //---
-// Configurar Bar Manager (crítico para evitar Invalid Pointer)
+// Configure Bar Manager (critical to avoid Invalid Pointer)
 CBarManager* p_bar_manager;
 
-void init_global() {
+void InitGlobal() {
   p_bar_manager = new CBarManager(_Symbol, _Period);
   if (p_bar_manager == NULL) {
-    Print("Error: No se pudo inicializar Bar Manager");
+    Print("Error: Could not initialize Bar Manager");
   }
 }
 ```
 
-### Ejemplo: Defines.mqh
+### Example: Defines.mqh
 
 ```mql5
 //+------------------------------------------------------------------+
 //|                                                      Defines.mqh |
 //+------------------------------------------------------------------+
-#include "Global.mqh"  // PRIMERO
+#include "Global.mqh"  // FIRST
 
-// Dependecias extra, auqnue por lo general global deberia de incluir lo necesario
+// Extra dependencies, although global should generally include what's necessary
 #include <TSN\\MQLArticles\\Strategy\\Main.mqh>
 
 //---
-// Variables globales
+// Global variables
 CRiskManagement* g_risk;
 COrderBlockTick g_ob;
 CStrategy* g_strategy;
 
 //---
-// Parámetros
+// Parameters
 input int InpPeriod = 20;
 input double InpRiskPercentage = 2.0;
 input bool InpUseTelegram = true;
 ```
 
-### Ejemplo: Main.mqh
+### Example: Main.mqh
 
 ```mql5
 //+------------------------------------------------------------------+
 //|                                                        Main.mqh  |
 //+------------------------------------------------------------------+
 
-#include "Defines.mqh" // o Functions.mqh si aplica
+#include "Defines.mqh" // or Functions.mqh if applicable
 
 class CMyStrategy : public CStrategy {
 private:
@@ -378,12 +376,12 @@ public:
   
   void OnTick() override {
     //---
-    // Lógica
+    // Logic
   }
 };
 ```
 
-### Ejemplo: EA.mq5
+### Example: EA.mq5
 
 ```mql5
 //+------------------------------------------------------------------+
@@ -391,18 +389,18 @@ public:
 //+------------------------------------------------------------------+
 #property copyright "Copyright 2025, nique_372"
 
-#include "Main.mqh"  // Contiene Global.mqh
+#include "Main.mqh"  // Contains Global.mqh
 
 //+------------------------------------------------------------------+
 //| Expert initialization function                                   |
 //+------------------------------------------------------------------+
 int OnInit() {
-  init_global();
+  InitGlobal();
   g_risk = new CRiskManagement(InpRiskPercentage);
   g_strategy = new CMyStrategy(InpPeriod, 30.0);
   
   if (g_risk == NULL || g_strategy == NULL) {
-    Print("Error en inicialización");
+    Print("Error in initialization");
     return INIT_FAILED;
   }
   
@@ -427,26 +425,26 @@ void OnDeinit(const int reason) {
 
 ---
 
-## Comentarios y documentación
+## Comments and Documentation
 
-### Headers de función
+### Function Headers
 
-En el ecosistema TSN dependiendo de la complejidad y si es un producto la forma de documentar varia:
-1. En caso es un producto por lo general lo tienes en la wiki del repo (esto tambien aplica a repos gratuitos)
-2. En caso no haya wiki por lo general se "trata" de documentar el codigo en este mismo
+In the TSN ecosystem, the documentation method varies depending on complexity and whether it's a product:
+1. If it's a product, it's generally documented in the repository wiki (this also applies to free repositories)
+2. If there's no wiki, it's generally documented in the code itself
 
 ```mql5
 //+------------------------------------------------------------------+
-//| Descripcion....                                                  |
+//| Description....                                                  |
 //| Inputs:                                                          |
-//| - series: array double donde estan las series                    |
-//| - period: periodo de calculo                                     | 
-//| Ouput:                                                           | 
+//| - series: double array where the series is located               |
+//| - period: calculation period                                     | 
+//| Output:                                                          | 
 //| - Sma                                                            |
-//| Notas:                                                           | 
-//| - Period debe de ser mayor a 0                                   |
+//| Notes:                                                           | 
+//| - Period must be greater than 0                                  |
 //+------------------------------------------------------------------+
-double calculate_sma(const double &series[], int period) {
+double CalculateSma(const double &series[], int period) {
   double sum = 0.0;
   for (int i = 0; i < period; i++) {
     sum += series[i];
@@ -454,13 +452,12 @@ double calculate_sma(const double &series[], int period) {
   return sum / period;
 }
 
-Y en caso de estar en la wiki se sigue un estilo similar a los Docs de mql5 una pagina por funcion... y que recibe etc..
-
+And if it's on the wiki, a similar style to the MQL5 Docs is followed - one page per function... and what it receives, etc.
 ```
 
-### Headers de archivo mqh (en caso de ea se puede agregar mas propiedades como descripcion, icono etc...)
+### File Header mqh (in case of EA, additional properties such as description, icon, etc. can be added)
 
-Incluye siempre al inicio:
+Always include at the beginning:
 
 ```mql5
 //+------------------------------------------------------------------+
@@ -475,27 +472,27 @@ Incluye siempre al inicio:
 
 ---
 
-## Idioma
+## Language
 
-### Recomendación actual
+### Current Recommendation
 
-Se recomienda **español** para código interno del ecosistema TSN, pero con consideraciones:
+**Spanish** is recommended for code internal to the TSN ecosystem, but with considerations:
 
-- **Variables públicas/librerías:** Considera inglés para mayor alcance (esto depende de tu conocimiento de dicho idioma)
-- **Comentarios complejos:** Español para claridad
-- **Nombres de clases/funciones:** Consistencia en el proyecto
-
----
-
-## Nota histórica
-
-**Importante:** Algunos repositorios del ecosistema TSN (especialmente los más antiguos) **no siguen exactamente** estas convenciones. Esto se debe a que fueron desarrollados antes de implementar estándares formales.
-
-- Código antiguo: ~50-70% adherencia a convenciones
-- Código reciente: ~90%+ adherencia
-
-Se está migrando progresivamente a estas convenciones. 
+- **Public variables/libraries:** Consider English for greater reach (this depends on your knowledge of that language)
+- **Complex comments:** Spanish for clarity
+- **Class/function names:** Consistency in the project
 
 ---
 
-**¿Preguntas o sugerencias?** Abre una issue o contacta a [@nique_372](https://www.mql5.com/es/users/nique_372)
+## Historical Note
+
+**Important:** Some repositories in the TSN ecosystem (especially the older ones) **do not exactly follow** these conventions. This is because they were developed before formal standards were implemented.
+
+- Old code: ~50-70% adherence to conventions
+- Recent code: ~90%+ adherence
+
+There is a progressive migration to these conventions.
+
+---
+
+**Questions or suggestions?** Open an issue or contact [@nique_372](https://www.mql5.com/es/users/nique_372)
