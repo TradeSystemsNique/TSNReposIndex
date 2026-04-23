@@ -1,47 +1,52 @@
-# Convenciones de archivos
-En este MD se detalla como se debe de llamar a los archivos\estructurar un proyecto etc..
+# File Conventions
 
-## Naming de archivos
-- tipo: PascalCase, ejemplos:
+This MD details how files should be named, project structure, etc.
+
+## File Naming
+
+- Type: PascalCase, examples:
 ```
 Core.mqh
 Main.mqh
 ```
-Esto solo para archivos como tal de codigo MQL5, en caso se requiera por ejemplo si se combina web\py se podrian aceptar los tipos de namig del otro ecosistema
+This applies only to actual MQL5 code files. In case other ecosystems are combined (e.g., web/Python), naming conventions from those ecosystems may be accepted.
 
-## Estructura de proyecto de lib
-Para los proyectos que sean modulos\libreries, se recomienda la siguiente estructuracion:
+## Project Structure for Libraries
+
+For projects that are modules/libraries, the following structure is recommended:
+
 ```
 RepoName/
-├── # Nota: Aqui pueden haber folders para workflows, etc....
-├── Src/           # Codigo como tal del repo
-├── Validation/    # Carpeta para los test finales del repo (para el CI)
-└── Images/        # Imagenes que se usaran en la wiki\mds\banner del repo
+├── # Note: Folders for workflows, etc. may be included here
+├── Src/           # Actual code of the repo
+├── Validation/    # Folder for final repo tests (for CI)
+└── Images/        # Images to be used in the wiki/MDs/banner of the repo
 ```
 
-## Estructura para EAs (No ai)
-Para los proyectos que sean modulos\libreries, se recomienda la siguiente estructuracion:
-```
-RepoName/
-├── # Nota: Aqui pueden haber folders para workflows, etc....
-├── Core/          # Main + Defines + EAName + Global + (Functions si aplica)
-├── Validation/    # Carpeta para los test finales del EA (para el CI)
-├── Resrc/         # Recursos embebidos (opcional solo si aplica)
-└── Images/        # Imagenes que se usaran en la wiki\mds\banner del repo
-```
+## Project Structure for EAs (Non-AI)
 
-## Estrucutura para EAs que implementen IA (Convencion de AiDataGenByLeo)
-Para los proyectos que sean modulos\libreries, se recomienda la siguiente estructuracion:
+For projects that are modules/libraries, the following structure is recommended:
+
 ```
 RepoName/
-├── # Nota: Aqui pueden haber folders para workflows, etc....
-├──  AiAd/         # Folder para clases de prediccion
-├── Models/        # Integracion de modelos ONNX especificos
-├── Core/          # Main + Defines + EAName + Global + (Functions si aplica)
-├── Resrc/         # Recursos embebidos del ea
-├── Validation/    # Carpeta para los test finales del EA (para el CI)
-└── Images/        # Imagenes que se usaran en la wiki\mds\banner del repo
+├── # Note: Folders for workflows, etc. may be included here
+├── Core/          # Main + Defines + EAName + Global + (Functions if applicable)
+├── Validation/    # Folder for final EA tests (for CI)
+├── Resrc/         # Embedded resources (optional, only if applicable)
+└── Images/        # Images to be used in the wiki/MDs/banner of the repo
 ```
 
+## Project Structure for EAs Implementing AI (AiDataGenByLeo Convention)
 
+For projects that are modules/libraries, the following structure is recommended:
 
+```
+RepoName/
+├── # Note: Folders for workflows, etc. may be included here
+├── AiAd/          # Folder for prediction classes
+├── Models/        # Integration of specific ONNX models
+├── Core/          # Main + Defines + EAName + Global + (Functions if applicable)
+├── Resrc/         # Embedded resources of the EA
+├── Validation/    # Folder for final EA tests (for CI)
+└── Images/        # Images to be used in the wiki/MDs/banner of the repo
+```
