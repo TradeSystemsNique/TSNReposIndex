@@ -5,8 +5,9 @@
 
 ---
 ## Ecosystem Conventions:
-- Click here: [https://forge.mql5.io/nique_372/TSNReposIndex/src/branch/main/Conventions/MQL5.md](https://forge.mql5.io/nique_372/TSNReposIndex/src/branch/main/Conventions/MQL5.md)
-
+- MQL5 Code: https://forge.mql5.io/nique_372/TSNReposIndex/src/branch/main/Conventions/MQL5.md
+- MQL5 Files: https://forge.mql5.io/nique_372/TSNReposIndex/src/branch/main/Conventions/MqlFiles.md
+- Dependency management: https://forge.mql5.io/nique_372/TSNReposIndex/src/branch/main/Conventions/Dependencies.md
 ---
 
 ## About me
