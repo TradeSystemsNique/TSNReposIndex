@@ -32,6 +32,7 @@
 | AiDataTaskRuner | AiDataTaskRuner is a bot with a complex GUI that facilitates data generation and training of ML models based on the AiDataGenByLeo library.| MQL5, C++, Bat, FGBLC, JSON, YAML, Python | [NL-ND]  | ✅ Active | 🌐 Public | Lib | 
 | AiFullTab | This library simplifies the integration of a subtab (allowing you to configure a Tlgram bot or launch an MCP server) into the desired panel. The idea is to enable a panel to have a tab where the user can configure everything related to an LLM AI model so that it "controls" the panel. | MQL5 |  [NL-ND-P] | 🚧 WIP  | 🔒 Request access | Lib |
 | AiModels | Ai models (Linear regression, etc) in pure MQL5 | MQL5 |  [NL-ND-P] | ✅ Active | 🔒 Request access | Lib | 
+| AoByLeo | Genetic and slow optimization algorithms and OpenCL support, useful for implementing self-optimization of EAs in any strategy. | CL, MQL5 | [NL-ND-P] | Undefined, currently active but unchanged until further architectural definition | 🔒 Request access  | Lib | 
 | BotKr4v3n5 | MQL5 CRT Trading bot | MQL5 | ? | 🚧 WIP | ⛔ Unavailable  | Bot | 
 | CLByLeo | OpenCL Wrrpers in MQL5| MQL5 |  [NL-ND-P]| ✅ Active | 🔒 Request access  | Lib | 
 | ChallangeSimulator | Simulate funding tests in MQL5, useful for validating whether a bot passes a funding test or not. | MQL5 | ?| ✅ Active | ⛔ Unavailable   | Lib | 
@@ -56,6 +57,7 @@
 | McpServer | Library that facilitates the connection of any tool that supports the MCP protocol with functions defined by you for MQL5. | MQL5, Python | [NL-ND-P] | ✅ Active | 🔒 Request access  | Lib |
 | MqlCIByLeo | CI framework for MQL5. Automatically compiles and validates EAs and libraries. | MQL5, Python | [NL-ND]  |  ✅ Active | 🌐 Public | Lib |
 | MultirangesInd | MetaTrader 5 Indicator that detects consolidation ranges and generates signals based on three customizable strategies | MQL5 | [FPU] | ✅ Active |  🌐 Public | Indicator |
+| NewsAiEa | AI news trading bot with more than 38 onnx models for predicting current value\movement\dd of events and trading it. | MQL5 | [ARR] | ✅ Active |⛔ Unavailable | Bot |
 | PracticeCode | Extra practice code | MQL5 |  ? | 🗄️ Archived | 🌐 Public | Lib + Bots |
 | PyBase | PyBase is a base repository that contains basic utilities for simple logging and basic functions. | Python | [NL-NC] | ✅ Active | 🌐 Public |
 | QuantumErnLeo | Quantum exploration | MQL5 | ? | 🗄️ Archived | ⛔ Unavailable | Lib |
