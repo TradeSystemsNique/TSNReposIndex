@@ -17,16 +17,16 @@ Apply these conventions whenever:
 
 ## Naming Conventions
 
-See: [MQL5 Conventions](Conventions/mql5-conventions.md)
+See: [MQL5 Conventions](Conventions/MQL5.md)
 
 ## Project Structure
 
-See: [MQL5 Project Structure](Conventions/mql5-files.md)
+See: [MQL5 Project Structure](Conventions/MqlFiles.md)
 
 
 ## Dependency Management
 
-See: [Dependency Management](Conventions/dependencies.md)
+See: [Dependency Management](Conventions/Dependencies.md)
 
 ## TSN Repositories
 
