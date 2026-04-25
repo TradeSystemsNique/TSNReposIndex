@@ -57,6 +57,7 @@
 | MQLArticles | MQL Articles is a repository that contains the basic structure of the complete framework by Leo\Nique_372, in addition to containing the codes that nique_372 implemented in his MQL5 articles (Ict, Risk Management, Position Management). | MQL5, SFILTER | ? | ✅ Active | 🌐 Public | Lib + Bots + Indicators |
 | McpServer | Library that facilitates the connection of any tool that supports the MCP protocol with functions defined by you for MQL5. | MQL5, Python | [NL-ND-P] | ✅ Active | 🔒 Request access  | Lib |
 | MqlCIByLeo | CI framework for MQL5. Automatically compiles and validates EAs and libraries. | MQL5, Python | [NL-ND]  |  ✅ Active | 🌐 Public | Lib |
+| MqlLlmCoderByLeo | LLM model trained with ecosystem code with over 500k lines of very high quality MQL5 code | Python | [ARR] | 🚧 WIP | ⛔ Unavailable | LLM Model |
 | MultirangesInd | MetaTrader 5 Indicator that detects consolidation ranges and generates signals based on three customizable strategies | MQL5 | [FPU] | ✅ Active |  🌐 Public | Indicator |
 | NewsAiEa | AI news trading bot with more than 38 onnx models for predicting current value\movement\dd of events and trading it. | MQL5 | [ARR] | ✅ Active |⛔ Unavailable | Bot |
 | PracticeCode | Extra practice code | MQL5 |  ? | 🗄️ Archived | 🌐 Public | Lib + Bots |
