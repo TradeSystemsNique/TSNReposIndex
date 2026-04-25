@@ -26,8 +26,10 @@ See: [MQL5 Project Structure](Conventions/MqlFiles.md)
 
 
 ## Dependency Management
-
-See: [Dependency Management](Conventions/Dependencies.md)
+- **[TSNDep](https://forge.mql5.io/nique_372/TSNDep/src/branch/main/README.md)** : Dependencies Management for TSN
+- **[Commands Reference](https://forge.mql5.io/nique_372/TSNDep/wiki/Commands.md):** Detailed description of each command
+- **[dependencies.json Format](https://forge.mql5.io/nique_372/TSNDep/wiki/DependenciesF.md):** Full dependencies.json specification
+- **[Hooks Guide](https://forge.mql5.io/nique_372/TSNDep/wiki/Hooks.md):** Hook system and examples
 
 ## TSN Repositories
 
