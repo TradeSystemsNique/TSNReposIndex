@@ -7,7 +7,7 @@
 ## Ecosystem Conventions:
 - MQL5 Code: https://forge.mql5.io/nique_372/TSNReposIndex/src/branch/main/Conventions/MQL5.md
 - MQL5 Files: https://forge.mql5.io/nique_372/TSNReposIndex/src/branch/main/Conventions/MqlFiles.md
-- Dependency management: https://forge.mql5.io/nique_372/TSNReposIndex/src/branch/main/Conventions/Dependencies.md
+- Dependency management: https://forge.mql5.io/nique_372/TSNDep/src/branch/main/README.md
 ---
 
 ## About me
@@ -66,6 +66,7 @@
 | StatTrading | Patterns Statics | MQL5 | ? | 🗄️ Archived | 🌐 Public | Lib |
 | StrategyBuilder | Building strategies in MQL5 using a custom language | MQL5, CMODEL, CPATTERN | [ARR] |  🚧 WIP | ⛔ Unavailable | Lib |
 | StrategyBuilderApp | CMODEL code editor for building strategies in MQL5 | MQL5, CMODEL, CPATTERN | [ARR] | 🚧 WIP | ⛔ Unavailable | Bots |
+| TSNDep | TSNDep - Dependency Manager for TSN MQL5 Ecosystem. Manages dependencies recursively with hooks support | Python | [NL-NC] | ✅ Active  | 🌐 Public | Lib |
 | TSNReposIndex | Index of all my repositories, licenses and projects. TSN Ecosystem | MD | [MIT] | 🚧 WIP | 🌐 Public | Doc |
 | TbpWrraper | A set of wrapper classes that make using TheBotPlace API easier. | MQL5, YAML| [NL-NC] | ✅ Active | 🌐 Public | Lib |
 | Team9 | Simple EMA trading bots/Chart patterns | MQL5 | ? | 🗄️ Archived | ⛔ Unavailable | Bot |
