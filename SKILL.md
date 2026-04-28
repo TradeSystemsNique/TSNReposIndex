@@ -1,6 +1,6 @@
 ---
 name: TSN MQL5 Conventions
-version: "1.0.2"
+version: "1.1.0"
 description: Apply TSN (Trade System Nique) MQL5 code conventions and standards when creating or reviewing MQL5 code. Use this skill whenever the user mentions MQL5, any TSN repository (AiDataGenByLeo, ICTLibraryEasy, FastNL, etc.), or needs code that follows TSN ecosystem standards.
 ---
 
