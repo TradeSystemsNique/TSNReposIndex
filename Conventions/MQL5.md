@@ -461,14 +461,22 @@ Always include at the beginning:
 
 ```mql5
 //+------------------------------------------------------------------+
-//|                                                    MyLibrary.mqh |
-//|                                        Copyright 2025, nique_372 |
-//|                          https://www.mql5.com/es/users/nique_372 |
+//|                                                       <FILE_NAME>|
+//|                                     Copyright <YEAR>, <YOUR NAME>|
+//|                                                            <URL> |
 //+------------------------------------------------------------------+
-#property copyright "Copyright 2025, nique_372"
-#property link "https://www.mql5.com/es/users/nique_372"
+#property copyright "Copyright <YEAR>, <YOUR NAME>"
+#property link "<URL>"
 #property strict
 ```
+
+**Placeholder Descriptions**
+- **FILE_NAME**: Name of the mqh file
+- **YEAR**: Current year
+- **YOUR NAME**: Name of the code writer\org
+- **URL**: Creator's URL, e.g.: [Website, MQL5 Profile, Personal Website, Github, etc..]
+
+All these fields are defined before creating the file, some when creating the project, others in the file itself.
 
 ---
 
