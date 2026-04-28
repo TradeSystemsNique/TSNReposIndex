@@ -43,6 +43,7 @@
 | EasySbAi | EA that implements the Silver Bullet strategy (easy version) implemented with AI that filters signals and predicts the TP/SL | MQL5, YAML | [FPU] |  ✅ Active | 🌐 Public | Bot | 
 | ExtraCodes | Utility codes, such as compiling eas, etc. | MQL5 | [NL-ND-P] | ✅ Active | 🔒 Request access  |Lib | 
 | FastNL | Pure MQL5 news library without DLL\WebRequeset, works in tester\live (EX5 Wrraper Library + Extra libs) | MQL5 | [NL-ND-P] | ✅ Active | 💰 Paid  |Lib | 
+| FullMt5McpByLeo | Complete MCP server for MT5: Through the MCP protocol, it allows [Trades, Orders, History, Graphic Objects, Terminal Logs, Compilation, etc.] | MQL5, Python | [NL-ND] |  ✅ Active | 🌐 Public | Bot\Py server | 
 | GameTestLib | Simple video games implemented in mql5 | MQL5, CL | ? | 🗄️ Archived| 🌐 Public | Bots | 
 | GeneralByLeo | Indicators, and trailing stop | MQL5 | [NL-ND-P] | ✅ Active | 🔗 Unlockable (requires FastNL or ICTLibrary) | Lib + Indicators | 
 | GrapichsByLeo | framework that contains several libraries for creating graphics in MQL5, such as histograms, text, etc., using a class derived from CCanvas | MQL5 | ? | ✅ Active | 🌐 Public | Lib | 
@@ -57,7 +58,7 @@
 | LitCycleKiller | Bot ict based on the LitCycle strategy | MQL5 | ? | ✅ Active | ⛔ Unavailable | Bot | 
 | MQL5Book | Fork of [rosh/MQL5Book](https://forge.mql5.io/rosh/MQL5Book) | MQL5 | [INHERITED] | ✅ Active | 🌐 Public | All | 
 | MQLArticles | MQL Articles is a repository that contains the basic structure of the complete framework by Leo\Nique_372, in addition to containing the codes that nique_372 implemented in his MQL5 articles (Ict, Risk Management, Position Management). | MQL5, SFILTER | ? | ✅ Active | 🌐 Public | Lib + Bots + Indicators |
-| McpServer | Library that facilitates the connection of any tool that supports the MCP protocol with functions defined by you for MQL5. | MQL5, Python | [NL-ND-P] | ✅ Active | 🔒 Request access  | Lib |
+| McpServer | Library that facilitates the connection of any tool that supports the MCP protocol with functions defined by you for MQL5. | MQL5, Python | [NL-ND-P] | ✅ Active | 💰 Paid | Lib |
 | MqlCIByLeo | CI framework for MQL5. Automatically compiles and validates EAs and libraries. | MQL5, Python | [NL-ND]  |  ✅ Active | 🌐 Public | Lib |
 | MqlLlmCoderByLeo | LLM model trained with ecosystem code with over 500k lines of very high quality MQL5 code | Python | [ARR] | 🚧 WIP | ⛔ Unavailable | LLM Model |
 | MultirangesInd | MetaTrader 5 Indicator that detects consolidation ranges and generates signals based on three customizable strategies | MQL5 | [FPU] | ✅ Active |  🌐 Public | Indicator |
