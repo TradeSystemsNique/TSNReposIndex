@@ -459,7 +459,7 @@ And if it's on the wiki, a similar style to the MQL5 Docs is followed - one page
 
 Always include at the beginning:
 
-```mql5
+```c++
 //+------------------------------------------------------------------+
 //|                                                       <FILE_NAME>|
 //|                                     Copyright <YEAR>, <YOUR NAME>|
@@ -468,6 +468,12 @@ Always include at the beginning:
 #property copyright "Copyright <YEAR>, <YOUR NAME>"
 #property link "<URL>"
 #property strict
+
+#ifndef REPONAME_PATHTOFILE
+#define REPONAME_PATHTOFILE
+
+
+#endif REPONAME_PATHTOFILE
 ```
 
 **Placeholder Descriptions**
