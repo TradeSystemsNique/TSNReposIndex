@@ -459,7 +459,7 @@ And if it's on the wiki, a similar style to the MQL5 Docs is followed - one page
 
 Always include at the beginning:
 
-```c++
+```mql5
 //+------------------------------------------------------------------+
 //|                                                       <FILE_NAME>|
 //|                                     Copyright <YEAR>, <YOUR NAME>|
