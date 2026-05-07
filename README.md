@@ -30,20 +30,22 @@
 | AiDataGenByLeo | Build AI-powered trading systems with automatic feature generation, DSL-based configuration, and 85+ built-in features. | MQL5, Python, FGBLC | [NL-ND]  | ✅ Active | 🌐 Public | Lib | 
 | AiDataGenByLeoFeaturesDocs | Website for documentation of the features offered by AiDataGenByLeo | MQL5, CSS, JS, HTML, JSON, FGBLC |  [NL-ND]  | ✅ Active | 🌐 Public | Web | 
 | AiDataTaskRuner | AiDataTaskRuner is a bot with a complex GUI that facilitates data generation and training of ML models based on the AiDataGenByLeo library.| MQL5, C++, Bat, FGBLC, JSON, YAML | [NL-ND]  | ✅ Active | 🌐 Public | Lib | 
-| AiDataTaskRunerMcp | MCP server for AiDataTaskRunner Panel (MT5) - Control AiDataTaskRuner Panel for data generation and ML model training via MCP | Python, TOML, JSON | [NL-ND]  | ✅ Active | 🌐 Public | Lib | 
+| AiDataTaskRunerMcp | MCP server for AiDataTaskRunner Panel (MT5) - Control AiDataTaskRuner Panel for data generation and ML model training via MCP |  JSON | [NL-ND]  | ✅ Active | 🌐 Public | Lib | 
 | AiFeatureEval | A simple library that allows you to analyze and evaluate the best features for an ML model using correlations, etc. | MQL5  | [NL-NC] | ✅ Active | 🌐 Public | Lib | 
+| AiMcpServ | Part of MQL5 for the MCP server (Complete Orchestrator) | MQL5 | [ARR] | ✅ Active   | ⛔ Unavailable  | Lib |
 | AiFullTab | This library simplifies the integration of a subtab (allowing you to configure a Tlgram bot or launch an MCP server) into the desired panel. The idea is to enable a panel to have a tab where the user can configure everything related to an LLM AI model so that it "controls" the panel. | MQL5 |  [NL-ND-P] | 🚧 WIP  | 🔒 Request access | Lib |
 | AiModels | Ai models (Linear regression, etc) in pure MQL5 | MQL5 |  [NL-ND-P] | ✅ Active | 🔒 Request access | Lib | 
 | AoByLeo | Genetic and slow optimization algorithms and OpenCL support, useful for implementing self-optimization of EAs in any strategy. | CL, MQL5 | [NL-ND-P] | Undefined, currently active but unchanged until further architectural definition | 🔒 Request access  | Lib | 
 | BotKr4v3n5 | MQL5 CRT Trading bot | MQL5 | ? | 🚧 WIP | ⛔ Unavailable  | Bot | 
 | CLByLeo | OpenCL Wrrpers in MQL5| MQL5 |  [NL-ND-P]| ✅ Active | 🔒 Request access  | Lib | 
 | ChallangeSimulator | Simulate funding tests in MQL5, useful for validating whether a bot passes a funding test or not. | MQL5 | ?| ✅ Active | ⛔ Unavailable   | Lib | 
+| CppBases | Basic utilities for C++, base repository for TSN C++ projects | C++, CMake | [NL-NC] | ✅ Active | 🌐 Public |  Lib | 
 | EAFModExtra | Extra utilities for graphical interfaces (panels) based on the EasyAndFastMod library | MQL5 | [NL-ND-P]| ✅ Active | 🔒 Request access  |Lib | 
 | EasyAndFastMod | This repository is a modified version of EasyAndFastGUI. | MQL5 | [NL-ND-P]| ✅ Active | 🔒 Request access  |Lib | 
 | EasySbAi | EA that implements the Silver Bullet strategy (easy version) implemented with AI that filters signals and predicts the TP/SL | MQL5, YAML | [FPU] |  ✅ Active | 🌐 Public | Bot | 
 | ExtraCodes | Utility codes, such as compiling eas, etc. | MQL5 | [NL-ND-P] | ✅ Active | 🔒 Request access  |Lib | 
 | FastNL | Pure MQL5 news library without DLL\WebRequeset, works in tester\live (EX5 Wrraper Library + Extra libs) | MQL5 | [NL-ND-P] | ✅ Active | 💰 Paid  |Lib | 
-| FullMt5McpByLeo | Complete MCP server for MT5: Through the MCP protocol, it allows [Trades, Orders, History, Graphic Objects, Terminal Logs, Compilation, etc.] | MQL5, Python | [NL-ND] |  ✅ Active | 🌐 Public | Bot\Py server | 
+| FullMt5McpByLeo | Complete MCP server for MT5: Through the MCP protocol, it allows [Trades, Orders, History, Graphic Objects, Terminal Logs, Compilation, etc.] | MQL5, JSON | [NL-ND] |  ✅ Active | 🌐 Public | Bot\Py server | 
 | GameTestLib | Simple video games implemented in mql5 | MQL5, CL | ? | 🗄️ Archived| 🌐 Public | Bots | 
 | GeneralByLeo | Indicators, and trailing stop | MQL5 | [NL-ND-P] | ✅ Active | 🔗 Unlockable (requires FastNL or ICTLibrary) | Lib + Indicators | 
 | GrapichsByLeo | framework that contains several libraries for creating graphics in MQL5, such as histograms, text, etc., using a class derived from CCanvas | MQL5 | ? | ✅ Active | 🌐 Public | Lib | 
@@ -58,8 +60,9 @@
 | LitCycleKiller | Bot ict based on the LitCycle strategy | MQL5 | ? | ✅ Active | ⛔ Unavailable | Bot | 
 | MQL5Book | Fork of [rosh/MQL5Book](https://forge.mql5.io/rosh/MQL5Book) | MQL5 | [INHERITED] | ✅ Active | 🌐 Public | All | 
 | MQLArticles | MQL Articles is a repository that contains the basic structure of the complete framework by Leo\Nique_372, in addition to containing the codes that nique_372 implemented in his MQL5 articles (Ict, Risk Management, Position Management). | MQL5, SFILTER | ? | ✅ Active | 🌐 Public | Lib + Bots + Indicators |
-| McpServer | Library that facilitates the connection of any tool that supports the MCP protocol with functions defined by you for MQL5. | MQL5, Python | [NL-ND-P] | ✅ Active | 💰 Paid | Lib |
-| MqlCIByLeo | CI framework for MQL5. Automatically compiles and validates EAs and libraries. | MQL5, Python | [NL-ND]  |  ✅ Active | 🌐 Public | Lib |
+| McpServer | Library that facilitates the connection of any tool that supports the MCP protocol with functions defined by you for MQL5. | MQL5 | [NL-ND-P] | ✅ Active | 💰 Paid | Lib |
+| McpServerImp | Implementation of a complete MCP server in C++. This server supports stdin and stdou, and http (using mcp-remote). | C++, CMake | [ARR] | ✅ Active | ⛔ Unavailable | Lib + Exe |
+ | MqlCIByLeo | CI framework for MQL5. Automatically compiles and validates EAs and libraries. | MQL5, Python | [NL-ND]  |  ✅ Active | 🌐 Public | Lib |
 | MqlLlmCoderByLeo | LLM model trained with ecosystem code with over 500k lines of very high quality MQL5 code | Python | [ARR] | 🚧 WIP | ⛔ Unavailable | LLM Model |
 | MultirangesInd | MetaTrader 5 Indicator that detects consolidation ranges and generates signals based on three customizable strategies | MQL5 | [FPU] | ✅ Active |  🌐 Public | Indicator |
 | NewsAiEa | AI news trading bot with more than 38 onnx models for predicting current value\movement\dd of events and trading it. | MQL5 | [ARR] | ✅ Active |⛔ Unavailable | Bot |
@@ -72,7 +75,7 @@
 | StrategyBuilderApp | CMODEL code editor for building strategies in MQL5 | MQL5, CMODEL, CPATTERN | [ARR] | 🚧 WIP | ⛔ Unavailable | Bots |
 | TSNDep | TSNDep - Dependency Manager for TSN MQL5 Ecosystem. Manages dependencies recursively with hooks support | Python | [NL-NC] | ✅ Active  | 🌐 Public | Lib |
 | TSNReposIndex | Index of all my repositories, licenses and projects. TSN Ecosystem | MD | [MIT] | 🚧 WIP | 🌐 Public | Doc |
-| TbpWrraper | A set of wrapper classes that make using TheBotPlace API easier. | MQL5, YAML| [NL-NC] | ✅ Active | 🌐 Public | Lib |
+| TbpWrraper | A set of wrapper classes that make using TheBotPlace API easier. | MQL5, YAML, C++, Python, TOML, CMake| [NL-NC] | ✅ Active | 🌐 Public | Lib |
 | Team9 | Simple EMA trading bots/Chart patterns | MQL5 | ? | 🗄️ Archived | ⛔ Unavailable | Bot |
 | TelegramByLeo | Modified and fast Telegram library based on MQL5 article codes  | MQL5 |  [NL-ND-P] | ✅ Active  | 🔗 Unlockable (requires FastNL) | Lib | 
 | TelegramComplex | Telegram bot to send screenshots\messages at OnTradeTransaction events | MQL5 | [NL-NC] | ✅ Active | ⛔ Unavailable  | Bot |
