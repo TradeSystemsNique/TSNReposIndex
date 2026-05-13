@@ -43,6 +43,7 @@
 | EAFModExtra | Extra utilities for graphical interfaces (panels) based on the EasyAndFastMod library | MQL5 | [NL-ND-P]| ✅ Active | 🔒 Request access  |Lib | 
 | EasyAndFastMod | This repository is a modified version of EasyAndFastGUI. | MQL5 | [NL-ND-P]| ✅ Active | 🔒 Request access  |Lib | 
 | EasySbAi | EA that implements the Silver Bullet strategy (easy version) implemented with AI that filters signals and predicts the TP/SL | MQL5, YAML | [FPU] |  ✅ Active | 🌐 Public | Bot | 
+| ExpressEvalByLeo | Base language code for the DSLs of the TSN ecosystem, the language supports evaluating mathematical expressions, boolean expressions (with the help of AST), with variables, functions, etc. | MQL5 | [NL-ND] | ✅ Active | 🌐 Public |  Lib | 
 | ExtraCodes | Utility codes, such as compiling eas, etc. | MQL5 | [NL-ND-P] | ✅ Active | 🔒 Request access  |Lib | 
 | FastNL | Pure MQL5 news library without DLL\WebRequeset, works in tester\live (EX5 Wrraper Library + Extra libs) | MQL5 | [NL-ND-P] | ✅ Active | 💰 Paid  |Lib | 
 | FullMt5McpByLeo | Complete MCP server for MT5: Through the MCP protocol, it allows [Trades, Orders, History, Graphic Objects, Terminal Logs, Compilation, etc.] | MQL5, JSON | [NL-ND] |  ✅ Active | 🌐 Public | Bot\Py server | 
