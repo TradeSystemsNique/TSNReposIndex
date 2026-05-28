@@ -60,7 +60,7 @@
 | LLmAgentsByLeo | Library that allows you to integrate the LLM agent API as GPT, with memory and tools. | MQL5 | [NL-ND-P] | ✅ Active | 💰 Paid | Lib |
 | LitCycleKiller | Bot ict based on the LitCycle strategy | MQL5 | ? | ✅ Active | ⛔ Unavailable | Bot | 
 | MQL5Book | Fork of [rosh/MQL5Book](https://forge.mql5.io/rosh/MQL5Book) | MQL5 | [INHERITED] | ✅ Active | 🌐 Public | All | 
-| MQLArticles | MQL Articles is a repository that contains the basic structure of the complete framework by Leo\Nique_372, in addition to containing the codes that nique_372 implemented in his MQL5 articles (Ict, Risk Management, Position Management). | MQL5, SFILTER | ? | ✅ Active | 🌐 Public | Lib + Bots + Indicators |
+| MQLArticles | MQL Articles is a repository that contains the basic structure of the complete framework by Leo\Nique_372, in addition to containing the codes that nique_372 implemented in his MQL5 articles (Ict, Risk Management, Position Management). | MQL5, SFILTER | [NL-NC] | ✅ Active | 🌐 Public | Lib + Bots + Indicators |
 | McpServer | Library that facilitates the connection of any tool that supports the MCP protocol with functions defined by you for MQL5. | MQL5 | [NL-ND-P] | ✅ Active | 💰 Paid | Lib |
 | McpServerImp | Implementation of a complete MCP server in C++. This server supports stdin and stdou, and http (using mcp-remote). | C++, CMake | [ARR] | ✅ Active | ⛔ Unavailable | Lib + Exe |
  | MqlCIByLeo | CI framework for MQL5. Automatically compiles and validates EAs and libraries. | MQL5, Python | [NL-ND]  |  ✅ Active | 🌐 Public | Lib |
