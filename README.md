@@ -57,6 +57,7 @@
 | ICTLibraryExamples | Examples of ICT library usage include more than 50 example bots and implementations of ICT YouTuber strategies in MQL5 | MQL5 | [NL-ND-P] | ✅ Active | 🔗 Unlockable (requires ICTLibrary) | Bots | 
 | IctKiller | Complex AI bot with more than 8 strategies | MQL5 | Custom | 🚧 WIP | ⛔ Unavailable | Bots |
 | Introsort | Fork of [amrali/Introsort](https://forge.mql5.io/amrali/Introsort) | MQL5 | [INHERITED] | ✅ Active | 🌐 Public | Lib |
+| JsonParserByLeo | Fast JSON parser from the TSN ecosystem | MQL5 | [NL-NC] | ✅ Active | 🌐 Public | Lib | 
 | LLmAgentsByLeo | Library that allows you to integrate the LLM agent API as GPT, with memory and tools. | MQL5 | [NL-ND-P] | ✅ Active | 💰 Paid | Lib |
 | LitCycleKiller | Bot ict based on the LitCycle strategy | MQL5 | ? | ✅ Active | ⛔ Unavailable | Bot | 
 | MQL5Book | Fork of [rosh/MQL5Book](https://forge.mql5.io/rosh/MQL5Book) | MQL5 | [INHERITED] | ✅ Active | 🌐 Public | All | 
