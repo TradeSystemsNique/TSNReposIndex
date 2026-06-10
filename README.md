@@ -86,6 +86,7 @@
 | TheSmcIctindicator | Part of the code for TheSmcIctIndicator | MQL5 | ? | 🚧 WIP | ⛔ Unavailable  | Indicator |
 | TimeUtils | Fork of [amrali/TimeUtils](https://forge.mql5.io/amrali/TimeUtils) | MQL5 | [INHERITED]  | ✅ Active | 🌐 Public | Lib |
 | TsnTables | Global arrays of the TSN ecosystem | MQL5 | MIT | ✅ Active | 🌐 Public | Lib |
+| VmByLeo | Complete functional Fast language made in Pure MQL5. Functions, ifs, loops, all MQL5 data types (int, datetime, color, string) | MQL5 | ✅ Active | ⛔ Unavailable  | Lib | 
 | WorkflowsByLeo | A library that allows you to run workflows in an MT5 bot. Both asynchronous and synchronous jobs that require OnTimer\OnChartEvent to function... all through a YAML file where the user defines each step of the flow. | MQL5, YAML | [NL-NC] | ✅ Active | 🌐 Public | Lib |
 | Xoshiro256 | Fork of [amrali/Xoshiro256](https://forge.mql5.io/amrali/Xoshiro256)  | MQL5 | [INHERITED]  | ✅ Active | 🌐 Public | Lib |
 | YamlParserByLeo | Fast parser of the YAML format in pure MQL5. With the possibility of fast reading and partial writing. | MQL5, YAML | [NL-ND-P] | ✅ Active | 🔗 Unlockable (requires FastNL)| Lib |
