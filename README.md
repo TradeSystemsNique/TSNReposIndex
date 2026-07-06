@@ -27,7 +27,7 @@
 
 | Repo | Description | Language | License | Status | Access | Type |
 |------|-------------|----------|---------|--------|--------|------|
-| AiDataGenByLeo | Build AI-powered trading systems with automatic feature generation, DSL-based configuration, and 85+ built-in features. | MQL5, Python, FGBLC | [NL-ND]  | ✅ Active | 🌐 Public | Lib | 
+| AiDataGenByLeo | Build AI-powered trading systems with automatic feature generation, via a declarative YAML config schema, and 85+ built-in features. | MQL5, Python, YAML | [NL-ND]  | ✅ Active | 🌐 Public | Lib | 
 | AiDataGenByLeoFeaturesDocs | Website for documentation of the features offered by AiDataGenByLeo | MQL5, CSS, JS, HTML, JSON, FGBLC |  [NL-ND]  | ✅ Active | 🌐 Public | Web | 
 | AiDataTaskRuner | AiDataTaskRuner is a bot with a complex GUI that facilitates data generation and training of ML models based on the AiDataGenByLeo library.| MQL5, C++, Bat, FGBLC, JSON, YAML | [NL-ND]  | ✅ Active | 🌐 Public | Lib | 
 | AiDataTaskRunerMcp | MCP server for AiDataTaskRunner Panel (MT5) - Control AiDataTaskRuner Panel for data generation and ML model training via MCP |  JSON | [NL-ND]  | ✅ Active | 🌐 Public | Lib | 
