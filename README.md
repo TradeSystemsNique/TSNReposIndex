@@ -73,6 +73,7 @@
 | PyBase | PyBase is a base repository that contains basic utilities for simple logging and basic functions. | Python | [NL-NC] | ✅ Active | 🌐 Public |
 | QuantumErnLeo | Quantum exploration | MQL5 | ? | 🗄️ Archived | ⛔ Unavailable | Lib |
 | ScalerByLeo | ScalerByLeo is a library for preprocessing data for ML models using scalers such as maxmin, robust, standard scaler, and also OpenCL can be used for bulk data scaling. | MQL5, OpenCL | [NL-NC]  | ✅ Active | 🌐 Public | Lib |
+| SetFileByLeo | Fast parser of SetFile format |  MQL5 | [NL-NC]  | ✅ Active | 🌐 Public | Lib |
 | ShemaJson | Validation JSON\YAML using Shema Json Lib |  MQL5 | [NL-NC]  | 🚧 WIP | 🌐 Public | Lib |
 | SimPHash | Simple perfect hash generator via YAML file |  MQL5 | [NL-NC]  | ✅ Active | 🌐 Public | Lib |
 | StatTrading | Patterns Statics | MQL5 | ? | 🗄️ Archived | 🌐 Public | Lib |
