@@ -21,6 +21,10 @@ By accessing, copying, modifying or distributing the Software, you agree to be b
 
 - **"Derivative Work":** Any work based in whole or in part on the Software, including modifications, adaptations or integrations.
 
+- **"Library Derivative":** Any Derivative Work whose primary purpose is to function as a library, framework, module, or reusable infrastructure component — i.e., a Derivative Work that other developers would incorporate into their own software, rather than a finished end-user application. This includes forks of the Software, wrappers around the Software, and any repackaging of the Software (in whole or in substantial part) as a reusable component, regardless of renaming.
+
+- **"Compiled End-User Product":** A compiled, binary executable (including but not limited to `.ex5` files) whose primary function is to act as a finished trading bot, Expert Advisor, indicator, or similar end-user application — where the Software is used solely as an internal dependency and is not exposed, extracted, or redistributed as a library, and is not itself the product being marketed or sold. A Compiled End-User Product ceases to qualify as such, and is instead treated as a Library Derivative, if its primary practical function is to expose, wrap, or make the Software (or its functionality) separately usable as a library by third parties.
+
 - **"Commercial Use":** Any use of the Software or Derivative Works that generates or is intended to generate economic benefit, whether direct or indirect.
 
 - **"Substantial Innovation":** Addition of new functionalities, significant technical improvements or original developments that provide differential value compared to the original Software. Cosmetic changes, renaming, minor configuration changes or any trivial modification do not constitute Substantial Innovation.
@@ -43,6 +47,7 @@ A limited, non-exclusive permission is granted to:
 - Use the Software in machine learning pipelines, datasets or systems that are **not** Text Generation Models as defined in Section 1.
 - Store the Software in a **private repository** (not publicly accessible) for personal backup or version control purposes.
 - **Freely redistribute** the Software — original or modified — at no cost, on any platform, provided the conditions of Section 3(c) are met.
+- **Build and commercialize a Compiled End-User Product** that uses the Software solely as an internal dependency, without prior authorization, subject to the conditions of Section 4(4).
 
 ---
 
@@ -67,9 +72,12 @@ Distribution of the Software's source code is governed as follows:
   - Forks are only permitted on the Authorized Platform or in strictly private
     repositories meeting the conditions of section (a).
 
-**(c)** Any commercial redistribution, sale, or monetization of the Software or any 
-  Derivative Work requires prior contact with the original authors and explicit written 
+**(c)** Any commercial redistribution, sale, or monetization of the Software, or of any
+  Library Derivative, requires prior contact with the original authors and explicit written
   authorization. Full conditions are defined in Section 4.
+
+  This subsection (c) does **not** apply to the sale or commercialization of a Compiled
+  End-User Product, which is governed exclusively by Section 4(4).
 
 ---
 
@@ -78,13 +86,29 @@ Distribution of the Software's source code is governed as follows:
 Commercial Use of the Software is **conditioned** as follows:
 
 1. The sale, licensing or commercialization of the Software in its original form is **prohibited**.
-2. The commercialization of Derivative Works that do not incorporate Substantial Innovation
+
+2. The commercialization of a Library Derivative that does not incorporate Substantial Innovation
    over the original Software is **prohibited**.
-3. Commercialization is **permitted** only for Derivative Works that incorporate verifiable
+
+3. Commercialization of a Library Derivative is **permitted** only where it incorporates verifiable
    and documented Substantial Innovation, and only with **explicit written authorization
    by the original authors**, who reserve the sole right to determine whether Substantial
    Innovation has been achieved.
-   
+
+4. The sale or commercialization of a **Compiled End-User Product** that uses the Software
+   solely as an internal dependency is **permitted without prior authorization**, regardless
+   of whether the seller is an individual, company, or any other type of entity, **provided
+   that all of the following conditions are met**:
+   - The Software, and any Library Derivative of it, is not distributed, exposed, extracted,
+     or made separately usable as a library within or alongside the Compiled End-User Product.
+   - The source code of the Software is not included or distributed together with the
+     Compiled End-User Product.
+   - The Compiled End-User Product does not present itself as, replace, or compete with the
+     Software as a library or infrastructure offering.
+
+   Paragraphs 1, 2 and 3 of this Section do not apply to a Compiled End-User Product that
+   satisfies the conditions above.
+
 ---
 
 ## SECTION 5 - PROHIBITION ON USE IN TEXT GENERATION AI MODELS
