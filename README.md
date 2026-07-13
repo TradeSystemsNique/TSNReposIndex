@@ -58,7 +58,8 @@
 | IctKiller | Complex AI bot with more than 8 strategies | MQL5 | Custom | 🚧 WIP | ⛔ Unavailable | Bots |
 | Introsort | Fork of [amrali/Introsort](https://forge.mql5.io/amrali/Introsort) | MQL5 | [INHERITED] | ✅ Active | 🌐 Public | Lib |
 | JsonParserByLeo | Fast JSON parser from the TSN ecosystem | MQL5 | [NL-NC] | ✅ Active | 🌐 Public | Lib | 
-| LLmAgentsByLeo | Library that allows you to integrate the LLM agent API as GPT, with memory and tools. | MQL5 | [NL-ND-P] | ✅ Active | 💰 Paid | Lib |
+| LLmAgentsByLeo | Library that allows you to integrate the LLM agent API as GPT, with memory and tools. (Internal implementation)|  [ARR] | ✅ Active  | ⛔ Unavailable  | Lib | 
+| LLmAgentsFinal | Fast library to integrate any LLM model with MT5... with access to tools, memory, etc. | MQL5 | [NL-ND-P] | ✅ Active | 💰 Paid | Lib |
 | LitCycleKiller | Bot ict based on the LitCycle strategy | MQL5 | ? | ✅ Active | ⛔ Unavailable | Bot | 
 | MQL5Book | Fork of [rosh/MQL5Book](https://forge.mql5.io/rosh/MQL5Book) | MQL5 | [INHERITED] | ✅ Active | 🌐 Public | All | 
 | MQLArticles | MQL Articles is a repository that contains the basic structure of the complete framework by Leo\Nique_372, in addition to containing the codes that nique_372 implemented in his MQL5 articles (Ict, Risk Management, Position Management). | MQL5, SFILTER | [NL-NC] | ✅ Active | 🌐 Public | Lib + Bots + Indicators |
