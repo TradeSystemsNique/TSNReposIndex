@@ -23,6 +23,8 @@ By accessing, copying, modifying or using the Software, you agree to be bound by
 
 - **"Derivative Work":** Any work based in whole or in part on the Software, including modifications, adaptations, ports, wrappers, forks or repackaged versions, whether distributed as source code or compiled binaries.
 
+- **"Library Derivative":** Any Derivative Work whose primary purpose is to function as a library, framework, module, or reusable infrastructure component — including forks, wrappers, ports, or repackaged versions of the Software — regardless of whether distributed as source code or as a separately compiled binary (e.g. a standalone `.ex5` library file).
+
 - **"End-User Application":** A single compiled executable product (e.g. a trading bot or Expert Advisor) whose binary incorporates the Software compiled within it, such that the Software's source code is not exposed, separable, or independently redistributable from the product. A product that ships the Software as a separate compiled binary (e.g. a standalone .ex5 library file) does NOT qualify as an End-User Application under this definition.
 
 - **"Commercial Use":** Any use of the Software or Derivative Works that generates or is intended to generate economic benefit, whether direct or indirect.
@@ -76,7 +78,7 @@ Commercial use of the Software is **conditioned** as follows:
 
 **(a)** The sale, licensing or commercialization of the Software's source code in its original or modified form is **strictly and absolutely prohibited**, without exception.
 
-**(b)** The sale, licensing or commercialization of any Derivative Work distributed as source code or as a separately compiled binary (e.g. a standalone .ex5 library file) is **strictly prohibited**, regardless of the degree of modification or innovation introduced.
+**(b)** The sale, licensing or commercialization of any Library Derivative — whether distributed as source code or as a separately compiled binary (e.g. a standalone `.ex5` library file) — is **strictly and absolutely prohibited**, regardless of the degree of modification or innovation introduced, and without possibility of authorization.
 
 **(c)** The sale of End-User Applications as defined in Section 1 is **permitted**, provided:
   - The Software is compiled within the End-User Application as a single binary and is not shipped as a separate file.
@@ -86,7 +88,7 @@ Commercial use of the Software is **conditioned** as follows:
 
 **Example:** Selling a trading bot or Expert Advisor (EA) as a single compiled .ex5 file that incorporates this library's code within it is permitted. Selling the library's source code, a modified version of it, or shipping the library as a separate .ex5 file alongside any product is prohibited.
 
-**(d)** Unlike the Level 1 / NL-NC license, there is **no review or authorization process** available for commercial use of the source code or any Derivative Work. This restriction is absolute and non-negotiable.
+**(d)** Unlike the Level 1 / NL-NC license, there is **no review or authorization process** available for commercial use of the Software's source code or any Library Derivative. This restriction is absolute and non-negotiable.
 
 ---
 
