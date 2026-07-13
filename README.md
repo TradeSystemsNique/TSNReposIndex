@@ -58,7 +58,7 @@
 | IctKiller | Complex AI bot with more than 8 strategies | MQL5 | Custom | 🚧 WIP | ⛔ Unavailable | Bots |
 | Introsort | Fork of [amrali/Introsort](https://forge.mql5.io/amrali/Introsort) | MQL5 | [INHERITED] | ✅ Active | 🌐 Public | Lib |
 | JsonParserByLeo | Fast JSON parser from the TSN ecosystem | MQL5 | [NL-NC] | ✅ Active | 🌐 Public | Lib | 
-| LLmAgentsByLeo | Library that allows you to integrate the LLM agent API as GPT, with memory and tools. (Internal implementation)|  [ARR] | ✅ Active  | ⛔ Unavailable  | Lib | 
+| LLmAgentsByLeo | Library that allows you to integrate the LLM agent API as GPT, with memory and tools. (Internal implementation) | MQL5|  [ARR] | ✅ Active  | ⛔ Unavailable  | Lib | 
 | LLmAgentsFinal | Fast library to integrate any LLM model with MT5... with access to tools, memory, etc. | MQL5 | [NL-ND-P] | ✅ Active | 💰 Paid | Lib |
 | LitCycleKiller | Bot ict based on the LitCycle strategy | MQL5 | ? | ✅ Active | ⛔ Unavailable | Bot | 
 | MQL5Book | Fork of [rosh/MQL5Book](https://forge.mql5.io/rosh/MQL5Book) | MQL5 | [INHERITED] | ✅ Active | 🌐 Public | All | 
@@ -71,7 +71,7 @@
 | NewsAiEa | AI news trading bot with more than 38 onnx models for predicting current value\movement\dd of events and trading it. | MQL5 | [ARR] | ✅ Active |⛔ Unavailable | Bot |
 | PerfectHashByLeo | Lib to generate perfect hashes | MQL5 | [NL-NC] | 🌐 Public |  Lib |
 | PracticeCode | Extra practice code | MQL5 |  ? | 🗄️ Archived | 🌐 Public | Lib + Bots |
-| PyBase | PyBase is a base repository that contains basic utilities for simple logging and basic functions. | Python | [NL-NC] | ✅ Active | 🌐 Public |
+| PyBase | PyBase is a base repository that contains basic utilities for simple logging and basic functions. | Python | [NL-NC] | ✅ Active | 🌐 Public |  Lib | 
 | QuantumErnLeo | Quantum exploration | MQL5 | ? | 🗄️ Archived | ⛔ Unavailable | Lib |
 | ScalerByLeo | ScalerByLeo is a library for preprocessing data for ML models using scalers such as maxmin, robust, standard scaler, and also OpenCL can be used for bulk data scaling. | MQL5, OpenCL | [NL-NC]  | ✅ Active | 🌐 Public | Lib |
 | SetFileByLeo | Fast parser of SetFile format |  MQL5 | [NL-NC]  | ✅ Active | 🌐 Public | Lib |
