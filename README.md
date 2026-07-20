@@ -36,9 +36,9 @@
 | AiFullTab | This library simplifies the integration of a subtab (allowing you to configure a Tlgram bot or launch an MCP server) into the desired panel. The idea is to enable a panel to have a tab where the user can configure everything related to an LLM AI model so that it "controls" the panel. | MQL5 |  [NL-ND-P] | 🚧 WIP  | 🔒 Request access | Lib |
 | AiModels | Ai models (Linear regression, etc) in pure MQL5 | MQL5 |  [NL-ND-P] | ✅ Active | 🔒 Request access | Lib | 
 | AoByLeo | Genetic and slow optimization algorithms and OpenCL support, useful for implementing self-optimization of EAs in any strategy. | CL, MQL5 | [NL-ND-P] | Undefined, currently active but unchanged until further architectural definition | 🔒 Request access  | Lib | 
-| BasesParserSLan | Base repository for parsers of structured languages ​​(json, yaml, etc.) | MQL5 |
+| BasesParserSLan | Base repository for parsers of structured languages (json, yaml, etc.) | MQL5 | [NL-NC]  |  ✅ Active | 🌐 Public | Lib | 
 | BotKr4v3n5 | MQL5 CRT Trading bot | MQL5 | ? | 🚧 WIP | ⛔ Unavailable  | Bot | 
-| CLByLeo | OpenCL Wrrpers in MQL5| MQL5 |  [NL-ND-P]| ✅ Active | 🔒 Request access  | Lib | [NL-NC] |  ✅ Active | 🌐 Public | Lib | 
+| CLByLeo | OpenCL Wrrpers in MQL5| MQL5 |  [NL-ND-P]| ✅ Active | 🔒 Request access  |  Lib |
 | ChallangeSimulator | Simulate funding tests in MQL5, useful for validating whether a bot passes a funding test or not. | MQL5 | ?| ✅ Active | ⛔ Unavailable   | Lib | 
 | CppBases | Basic utilities for C++, base repository for TSN C++ projects | C++, CMake | [NL-NC] | ✅ Active | 🌐 Public |  Lib | 
 | EAFModExtra | Extra utilities for graphical interfaces (panels) based on the EasyAndFastMod library | MQL5 | [NL-ND-P]| ✅ Active | 🔒 Request access  |Lib | 
@@ -46,7 +46,7 @@
 | EasySbAi | EA that implements the Silver Bullet strategy (easy version) implemented with AI that filters signals and predicts the TP/SL | MQL5, YAML | [FPU] |  ✅ Active | 🌐 Public | Bot | 
 | ExpressEvalByLeo | Base language code for the DSLs of the TSN ecosystem, the language supports evaluating mathematical expressions, boolean expressions (with the help of AST), with variables, functions, etc. | MQL5 | [NL-ND] | ✅ Active | ⛔ Unavailable |  Lib | 
 | ExtraCodes | Utility codes, such as compiling eas, etc. | MQL5 | [NL-ND-P] | ✅ Active | 🔒 Request access  |Lib | 
-| FastCollectionsByLeo | Generic collection library (HashMap, etc.) Fast | MQL5 | Lib | [NL-NC] |  ✅ Active | 🌐 Public | Lib | 
+| FastCollectionsByLeo | Generic collection library (HashMap, etc.) Fast | MQL5 | [NL-NC] |  ✅ Active | 🌐 Public | Lib | 
 | FastNL | Pure MQL5 news library without DLL\WebRequeset, works in tester\live (EX5 Wrraper Library + Extra libs) | MQL5 | [NL-ND-P] | ✅ Active | 💰 Paid  |Lib | 
 | FullMt5McpByLeo | Complete MCP server for MT5: Through the MCP protocol, it allows [Trades, Orders, History, Graphic Objects, Terminal Logs, Compilation, etc.] | MQL5, JSON | [NL-ND] |  ✅ Active | 🌐 Public | Bot\Py server | 
 | GameTestLib | Simple video games implemented in mql5 | MQL5, CL | ? | 🗄️ Archived| 🌐 Public | Bots | 
