@@ -116,6 +116,11 @@ If you use any of my projects, please keep in mind:
 
 ---
 
+## Notes
+- Many ecosystem repositories use paths to the `include customs` folder for inclusion. Therefore, it's necessary to install the following free product, which is MQH Wrappers, that points to the original path: thebotplace.com/bot/tsn-ecosystem-sdk
+
+---
+
 ## Legends
 
 ### Licenses
