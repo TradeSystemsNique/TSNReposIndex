@@ -1,6 +1,6 @@
 ---
 name: TSN MQL5 Conventions
-version: "1.1.0"
+version: "1.1.1"
 description: Apply TSN (Trade System Nique) MQL5 code conventions and standards when creating or reviewing MQL5 code. Use this skill whenever the user mentions MQL5, any TSN repository (AiDataGenByLeo, ICTLibraryEasy, FastNL, etc.), or needs code that follows TSN ecosystem standards.
 ---
 
@@ -24,6 +24,9 @@ See: [MQL5 Conventions](Conventions/MQL5.md)
 
 See: [MQL5 Project Structure](Conventions/MqlFiles.md)
 
+## README Structure
+
+See: [README Conventions](Conventions/Readme.md)
 
 ## Dependency Management
 - **[TSNDep](https://forge.mql5.io/nique_372/TSNDep/src/branch/main/README.md)** : Dependencies Management for TSN
