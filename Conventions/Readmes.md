@@ -17,7 +17,9 @@
 9. [License](#9-license)
 10. [Documentation](#10-documentation-conditional)
 11. [Contact](#11-contact)
-12. [Copyright Footer](#12-copyright-footer)
+12. [Roadmap](#12-roadmap)
+13. [Disclaimer](#13-disclaimer)
+14. [Copyright Footer](#14-copyright-footer)
 
 Sections marked **(conditional)** are only included when they apply to the repo (e.g. no `Documentation` section if there's no wiki, no `License Warning` if the repo is fully public).
 
@@ -212,7 +214,23 @@ For active repos with a visible direction, add a `## Roadmap` with a flat bullet
 
 ---
 
-## 13. Copyright Footer
+## 13. Disclaimer
+If it is a trading app/bot utility that may involve risk, place the warning text here (for example, that it is not responsible for financial losses, or disclaimers that it is a bot and not investment advice, that trading is risky, etc., everything you consider necessary).
+
+```markdown
+<!-- TSNDep Example -->
+## Disclaimer
+
+- TSNDep is a dependency management tool, not trading software
+- Always test in development before production deployment
+- Ensure you have permissions for all repositories
+- Git operations may have security implications. review URLs carefully
+- The authors assume no liability for system failures or data loss
+```
+
+---
+
+## 14. Copyright Footer
 
 Optional horizontal banner at the very end, used mainly for larger/product-grade repos. Small, centered, italic.
 
