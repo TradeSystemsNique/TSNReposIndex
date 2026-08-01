@@ -201,7 +201,7 @@ Same block across all repos.
 
 ---
 
-## 12. Roadmap section (optional, place before Contact)
+## 12. Roadmap 
 
 For active repos with a visible direction, add a `## Roadmap` with a flat bullet list, each item tagged with status/date when resolved:
 
