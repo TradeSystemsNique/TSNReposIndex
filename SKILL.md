@@ -1,7 +1,7 @@
 ---
 name: TSN MQL5 Conventions
 version: "1.1.1"
-description: Apply TSN (Trade System Nique) MQL5 code conventions and standards when creating or reviewing MQL5 code. Use this skill whenever the user mentions MQL5, any TSN repository (AiDataGenByLeo, ICTLibraryEasy, FastNL, etc.), or needs code that follows TSN ecosystem standards.
+description: description: Apply TSN (Trade System Nique) MQL5 code conventions and standards. Use this skill whenever writing, editing, reviewing, or scaffolding MQL5 code (.mq5, .mqh files) — Expert Advisors, indicators, scripts, or libraries — especially within the TSN ecosystem or using nique_372 repositories (AiDataGenByLeo, ICTLibraryEasy, FastNL, TSNDep, etc.). Trigger on any MQL5 coding task, whether or not the user explicitly names TSN, since these conventions should apply by default to all MQL5 work in this environment.
 ---
 
 # TSN MQL5 Code Conventions
