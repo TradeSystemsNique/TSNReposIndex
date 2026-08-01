@@ -77,6 +77,7 @@ A high-performance, memory-free JSON parser for MQL5, based on a flat tape archi
 ## 4. Repository Structure
 
 Tree view of the top-level layout, each entry with a short inline comment. Follows [MqlFiles.md](MqlFiles.md) conventions for folder names.
+> Personally, I don't recommend being exact with this, meaning listing every single file, but only folders. If you want to add or delete a file later, you're constantly correcting the readme or inflating the number of commits... so my recommendation is to only list folders.
 
 ```markdown
 ## Repository Structure

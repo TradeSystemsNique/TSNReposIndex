@@ -42,3 +42,15 @@
   <img src="https://img.shields.io/badge/License-All_Rights_Reserved-darkred.svg"/>
 </a>
 ```
+
+
+## MIT 
+<a href="./LICENSE">
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg"/>
+</a>
+
+```html
+<a href="./LICENSE">
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg"/>
+</a>
+```
