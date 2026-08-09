@@ -33,7 +33,7 @@
 | AiDataTaskRunerMcp | MCP server for AiDataTaskRunner Panel (MT5) - Control AiDataTaskRuner Panel for data generation and ML model training via MCP |  JSON | [NL-ND]  | ✅ Active | 🌐 Public | Lib | 
 | AiFeatureEval | A simple library that allows you to analyze and evaluate the best features for an ML model using correlations, etc. | MQL5  | [NL-NC] | ✅ Active | 🌐 Public | Lib | 
 | AiMcpServ | Part of MQL5 for the MCP server (Complete Orchestrator) | MQL5 | [ARR] | ✅ Active   | ⛔ Unavailable  | Lib |
-| AiFullTab | This library simplifies the integration of a subtab (allowing you to configure a Tlgram bot or launch an MCP server) into the desired panel. The idea is to enable a panel to have a tab where the user can configure everything related to an LLM AI model so that it "controls" the panel. | MQL5 |  [NL-ND-P] | 🚧 WIP  | 🔒 Request access | Lib |
+| AiFullTab | This library simplifies the integration of a subtab (allowing you to configure a Tlgram bot or launch an MCP server) into the desired panel. The idea is to enable a panel to have a tab where the user can configure everything related to an LLM AI model so that it "controls" the panel. | MQL5 |  [NL-ND] | ✅ Active | 🌐 Public  | Lib |
 | AiModels | Ai models (Linear regression, etc) in pure MQL5 | MQL5 |  [NL-ND-P] | ✅ Active | 🔒 Request access | Lib | 
 | AoByLeo | Genetic and slow optimization algorithms and OpenCL support, useful for implementing self-optimization of EAs in any strategy. | CL, MQL5 | [NL-ND-P] | Undefined, currently active but unchanged until further architectural definition | 🔒 Request access  | Lib | 
 | BasesParserSLan | Base repository for parsers of structured languages (json, yaml, etc.) | MQL5 | [NL-NC]  |  ✅ Active | 🌐 Public | Lib | 
