@@ -41,6 +41,7 @@
 | CLByLeo | OpenCL Wrrpers in MQL5| MQL5 |  [NL-ND-P]| ✅ Active | 🔒 Request access  |  Lib |
 | ChallangeSimulator | Simulate funding tests in MQL5, useful for validating whether a bot passes a funding test or not. | MQL5 | ?| ✅ Active | ⛔ Unavailable   | Lib | 
 | CppBases | Basic utilities for C++, base repository for TSN C++ projects | C++, CMake | [NL-NC] | ✅ Active | 🌐 Public |  Lib | 
+| CryptoByLeo | Fast cryptographic library for MQL5 (Hashes [SHA3, SHA2, BLAK2]) (HMAC) (Simetric Cipher) (Asymetric Chiper) | MQL5 | [NL-NC]  |  ✅ Active | 🌐 Public | Lib | 
 | EAFModExtra | Extra utilities for graphical interfaces (panels) based on the EasyAndFastMod library | MQL5 | [NL-ND-P]| ✅ Active | 🔒 Request access  |Lib | 
 | EasyAndFastMod | This repository is a modified version of EasyAndFastGUI. | MQL5 | [NL-ND-P]| ✅ Active | 🔒 Request access  |Lib | 
 | EasySbAi | EA that implements the Silver Bullet strategy (easy version) implemented with AI that filters signals and predicts the TP/SL | MQL5, YAML | [FPU] |  ✅ Active | 🌐 Public | Bot | 
