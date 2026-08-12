@@ -8,6 +8,11 @@
 - MQL5 Code: https://forge.mql5.io/nique_372/TSNReposIndex/src/branch/main/Conventions/MQL5.md
 - MQL5 Files: https://forge.mql5.io/nique_372/TSNReposIndex/src/branch/main/Conventions/MqlFiles.md
 - Dependency management: https://forge.mql5.io/nique_372/TSNDep/src/branch/main/README.md
+
+## Ecosystem Extra
+
+- MQL5 Include: https://forge.mql5.io/nique_372/TSNReposIndex/src/branch/main/Conventions/MqlIncludes.md
+  
 ---
 
 ## About me
@@ -114,11 +119,6 @@ If you use any of my projects, please keep in mind:
 1. Always include the original license when redistributing.
 2. Accept the license of the repository you wish to use with all its conditions.... if you do not agree, do not use the code from that repository for any purpose.
 3. If in doubt about whether your use case is allowed, open an issue or contact me.
-
----
-
-## Notes
-- Many ecosystem repositories use paths to the `include customs` folder for inclusion. Therefore, it's necessary to install the following free product, which is MQH Wrappers, that points to the original path: thebotplace.com/bot/tsn-ecosystem-sdk
 
 ---
 
