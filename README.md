@@ -42,6 +42,7 @@
 | AiModels | Ai models (Linear regression, etc) in pure MQL5 | MQL5 |  [NL-ND-P] | ✅ Active | 🔒 Request access | Lib | 
 | AoByLeo | Genetic and slow optimization algorithms and OpenCL support, useful for implementing self-optimization of EAs in any strategy. | CL, MQL5 | [NL-ND-P] | Undefined, currently active but unchanged until further architectural definition | 🔒 Request access  | Lib | 
 | BasesParserSLan | Base repository for parsers of structured languages (json, yaml, etc.) | MQL5 | [NL-NC]  |  ✅ Active | 🌐 Public | Lib | 
+| BigNumberByLeo | TSN library for large numbers of X number of bits (unsigned and signed) | MQL5 | [NL-NC]  |  ✅ Active | 🌐 Public | Lib | 
 | BotKr4v3n5 | MQL5 CRT Trading bot | MQL5 | ? | 🚧 WIP | ⛔ Unavailable  | Bot | 
 | CLByLeo | OpenCL Wrrpers in MQL5| MQL5 |  [NL-ND-P]| ✅ Active | 🔒 Request access  |  Lib |
 | ChallangeSimulator | Simulate funding tests in MQL5, useful for validating whether a bot passes a funding test or not. | MQL5 | ?| ✅ Active | ⛔ Unavailable   | Lib | 
