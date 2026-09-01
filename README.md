@@ -79,6 +79,7 @@
 | MqlLlmCoderByLeo | LLM model trained with ecosystem code with over 500k lines of very high quality MQL5 code | Python | [ARR] | 🚧 WIP | ⛔ Unavailable | LLM Model |
 | MultirangesInd | MetaTrader 5 Indicator that detects consolidation ranges and generates signals based on three customizable strategies | MQL5 | [FPU] | ✅ Active |  🌐 Public | Indicator |
 | NewsAiEa | AI news trading bot with more than 38 onnx models for predicting current value\movement\dd of events and trading it. | MQL5 | [ARR] | ✅ Active |⛔ Unavailable | Bot |
+| PNRGByLeo | Fast library for generating pseudo-random numbers PRNG |  MQL5 | [NL-NC] | 🌐 Public |  Lib |
 | PerfectHashByLeo | Lib to generate perfect hashes | MQL5 | [NL-NC] | 🌐 Public |  Lib |
 | PracticeCode | Extra practice code | MQL5 |  ? | 🗄️ Archived | 🌐 Public | Lib + Bots |
 | PyBase | PyBase is a base repository that contains basic utilities for simple logging and basic functions. | Python | [NL-NC] | ✅ Active | 🌐 Public |  Lib | 
