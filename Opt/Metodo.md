@@ -55,7 +55,16 @@ Asi que por esto no uso la ia como "mi remplazo" o alguien que lo "hace por mi" 
 Aunque ahora con el ecositmea TSN en marcha ya toda esta parte compleja ...  ya ha sido resuelta progresivmatne asi que la ia se enfocara en loq eu de verdad ssabe hacer.. la parte final.. osea loas eaes.. digmoas un EA con LLm.. la ia ya no se enfoca en hacer el parser json, o hacer la lib de LLM si no en la logica de negicio como tal.. algo mas simple sn tanto estresd (osea en lo de alto nivel..) y asi tenemos muchos ejemplso..
 
 
+### Pregunta amena, esta situacion con la IA mejorara?¿ 
+Creo que no... o se mantendra.. o empeora incluso..
+1. Ahora mismo con la llegada de codigo de ia codebase github ya casi casi las libs, si antes eran minoria ahora lo son mas o de peor caidad.... por loq ue es triste verlo asi.. MQL5 como tal no ha llegado a "desarollarse" en tema de libs como si lo hicieron cpp\py, etc... y que le pase esto empeora la sitaucion que llevabamos
+2. Github, ahora mismo si veis los recientes casi todos son EAs (a feca de estos ultimos meses setimebre del 2026) no se si esta situacion cambie... pero creo que pensar que en github esta el mejor codigo ahor amismo.. la verdad que no... historicamnte si ha tenido muchas libs interensates de MQL5.. pero ahora mismo creo que esto se esta trasnalfando a MQL5 Forge y tambien al codebase... aparte un patron intente es que las libs con mas starts de gituhb han sido creadas durante el 2015-2021 asi que croe que ese fue su "prime" de las libs en github luego de eso ya la siutacino empeo a decae y los mantendieso de las libs mas "gordas" de github.. se fueron de MQL5 a otros lenguaje so de plano desparecieron.....  Debido a esto el principal centro de donde la ia coje codigo para entenrarse parece no "mejorar" si no empeorar incluso
+3. Hay un anuncio del 2025 donde MQL5 tendra un pacakge manager nativo que compilara en un EX5 final... en feautres del metaedtior.... si esto logra pasar... no tengo dudas que gran parte de las libs se mudaran a este sistema... haciendo que se reduzaca mas el nicho de devs de libs que puiblcian sus libs
+4. La ia ya aprendio todo "lo que se peude" sobre mql5..
+5. La inovacion en MQL5 es entorno al traidng (por ejemplo tema de ia..) no sobre "progmraicon en general"
 
+
+   
 
 
 
