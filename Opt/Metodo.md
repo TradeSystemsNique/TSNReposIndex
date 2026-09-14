@@ -33,6 +33,33 @@ Sincermante No pero ya casi, ahora mismo diria que un 80-90% del codigo sigue es
 Yo como tal considero que lo que hay que optimziar al maximo son las bases, osea las liberias, como tal las app finales ahi ya me relajo mas... meto mas prints... y quizas uso punteors para ficlaita la lopgica de negicion, esto pro qeu se que las lbis por debajo como parsers, crypto, numeros, math, ml son muy rapidas... pero tampco oes que me relaje mucho siemprte uqe peudo lo trato de optimzar pero si veo que ya sera muy tedidio o compljo o predigo que no vale la pena lo dejo.
 
 
+## Uso de modelos de IA
+La IA a llegado para quedarse, pero hay que ser mas precavidos en MQL5... a diferencia de cpp\js\py donde hay inmensas bases de codigo de toda calidad... la ia ahi se pudo entrenar bien aparte de que dichos lenguajes son abiertos y sus compilares tambine por lo que optimziar ahi ya es mas faicl aparte que el compilador ya hace mucho trabajo por ti... asi qeu te enfocas ams ene el algopritmo com otal... 
+Pero esto no es lo mismo con MQL5, este ultimo al ser nicho muy nicho y la calidad de codigo en su gran mayoria es codigo para trading.. entones lo que hay de "optimziaicon" o codigo rapido es poco y enfocado mas a indicadores. no tanto a un nivel "genral" por todo esto el nivel de los modelos de IA en mql5 es mucho mas infereicio si clos comparas haciendo codigo en otros lengaujes... y esto ya lo he demostrado mucho he publaico muchos repos en los que hago benchs contra codigos con ia.. normaliza cuando se les pide optmizar aplican conocimientos "generales" o que "teoricamtne se ven bien" mas que todo replican lo que hay de C++ pero como les he ido mencioando MQL5 para nada es CPP ... 
+- MQL5 es menos agresivo compiladndo que CPP
+- MQL5 no es abierto como cpp
+- MQL5 la comunioda en su gran mayoria son personas que lo usan para autpmiza rsu estreateia, NO como algo general para codificar o optimziare agresiamnte
+- MQL5, los docs no son de tan bajo nivel asi que leyendo ramente aprendes a optimizar
+- en MQL5 tambien hay un nicho de gtente que optimzar el codigo.. pero esta bien contado y reducido y aparte esta invisible... si lo comparmos con la inmensa mayoria
+- MQL5 el volumen de las libs es menos del 1% de todo el codigo mql5, esto lo peudes veiricar llendo al market, codebase, github
+- El volumen de codigo "bueno - fast" es casi casi 0 en mql5.. si lo comparmos con las libs.. asi que normalte las LLm cuando optimzia trataran de protar patrones de CPP.... o otrs lengaujes.. dado que se "parece" a mql5.
+
+
+Debido a todo eso se crea como una bola de nive eque empora la calidad de los modelos de ia codificando.. y peor aun si les pides "bajo nivel" maxima velocidad... 
+Y si a esto le sumas que iterar en mql5 es mas tedioso pro que requiere de una APP GUI .. no un CLI o algo facil de usar.. entonces esto multiplica todo lo mencionado....
+
+En resumen... los modelos de IA en MQL5 son decentes en temas generales de trading (lo que mas importa en MQL5) pero si te alejas de eso empizan a empoerar en caldiad mucho... es como una distyirbcino normal.. si preguntas temas normales, indicaodres, notiicas, ict o cosas no tan complejas te va bien ... pero si te aljeas mas y mas.. donde casi no hay docs o libs de ello (directx, onnx, optimizacion de codigo, parsers fast) depeindeo de que tanto te alejes te puedn dar: desde algo funciona pero "no lo que pensabas" (un fast parser) hasta dirmante no compilar o pasrarte dias dandole docs.. a la ia... (directx por ejemplo)
+
+Asi que por esto no uso la ia como "mi remplazo" o alguien que lo "hace por mi" si no mas un "ayudante" que me ayuda a prototipar rapidos, sacar hipotesis.. y sobretodo aprebnder (Algoritmos, math, ml, etc en esto es muy buena dado que son temas generales y abunda el contenido..) o tambien en tareas mecanicas de pcoo peligro.. o cosas simples... o que te ayude a pensar la arquietucta, los archivos.... 
+
+Aunque ahora con el ecositmea TSN en marcha ya toda esta parte compleja ...  ya ha sido resuelta progresivmatne asi que la ia se enfocara en loq eu de verdad ssabe hacer.. la parte final.. osea loas eaes.. digmoas un EA con LLm.. la ia ya no se enfoca en hacer el parser json, o hacer la lib de LLM si no en la logica de negicio como tal.. algo mas simple sn tanto estresd (osea en lo de alto nivel..) y asi tenemos muchos ejemplso..
+
+
+
+
+
+
+
 
 
 
