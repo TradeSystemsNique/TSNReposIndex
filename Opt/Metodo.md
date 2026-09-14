@@ -41,7 +41,7 @@ Pero esto no es lo mismo con MQL5, este ultimo al ser nicho muy nicho y la calid
 - MQL5 la comunioda en su gran mayoria son personas que lo usan para autpmiza rsu estreateia, NO como algo general para codificar o optimziare agresiamnte
 - MQL5, los docs no son de tan bajo nivel asi que leyendo ramente aprendes a optimizar
 - en MQL5 tambien hay un nicho de gtente que optimzar el codigo.. pero esta bien contado y reducido y aparte esta invisible... si lo comparmos con la inmensa mayoria
-- MQL5 el volumen de las libs es menos del 1% de todo el codigo mql5, esto lo peudes veiricar llendo al market, codebase, github
+- MQL5 el volumen de las libs es menos del 5% de todo el codigo mql5, esto lo peudes veiricar llendo al market, codebase, github
 - El volumen de codigo "bueno - fast" es casi casi 0 en mql5.. si lo comparmos con las libs.. asi que normalte las LLm cuando optimzia trataran de protar patrones de CPP.... o otrs lengaujes.. dado que se "parece" a mql5.
 
 
