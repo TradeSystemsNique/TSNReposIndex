@@ -1,4 +1,4 @@
-# TSN - Trade System Nique - Index
+# TSN - Trade Systems Nique - Index
 
 > Index of all my repositories, licenses and projects.
 
