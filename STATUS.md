@@ -3,6 +3,8 @@
 > Real usage status of each repository in the TSN ecosystem: whether I recommend it for use today, whether it's still in progress, etc.
 > This is independent of license/access (see [README.md](./README.md)) — a repo can be public and still be under active development.
 
+---
+
 ## Legend
 
 | Status | Meaning |
@@ -12,6 +14,7 @@
 | 🌱 Growing | 	Core is stable and safe to use today; new modules/features are being added on top without breaking what already works |
 | ⚠️ Experimental | Compiles and works but the API may change, lightly tested |
 | 🗄️ Archived | No longer maintained |
+
 ---
 
 ## Repositories
@@ -23,8 +26,8 @@
 | AiDataTaskRuner | Lib | 🚧 WIP|
 | AiDataTaskRunerMcp | Lib |✅ Stable |
 | AiFeatureEval | Lib | ✅ Stable|
-| AiMcpServ | Lib | 🚧 WIP||
-| AiFullTab | Lib | 🚧 WIP||
+| AiMcpServ | Lib | 🚧 WIP|
+| AiFullTab | Lib | 🚧 WIP|
 | AiModels | Lib | ✅ Stable|
 | AoByLeo | Lib | ⚠️ Experimental|
 | BasesParserSLan | Lib |✅ Stable |
