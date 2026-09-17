@@ -30,7 +30,8 @@
 
 ## Repositories
 
-> For the current maintenance/usability status of each repo, see [STATUS.md](./STATUS.md).
+> - For the current maintenance/usability status of each repo, see [STATUS.md](./STATUS.md).
+> - For pending items regarding the ecosystem with a medium- to long-term horizon, see [GOALS.md](./GOALS.md).
 
 | Repo | Description | Language | License | Access | Type |
 |------|-------------|----------|---------|--------|------|
