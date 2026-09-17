@@ -33,7 +33,7 @@
 
 ### Authors
 - nique_372: Ecosystem creator & maintainer. Architecture, core libraries, and overall direction.
-- Redscam: Author of QuantumErnLeo and co-author of several repositories (such as Gurus 1.2, ICT Estrategias, etc..) focused on ICT bots.
+- Redscam: Author of (QuantumErnLeo, PracticeCode) and co-author of several repositories (such as Gurus 1.2, ICT Estrategias, etc..) focused on ICT bots.
 
 ---
 
