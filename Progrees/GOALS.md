@@ -27,7 +27,7 @@ Aqui algunas tareas que son mecanicas que tambien estan pendientes, considero qu
 1. AiDataGenByLeo
    - Actulizar a la nueva version de ScalerByLeo y corregir en caso haga falta por la intrudccion del namespace TSN
 2. ICTLibraryExamples, ICTLibraryEasy, LitCycleKiller, BotKr4v3n5, IctKiller, Gurus1.2, ICTEstrategias
-   - Corregir casi todos los EAs del repo dado qeu el modulo MQLArticles\RM y ciertos modulso de MQLArticles ahora lelvan namespace TSN.
+   - Corregir casi todos los EAs de los repos mencionados, dado qeu el modulo MQLArticles\RM y ciertos modulso de MQLArticles ahora lelvan namespace TSN.
  
 
 
