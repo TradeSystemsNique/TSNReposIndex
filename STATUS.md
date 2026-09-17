@@ -9,6 +9,7 @@
 |--------|---------|
 | ✅ Stable | Compiles, tested, documented — recommended for use today |
 | 🚧 WIP | Under active development / refactor, may not compile or its API may change without notice |
+| 🌱 Growing | 	Core is stable and safe to use today; new modules/features are being added on top without breaking what already works |
 | ⚠️ Experimental | Compiles and works but the API may change, lightly tested |
 | 🗄️ Archived | No longer maintained |
 ---
@@ -32,7 +33,7 @@
 | CLByLeo | Lib | ✅ Stable |
 | ChallangeSimulator | Lib |🚧 WIP  |
 | CppBases | Lib | ✅ Stable |
-| CryptoByLeo | Lib | 🚧 WIP|
+| CryptoByLeo | Lib | 🌱 Growing |
 | EAFModExtra | Lib |✅ Stable  |
 | EasyAndFastMod | Lib | ✅ Stable |
 | EasySbAi | Bot | 🚧 WIP|
@@ -57,7 +58,7 @@
 | LLmRegiteryByLeo | Lib | ✅ Stable|
 | LitCycleKiller | Bot | 🚧 WIP|
 | MQL5Book | All |✅ Stable |
-| MQLArticles | Lib + Bots + Indicators | 🚧 WIP|
+| MQLArticles | Lib + Bots + Indicators | 🌱 Growing |
 | McpServer | Lib | 🚧 WIP|
 | McpServerImp | Lib + Exe | 🚧 WIP|
 | MqlCIByLeo | Lib |🚧 WIP |
