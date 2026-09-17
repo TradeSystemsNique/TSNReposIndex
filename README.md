@@ -1,9 +1,9 @@
-# Nique_372 and Leo - Index
+# TSN - Trade System Nique - Index
 
 > Index of all my repositories, licenses and projects.
 
-
 ---
+
 ## Ecosystem Conventions:
 - MQL5 Code: https://forge.mql5.io/nique_372/TSNReposIndex/src/branch/main/Conventions/MQL5.md
 - MQL5 Files: https://forge.mql5.io/nique_372/TSNReposIndex/src/branch/main/Conventions/MqlFiles.md
@@ -12,6 +12,11 @@
 ## Ecosystem Extra
 
 - MQL5 Include: https://forge.mql5.io/nique_372/TSNReposIndex/src/branch/main/Conventions/MqlIncludes.md
+
+## Philosophy
+1. Performance-first: reaching the execution speed limits achievable in pure MQL5, across parsing, VM, math, collections, ICT, news, utils, crypto, UI, I/O, and more.
+2. Contextual balance: prioritizing maximum speed in critical areas, and a reasonable balance elsewhere — but always leaning toward speed when in doubt.
+3. Elegant, usable API: a clean and open interface that never sacrifices developer experience in the name of speed.
   
 ---
 
