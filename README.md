@@ -24,7 +24,7 @@
 
 - **Creator:** nique_372
 - **Organization:** TSN
-- **Platform:** [Only MQL5 Algo Forge for repositories](https://forge.mql5.io)
+- **Platform:** [MQL5 Algo Forge as main platform](https://forge.mql5.io) and [GitHub as a mirror for certain repos (web, mcp, etc.)](https://github.com/TradeSystemsNique) 
 - **Products:** [MQL5 Market](https://www.mql5.com/es/users/nique_372/seller) and [TheBotPlace](https://www.thebotplace.com/user/46vILTzIIBbqDhugEvqWGlc8rl52)
 - **Contact:**
 > - [MQL5 Chats](https://www.mql5.com/es/users/nique_372)
