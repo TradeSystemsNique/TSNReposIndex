@@ -1,6 +1,6 @@
-# TSN - Trade Systems Nique - Index
+# Trade Systems Nique (TSN) Ecosystem Index
 
-> Index of all my repositories, licenses and projects.
+> Index of repositories, licenses, projects, etc..
 
 ---
 
@@ -20,9 +20,9 @@
   
 ---
 
-## About me
+## About TSN
 
-- **Name:** nique_372
+- **Author:** nique_372
 - **Organization:** TSN
 - **Platform:** [Only MQL5 Algo Forge for repositories](https://forge.mql5.io)
 - **Products:** [MQL5 Market](https://www.mql5.com/es/users/nique_372/seller) and [TheBotPlace](https://www.thebotplace.com/user/46vILTzIIBbqDhugEvqWGlc8rl52)
@@ -30,6 +30,10 @@
 > - [MQL5 Chats](https://www.mql5.com/es/users/nique_372)
 > - [Telegram](http://t.me/trade_system_nique)
   
+
+### Authors
+- nique_372: Ecosystem creator & maintainer. Architecture, core libraries, and overall direction.
+- Redscam: Author of QuantumErnLeo and co-author of several repositories (such as Gurus 1.2, ICT Estrategias, etc..) focused on ICT bots.
 
 ---
 
