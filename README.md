@@ -107,13 +107,14 @@
 | TSNReposIndex | Index of all my repositories, licenses and projects. TSN Ecosystem | MD | [MIT] | 🌐 Public | Doc |
 | TbpWrraper | A set of wrapper classes that make using TheBotPlace API easier. | MQL5, YAML, C++, Python, TOML, CMake | [NL-NC] | 🌐 Public | Lib |
 | Team9 | Simple EMA trading bots/Chart patterns | MQL5 | ? | ⛔ Unavailable | Bot |
-| TelegramByLeo | Modified and fast Telegram library based on MQL5 article codes | MQL5 | [NL-ND-P] | 🔗 Unlockable (requires FastNL) | Lib |
+| TelegramByLeo | TelegramByLeo is a Telegram library that provides an API, Poller, CommanderBot, and more for working with the Telegram API in MQL5, prioritizing super-fast performance. | MQL5 | [NL-ND] | 🌐 Public | Lib |
 | TelegramComplex | Telegram bot to send screenshots\messages at OnTradeTransaction events | MQL5 | [NL-NC] | ⛔ Unavailable | Bot |
 | TelegramControler | Bot that allows control of MT5 through LLM APIs and commands | MQL5 | ? | ⛔ Unavailable | Bot |
 | TheSmcIctIndEx | MQL5 EA examples using The Smc Ict Indicator buffers | MQL5 | [MIT] | 🌐 Public | Bots |
 | TheSmcIctindicator | Part of the code for TheSmcIctIndicator | MQL5 | ? | ⛔ Unavailable | Indicator |
 | TimeUtils | Fork of [amrali/TimeUtils](https://forge.mql5.io/amrali/TimeUtils) | MQL5 | [INHERITED] | 🌐 Public | Lib |
 | TsnTables | Global arrays of the TSN ecosystem | MQL5 | MIT | 🌐 Public | Lib |
+| WebUtilsByLeo | FAST Web utilities for MQL5 (full multipart, URLEncode, etc.) |  | MQL5 | [NL-ND-P] | 🔒 Request access | Lib |
 | VmByLeo | Complete functional Fast language made in Pure MQL5. Functions, ifs, loops, all MQL5 data types (int, datetime, color, string) | MQL5 | ? | ⛔ Unavailable | Lib |
 | WorkflowsByLeo | A library that allows you to run workflows in an MT5 bot. Both asynchronous and synchronous jobs that require OnTimer\OnChartEvent to function... all through a YAML file where the user defines each step of the flow. | MQL5, YAML | [NL-NC] | 🌐 Public | Lib |
 | Xoshiro256 | Fork of [amrali/Xoshiro256](https://forge.mql5.io/amrali/Xoshiro256) | MQL5 | [INHERITED] | 🌐 Public | Lib |
