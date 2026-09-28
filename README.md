@@ -113,6 +113,7 @@
 | TheSmcIctIndEx | MQL5 EA examples using The Smc Ict Indicator buffers | MQL5 | [MIT] | 🌐 Public | Bots |
 | TheSmcIctindicator | Part of the code for TheSmcIctIndicator | MQL5 | ? | ⛔ Unavailable | Indicator |
 | TimeUtils | Fork of [amrali/TimeUtils](https://forge.mql5.io/amrali/TimeUtils) | MQL5 | [INHERITED] | 🌐 Public | Lib |
+| TlgNewsInformer |  Economic calendar watcher that sends a heads-up to Telegram before a scheduled news event hits.  | MQL5 | [FPU] | 🌐 Public | Lib |
 | TsnTables | Global arrays of the TSN ecosystem | MQL5 | MIT | 🌐 Public | Lib |
 | WebUtilsByLeo | FAST Web utilities for MQL5 (full multipart, URLEncode, etc.) |  | MQL5 | [NL-ND-P] | 🔒 Request access | Lib |
 | VmByLeo | Complete functional Fast language made in Pure MQL5. Functions, ifs, loops, all MQL5 data types (int, datetime, color, string) | MQL5 | ? | ⛔ Unavailable | Lib |
