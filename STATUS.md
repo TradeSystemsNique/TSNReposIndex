@@ -90,6 +90,7 @@
 | TheSmcIctIndEx | Bots | ✅ Stable|
 | TheSmcIctindicator | Indicator |🚧 WIP |
 | TimeUtils | Lib | ✅ Stable|
+| TlgNewsInformer | Util-EA | ✅ Stable|
 | TsnTables | Lib | ✅ Stable|
 | VmByLeo | Lib | 🚧 WIP|
 | WorkflowsByLeo | Lib | ✅ Stable|
