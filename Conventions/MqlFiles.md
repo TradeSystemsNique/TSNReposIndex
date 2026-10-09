@@ -9,9 +9,33 @@ This MD details how files should be named, project structure, etc.
 Core.mqh
 Main.mqh
 ```
-This applies only to actual MQL5 code files. In case other ecosystems are combined (e.g., web/Python), naming conventions from those ecosystems may be accepted.
 
-## Project Structure for Libraries
+> By the way, I usually use names like Main, Defines, or Functions for small EAs or those with simple logic; if you have more than 4 or 5 
+> .mqh files, it's better to use more descriptive names—like Core, Logger, 
+> or something informative—rather than generic ones, to improve readability.
+
+## Templates
+
+Below are some specific templates for organizing files, depending on the type of project.
+It is also worth noting that, beyond this, the ecosystem depends on the specific repository structure—there may be a few additional folders—but
+in summary:
+- Final Apps: An `src` folder for the main code and class tests (containing defines, functions, classes, GUIs, and all logic-related elements);
+ a `Market` or `Images` folder for repository assets (such as screenshots of the running app, logs, etc.); 
+ and the EA itself at the project root, alongside repository dependencies, the license, and any other necessary Markdown files 
+ (changelog, contributing guidelines, notices, LLMs, etc.).
+- Libraries: An `src` folder (for logic); a `Validate` or `Wf` folder (for CI workflows); a `Test` or `Examples` folder (
+for benchmarks or additional examples); and the dependencies, README, license, and any other required files at the root.
+
+### Project Structure for EAs (Utils - App)
+
+```
+RepoName/
+├── # Note: Folders for workflows, etc. may be included here
+├── Src/         # Actual code of the repo
+└── Images/      # Images to be used in the wiki/MDs/banner of the repo
+```
+
+### Project Structure for Libraries
 
 For projects that are modules/libraries, the following structure is recommended:
 
@@ -23,7 +47,7 @@ RepoName/
 └── Images/        # Images to be used in the wiki/MDs/banner of the repo
 ```
 
-## Project Structure for EAs (Non-AI)
+### Project Structure for EAs (Trading) (Non-AI)
 
 For projects that are modules/libraries, the following structure is recommended:
 
@@ -36,7 +60,7 @@ RepoName/
 └── Images/        # Images to be used in the wiki/MDs/banner of the repo
 ```
 
-## Project Structure for EAs Implementing AI (AiDataGenByLeo Convention)
+### Project Structure for EAs Implementing AI (AiDataGenByLeo Convention)
 
 For projects that are modules/libraries, the following structure is recommended:
 

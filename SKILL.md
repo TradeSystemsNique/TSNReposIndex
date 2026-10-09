@@ -20,6 +20,10 @@ Apply these conventions whenever:
 
 See: [MQL5 Conventions](Conventions/MQL5.md)
 
+## Code Optimization for final Apps
+
+See: [MQL5 Apps final optimization](Opt/AppFinal.md)
+
 ## Project Structure
 
 See: [MQL5 Project Structure](Conventions/MqlFiles.md)

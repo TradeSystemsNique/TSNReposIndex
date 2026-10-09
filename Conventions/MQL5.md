@@ -9,9 +9,8 @@
 1. [Naming](#naming)
 2. [File Structure](#file-structure)
 3. [Code Style](#code-style)
-4. [EA Structure](#ea-structure)
-5. [Comments and Documentation](#comments-and-documentation)
-6. [Language](#language)
+4. [Comments and Documentation](#comments-and-documentation)
+5. [Language](#language)
 
 ---
 
@@ -141,39 +140,6 @@ enum ENUM_RISK_TYPE
 ### Context Resolution
 In case libraries like winapi or internal class/global functions conflict with native functions, it is recommended to use `::` to indicate to the compiler that it should call the native function. For library functions like kernel32, for example `GetLastError()`, you can resolve the context as `kernel32::GetLastError()`
 
----
-
-## File Structure
-
-### Recommended Hierarchy for EAs
-
-For **simple or moderately complex** EAs, it is recommended to divide them into the following files:
-
-```
-EA_Name/
-├── Global.mqh        (Global initialization - ALWAYS FIRST)
-├── Defines.mqh       (Includes and global variables)
-├── Functions.mqh     (Helper functions)
-├── Main.mqh          (Main logic/classes)
-└── EA_Name.mq5       (Main event)
-```
-
-### Include Order
-
-**Always** include `Global.mqh` first to avoid "Invalid Pointer" errors in global instances:
-
-```mql5
-// Defines.mqh
-#include "Global.mqh"        //  ALWAYS FIRST
-#include <TSN\\MQLArticles\\Strategy\\Main.mqh>
-#include "Functions.mqh"
-#include "Main.mqh"
-```
-
-```mql5
-// EA_Name.mq5
-#include "Defines.mqh"       // Already contains Global.mqh
-```
 
 ---
 
@@ -292,136 +258,6 @@ COrderBlockTick g_ob;
 void ProcessSignals() {
   // logic
 }
-```
-
-## EA Structure
-
-### Recommended Flow
-
-1. **Global.mqh** - Initial configuration (BarManager, base libraries)
-2. **Defines.mqh** - Includes and global variables
-3. **Functions.mqh** - Helper functions
-4. **Main.mqh** - Strategy logic (classes)
-5. **EA.mq5** - EA events
-
-### Example: Global.mqh
-
-```mql5
-//+------------------------------------------------------------------+
-//|                                                      Global.mqh  |
-//+------------------------------------------------------------------+
-#property copyright "Copyright 2025, nique_372"
-#property link      "https://www.mql5.com/es/users/nique_372"
-#property strict
-
-// Base libraries that require immediate initialization
-#include <TSN\\TimeUtils\\TimeUtils.mqh>
-#include <TSN\\ICTLibrary\\Core.mqh>
-
-//---
-// Configure Bar Manager (critical to avoid Invalid Pointer)
-CBarManager* p_bar_manager;
-
-void InitGlobal() {
-  p_bar_manager = new CBarManager(_Symbol, _Period);
-  if (p_bar_manager == NULL) {
-    Print("Error: Could not initialize Bar Manager");
-  }
-}
-```
-
-### Example: Defines.mqh
-
-```mql5
-//+------------------------------------------------------------------+
-//|                                                      Defines.mqh |
-//+------------------------------------------------------------------+
-#include "Global.mqh"  // FIRST
-
-// Extra dependencies, although global should generally include what's necessary
-#include <TSN\\MQLArticles\\Strategy\\Main.mqh>
-
-//---
-// Global variables
-CRiskManagement* g_risk;
-COrderBlockTick g_ob;
-CStrategy* g_strategy;
-
-//---
-// Parameters
-input int InpPeriod = 20;
-input double InpRiskPercentage = 2.0;
-input bool InpUseTelegram = true;
-```
-
-### Example: Main.mqh
-
-```mql5
-//+------------------------------------------------------------------+
-//|                                                        Main.mqh  |
-//+------------------------------------------------------------------+
-
-#include "Defines.mqh" // or Functions.mqh if applicable
-
-class CMyStrategy : public CStrategy {
-private:
-  int m_period;
-  double m_rsi_threshold;
-  
-public:
-  CMyStrategy(int InpPeriod, double InpThreshold) :
-    m_period(InpPeriod),
-    m_rsi_threshold(InpThreshold) {
-  }
-  
-  void OnTick() override {
-    //---
-    // Logic
-  }
-};
-```
-
-### Example: EA.mq5
-
-```mql5
-//+------------------------------------------------------------------+
-//|                                          MyTradingEA.mq5         |
-//+------------------------------------------------------------------+
-#property copyright "Copyright 2025, nique_372"
-
-#include "Main.mqh"  // Contains Global.mqh
-
-//+------------------------------------------------------------------+
-//| Expert initialization function                                   |
-//+------------------------------------------------------------------+
-int OnInit() {
-  InitGlobal();
-  g_risk = new CRiskManagement(InpRiskPercentage);
-  g_strategy = new CMyStrategy(InpPeriod, 30.0);
-  
-  if (g_risk == NULL || g_strategy == NULL) {
-    Print("Error in initialization");
-    return INIT_FAILED;
-  }
-  
-  return INIT_SUCCEEDED;
-}
-
-//+------------------------------------------------------------------+
-//| Expert tick function                                             |
-//+------------------------------------------------------------------+
-void OnTick() {
-  g_strategy.OnTick();
-}
-
-//+------------------------------------------------------------------+
-//| Expert deinitialization function                                 |
-//+------------------------------------------------------------------+
-void OnDeinit(const int reason) {
-  delete g_strategy;
-  delete g_risk;
-}
-```
 
 ---
 
