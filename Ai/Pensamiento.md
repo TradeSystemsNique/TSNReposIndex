@@ -72,7 +72,7 @@ Esto sobreotdo se nota en codigo mas "pesado" o "general".. .. pro ejemplo liebr
 
 
 ## Vibecondig en MQL5
-Como he mencionado anteriormente depende fuertemtne del tipo de codigo de MQL5 que quieras hacer.. esto va bien correlacionado con lo qeu hablamos.. si es un tema comun... que pro ejemplo buscnado arituclos o en foros haya muchas disciuens o varios topics... seguramente sea un tema qeu buena dominancia..
+Como he mencionado anteriormente depende fuertemtne del tipo de codigo de MQL5 que quieras hacer, aunque por lo general no es buena idea o comparable a como lo harias en py u otro main language.. esto va bien correlacionado con lo qeu hablamos.. si es un tema comun... que pro ejemplo buscnado arituclos o en foros haya muchas disciuens o varios topics... seguramente sea un tema qeu buena dominancia..
 Si vez que es un tema que casi no hay codigo pocos arituclo y los que hay son bien dudosos... posiblemten sea un tema donde el modelo tienda a fallar mas.. y esto se empeora con temas cada vez mas y mas complejos.. y con poca presencia...
 Esto impacta muy fuerte en el tema de velodiad de codifiaion, errores, y solcuinoes... asi que no creo que peudas ir tan fluido cono en py.. etc..
 Por que:
@@ -110,13 +110,24 @@ y esto depende mucho del nivel al cual programes.. si quireshacer codigo de bajo
 Ahora, depende de uqe tan exigente seas con el codigo.. si quieres algo que "funcione y ya"
 Pues puedes ir directo con los modelos de ia y dar uno que otro vistaso...
 Ahora si quieres algo mas estircito, rapido, buena arquiteiucta, mas deabte...  si que te va a costar tiempo, y sobreotod tendras que tene una buena base... y ser capaz de tu optimizar el codigo sin ningun modelo de IA de por medio... en este caso el modleo de ia pasaria a ser tu ayudante.... 
+
+### Tareas mecanicas
 Ahora fuera de esots dos temas hay tareas "mecanicas" no tan complejas como renombrar, traducir, entre otros que los modelos LLM ramnte se confunden asi qeu son temas seguros.. 
 
+### El peligro de la falta de librerias maduras e incluso falta de ellas en varios temas (la base de cualquier proyecto)
 Pero lo que mas duele sinceramente es cuando quieres hacer proyectos grandes en MQL5.. como el lengauje no tiene libs... hay que reinventar o probar...lo cual se termina dicinedo al modelo LLM que lo haga..lo que considero qeu es ampliar mucho los errores que podrian haber.... 
 Es por eso tambien que en Py vibecodear es mas simple, tiens ya todo resuelto, libs probadas, y hecas antes de la era "LLM" bien testeadas y con un ecopsitmea ya "casi resuelto" por lo qeu el LLM solo ensambla.. y ya... los errores disminuyen por que ya solo te enfocan en la logica de negocio..
 No en libs de bajo nivel... que ya estan bien escritas.....
 Pero en MQL5 esto no es asi.. no hay libs hay pocas y hay desconfianza... asi que por eso se termina reinviantado, y hay caosas tan delicadas como cryptografia, parsing, etc que cuqluier descuido es grave.... por que esas libs basimnte sontedran todo tu proyecto.. asi que no se....
 
+
+## Que modelo usar ?
+Si tendria que recomendar uno, seria sin duda claude como minimo sonnet\opus\fable.. haiku no lo recomendaria...
+Considero que quizas sea el mejor modelo para MQL5.. cometera errreos, es verdad ya mencione el por que los comete y no me sorprende.. quizas en py\js, etc cometera muy pocos y mas con la logica de negocio (digmoas no te "parece" lo que hizo, etc) pero ahi es menos si lo comparas con MQL5 hay mneos intervencion....
+Ahora otros modelos sinceramente creo que no los usuaria, gpt es quizas el mas decente fuera de claude, pero comete mas errores, incluso su versino pro.. no le llega a claude aqui en este "tier 2" pondira a todos los molodes como gemini, grok, etc..
+Luego los que si de plano no recomendaria serian los modelos chinos incluso los mas potentes... si ya la falta de mnaterial de calidad\cantidad es escasa los modelos chinos mas enfocados en mainstream\language se confunden mucho mas... tienden a errar muchos traslanado sintaxis de cpp o no saber mucho los docs.. hay qeu corregirles muchos.. entonces para alguien que recien empieza va a ser un lio feo..
+Asi qeu esa es mi recomendaio ve por claude..
+Pero lo dicho, siempre pero siempre aprende MQL5.. no es algo que te puedas saltar con un modelo de IA.. y esto tambien aplica que tan lejos quieras llegar... mientras mas temas toques... mas tienes que saber para poder guiar al modelo.... por que el modelo de LLM por ma qu sea fable\opus rarmnte lo hace solo, si lo hace comete muchos errores.. funcionara si pero hay varias cosas de logica, etc etc... y lo dicho tambien depende de que tan estricto, optimizado, limpio quieres que sea el codigo por mas uqe le digas "optimiza" el modelop aplicara una heuriitca basica de teoria no algo probadno y fiel a como funciona MQL5 realidad por que simpemte no tiene esa informacion a la mano o una forma de obtenerlo rapido..
 
 ## TSN En esto
 Yo por mi parte he estado creando muchas liberias de bajo nivel, con un nivel de pulido y esmero fuerte.. 
