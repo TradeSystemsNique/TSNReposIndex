@@ -14,10 +14,8 @@
 - MQL5 Include: https://forge.mql5.io/nique_372/TSNReposIndex/src/branch/main/Conventions/MqlIncludes.md
 
 ## Philosophy
-1. Performance-first: reaching the execution speed limits achievable in pure MQL5, across parsing, VM, math, collections, ICT, news, utils, crypto, UI, I/O, and more.
-2. Contextual balance: prioritizing maximum speed in critical areas, and a reasonable balance elsewhere — but always leaning toward speed when in doubt.
-3. Elegant, usable API: a clean and open interface that never sacrifices developer experience in the name of speed.
-  
+- Check here: [PRINCIPLES.md](./PRINCIPLES.md)
+
 ---
 
 ## About TSN
@@ -105,6 +103,7 @@
 | StrategyBuilderApp | CMODEL code editor for building strategies in MQL5 | MQL5, CMODEL, CPATTERN | [ARR] | ⛔ Unavailable | Bots |
 | TSNDep | TSNDep - Dependency Manager for TSN MQL5 Ecosystem. Manages dependencies recursively with hooks support | Python | [NL-NC] | 🌐 Public | Lib |
 | TSNReposIndex | Index of all my repositories, licenses and projects. TSN Ecosystem | MD | [MIT] | 🌐 Public | Doc |
+| TSNStd | Fast, standard libraries for the TSN ecosystem (string, buffer, logger, glob patterns, file, path, etc.) | MQL5 | [NL-NC] | 🌐 Public | Lib 
 | TbpWrraper | A set of wrapper classes that make using TheBotPlace API easier. | MQL5, YAML, C++, Python, TOML, CMake | [NL-NC] | 🌐 Public | Lib |
 | Team9 | Simple EMA trading bots/Chart patterns | MQL5 | ? | ⛔ Unavailable | Bot |
 | TelegramByLeo | TelegramByLeo is a Telegram library that provides an API, Poller, CommanderBot, and more for working with the Telegram API in MQL5, prioritizing super-fast performance. | MQL5 | [NL-ND] | 🌐 Public | Lib |
