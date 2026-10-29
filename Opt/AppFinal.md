@@ -67,7 +67,7 @@ por ejemplo emoji quizas aqui como depende de un string antes y7 no podemos muta
 pero msg... lo podemos reulziar por ejemplo asi: 
 ```mql5
 msg = "Open in: " + msg;
-msg = StringFormat("%s | %s", emoji, msg);
+msg = StringFormat("%s | %s", emoji, msg); // o tambien emoji + " | " + msg (es mas rapido. .que un format)
 Send(msg);
 ```
 Con esto evitamos varias copias y no perdemos la semantica...
@@ -120,6 +120,15 @@ no una afrimacion) el tema es que con Funcion2 parece que se genrea un valor tem
 hay que matiel en un registro.. en ese caso duplicar una funcion completa para ofreces dos veriones
 lo miraria con pinzas si la ufncion es chica o con un aglortimo que poco cambia quizas si con un amcro 
 si es el core logic.. ahi si por tradeoff quizas acpetar eso... y usar const string que en teoria podria ayudar al compilador..
+
+7. Funciones que retornan string cuestan mas que las que lo pasan como ref.. trata de que 
+cuando uses strigns no usar much ofuncioens que lo retorne,
+
+8. Si los strings son globales\const, usa uchar fixed[5] para repsetnarlos y copiamos con arraycopy (en buffer) o en la foramd el paso 9...
+
+9. CharArrayToString no siempre es mas rapido que for() arr[i]=(uchar)StringGetCharacter() ... depende del tamaño  (alrediode de  < 60 chars)..
+Asi que ve rotando... apart ienes que evaluar si reuiqer utf8 o es "plain asssci" basico para aplicar esta optimcion
+
 
 
 ## Logs (Prints)
