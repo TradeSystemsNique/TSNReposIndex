@@ -216,18 +216,7 @@ For active repos with a visible direction, add a `## Roadmap` with a flat bullet
 ---
 
 ## 13. Disclaimer
-If it is a trading app/bot utility that may involve risk, place the warning text here (for example, that it is not responsible for financial losses, or disclaimers that it is a bot and not investment advice, that trading is risky, etc., everything you consider necessary).
-
-```markdown
-<!-- TSNDep Example -->
-## Disclaimer
-
-- TSNDep is a dependency management tool, not trading software
-- Always test in development before production deployment
-- Ensure you have permissions for all repositories
-- Git operations may have security implications. review URLs carefully
-- The authors assume no liability for system failures or data loss
-```
+If it concerns an application or a trading bot that may entail risks, the text should preferably be included in the license.
 
 ---
 
