@@ -54,3 +54,17 @@
   <img src="https://img.shields.io/badge/License-MIT-blue.svg"/>
 </a>
 ```
+
+
+
+## App Final Simple (AFS)
+<a href="./LICENSE">
+  <img src="https://img.shields.io/badge/License-Nique%26Leo%20AFS-orange.svg"/>
+</a>
+
+```html
+<a href="./LICENSE">
+  <img src="https://img.shields.io/badge/License-Nique%26Leo%20AFS-orange.svg"/>
+</a>
+```
+
