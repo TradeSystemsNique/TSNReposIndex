@@ -1,4 +1,4 @@
-# SOFTWARE LICENSE - APP FINAL SIMPLE
+# SOFTWARE LICENSE - APP FINAL SIMPLE - AFS
 
 Copyright (c) 2026 Nique_372 and Leo.
 All rights reserved, except as expressly granted below.
