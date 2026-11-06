@@ -65,6 +65,7 @@
 | ExtraCodes | Utility codes, such as compiling eas, etc. | MQL5 | [NL-ND-P] | 🔒 Request access | Lib |
 | FastCollectionsByLeo | Generic collection library (HashMap, etc.) Fast | MQL5 | [NL-NC] | 🌐 Public | Lib |
 | FastNL | Pure MQL5 news library without DLL\WebRequeset, works in tester\live (EX5 Wrraper Library + Extra libs) | MQL5 | [NL-ND-P] | 💰 Paid | Lib |
+| FastNLExamples | Examples of using the FastNL library | MQL5 + Web | [AFS] | 🌐 Public | Lib |
 | FullMt5McpByLeo | Complete MCP server for MT5: Through the MCP protocol, it allows [Trades, Orders, History, Graphic Objects, Terminal Logs, Compilation, etc.] | MQL5, JSON | [NL-ND] | 🌐 Public | Bot\Py server |
 | GameTestLib | Simple video games implemented in mql5 | MQL5, CL | ? | 🌐 Public | Bots |
 | GeneralByLeo | Indicators, and trailing stop | MQL5 | [NL-ND-P] | 🔗 Unlockable (requires FastNL or ICTLibrary) | Lib + Indicators |
@@ -72,8 +73,9 @@
 | Gurus1.2 | Trading bots, ICT, Price action, Statistics, etc. | MQL5 | ? | ⛔ Unavailable | Bots |
 | ICTEstrategias | ICT Trading bots | MQL5 | ? | ⛔ Unavailable | Bots |
 | ICTLibrary | Fast ICT library with more than 35 concepts (EX5 Wrraper Library + Extra concepts) | MQL5 | [NL-ND-P] | 💰 Paid | Lib |
-| ICTLibraryEasy | ICTLibraryEasy is a fast and simple ICT library that allows you to work with the most well-known ICT concepts such as FVG, Boschoch, Swing, etc. through classes and using the MQLArticles base framework. | MQL5 | Apache 2.0 (with modifications) + [FPU] Only for examples | 🌐 Public | Libs + Bots |
-| ICTLibraryExamples | Examples of ICT library usage include more than 50 example bots and implementations of ICT YouTuber strategies in MQL5 | MQL5 | [NL-ND-P] | 🔗 Unlockable (requires ICTLibrary) | Bots |
+| ICTLibraryEasy | ICTLibraryEasy is a fast and simple ICT library that allows you to work with the most well-known ICT concepts such as FVG, Boschoch, Swing, etc. through classes and using the MQLArticles base framework. | MQL5 | [AFS]  | 🌐 Public | Lib |
+| ICTLibraryExamples | Examples of how to use the ICTLibrary (Fast ICTLibrary) and ICTLibraryEasy (partially) libraries; includes complete EAs, benchmarks, and some tests. | MQL5 | [AFS] | 🌐 Public  | Bots |
+| ICTLibraryImp | Implementation of EX5 Library [ictlibrary and ictlibraryeasy] | MQL5 | [ARR] |  ⛔ Unavailable | EX5 Lib |
 | IctKiller | Complex AI bot with more than 8 strategies | MQL5 | Custom | ⛔ Unavailable | Bots |
 | Introsort | Fork of [amrali/Introsort](https://forge.mql5.io/amrali/Introsort) | MQL5 | [INHERITED] | 🌐 Public | Lib |
 | JsonParserByLeo | Fast JSON parser from the TSN ecosystem | MQL5 | [NL-NC] | 🌐 Public | Lib |
@@ -82,7 +84,7 @@
 | LLmRegiteryByLeo | models.dev service via DB for MT5 | MQL5, SQL | [NL-NC] | 🌐 Public | Lib |
 | LitCycleKiller | Bot ict based on the LitCycle strategy | MQL5 | ? | ⛔ Unavailable | Bot |
 | MQL5Book | Fork of [rosh/MQL5Book](https://forge.mql5.io/rosh/MQL5Book) | MQL5 | [INHERITED] | 🌐 Public | All |
-| MQLArticles | MQL Articles is a repository that contains the basic structure of the complete framework by Leo\Nique_372, in addition to containing the codes that nique_372 implemented in his MQL5 articles (Ict, Risk Management, Position Management). | MQL5, SFILTER | [NL-NC] | 🌐 Public | Lib + Bots + Indicators |
+| MQLArticles | MQL Articles is a repository that contains the basic structure of the complete framework by Leo\Nique_372, in addition to containing the codes that nique_372 implemented in his MQL5 articles (Ict, Risk Management, Position Management). | MQL5, SFILTER, Py | [NL-NC] | 🌐 Public | Lib + Bots + Indicators |
 | McpServer | Library that facilitates the connection of any tool that supports the MCP protocol with functions defined by you for MQL5. | MQL5 | [NL-ND-P] | 💰 Paid | Lib |
 | McpServerImp | Implementation of a complete MCP server in C++. This server supports stdin and stdou, and http (using mcp-remote). | C++, CMake | [ARR] | ⛔ Unavailable | Lib + Exe |
 | MqlCIByLeo | CI framework for MQL5. Automatically compiles and validates EAs and libraries. | MQL5, Python | [NL-ND] | 🌐 Public | Lib |
@@ -103,7 +105,8 @@
 | StrategyBuilderApp | CMODEL code editor for building strategies in MQL5 | MQL5, CMODEL, CPATTERN | [ARR] | ⛔ Unavailable | Bots |
 | TSNDep | TSNDep - Dependency Manager for TSN MQL5 Ecosystem. Manages dependencies recursively with hooks support | Python | [NL-NC] | 🌐 Public | Lib |
 | TSNReposIndex | Index of all my repositories, licenses and projects. TSN Ecosystem | MD | [MIT] | 🌐 Public | Doc |
-| TSNStd | Fast, standard libraries for the TSN ecosystem (string, buffer, logger, glob patterns, file, path, etc.) | MQL5 | [NL-NC] | 🌐 Public | Lib 
+| TSNStd | Fast, standard libraries for the TSN ecosystem (string, buffer, logger, glob patterns, file, path, etc.) | MQL5 | [NL-NC] | 🌐 Public | Lib |
+| TSNTranslations | Rapid translations for GUIs via (custom) JSON | MQL5 | [NL-NC] | 🌐 Public | Lib |
 | TbpWrraper | A set of wrapper classes that make using TheBotPlace API easier. | MQL5, YAML, C++, Python, TOML, CMake | [NL-NC] | 🌐 Public | Lib |
 | Team9 | Simple EMA trading bots/Chart patterns | MQL5 | ? | ⛔ Unavailable | Bot |
 | TelegramByLeo | TelegramByLeo is a Telegram library that provides an API, Poller, CommanderBot, and more for working with the Telegram API in MQL5, prioritizing super-fast performance. | MQL5 | [NL-ND] | 🌐 Public | Lib |
@@ -112,7 +115,7 @@
 | TheSmcIctIndEx | MQL5 EA examples using The Smc Ict Indicator buffers | MQL5 | [MIT] | 🌐 Public | Bots |
 | TheSmcIctindicator | Part of the code for TheSmcIctIndicator | MQL5 | ? | ⛔ Unavailable | Indicator |
 | TimeUtils | Fork of [amrali/TimeUtils](https://forge.mql5.io/amrali/TimeUtils) | MQL5 | [INHERITED] | 🌐 Public | Lib |
-| TlgNewsInformer |  Economic calendar watcher that sends a heads-up to Telegram before a scheduled news event hits.  | MQL5 | [FPU] | 🌐 Public | Util-EA |
+| TlgNewsInformer |  Economic calendar watcher that sends a heads-up to Telegram before a scheduled news event hits.  | MQL5 | [AFS] | 🌐 Public | Util-EA |
 | TsnTables | Global arrays of the TSN ecosystem | MQL5 | MIT | 🌐 Public | Lib |
 | WebUtilsByLeo | FAST Web utilities for MQL5 (full multipart, URLEncode, etc.) |  | MQL5 | [NL-ND-P] | 🔒 Request access | Lib |
 | VmByLeo | Complete functional Fast language made in Pure MQL5. Functions, ifs, loops, all MQL5 data types (int, datetime, color, string) | MQL5 | ? | ⛔ Unavailable | Lib |
@@ -142,11 +145,12 @@ If you use any of my projects, please keep in mind:
 
 | Tag | Name | Description |
 |-----|------|-------------|
-| [NL-NC] | Custom No-LLM Non-Commercial | Personal use and free redistribution permitted. Commercial sale of source code requires substantial innovation and written authorization. Selling a compiled End-User Application that incorporates the Software is permitted without authorization. |
-| [NL-ND] | Custom No-LLM No-Derivatives | Like NL-NC but commercial sale of source code or any Derivative Work is absolutely prohibited with no exceptions or authorization process. Selling a compiled End-User Application that incorporates the Software as a single binary is permitted. |
-| [NL-ND-P] | Custom No-LLM No-Derivatives P=(Requerid acces for Private repos or Paid or Unlocked) | Applies to Software obtained through purchase or unlock or (requerid acces, private) mechanism. Source code must remain strictly private on any platform including Forge. No public redistribution permitted under any circumstance. Selling a compiled End-User Application that incorporates the Software as a single binary is permitted. |
-| [FPU] | For Personal Use | Personal use only. Modifications allowed but must remain strictly private. No redistribution or commercial use permitted. |
-| [ARR] | All Rights Reserved | No use, access, copying, modification or distribution permitted in any form. |
+| [NL-NC] | Custom No-LLM Non-Commercial | [NL-NC](./Licenses/LICENSE-NL-NC.md) |
+| [NL-ND] | Custom No-LLM No-Derivatives |[NL-ND](./Licenses/LICENSE-NL-ND.md) |
+| [NL-ND-P] | Custom No-LLM No-Derivatives P=(Requerid acces for Private repos or Paid or Unlocked) |  [NL-ND-P](./Licenses/LICENSE-NL-ND-P.md) |
+| [FPU] | For Personal Use | [FPU](./Licenses/LICENSE-FPU.md) |
+| [AFS] | App final simple | [AFS](./Licenses/LICENSE-APP-FINAL-SIMPLE.md) |
+| [ARR] | All Rights Reserved | [ARR](./Licenses/LICENSE-ARR.md) |
 | [INHERITED] | Inherited License | License defined by the original/parent repository. Refer to the parent repo for full terms. |
 | ? | None | The license has not yet been defined for that repository |
 
