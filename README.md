@@ -66,7 +66,7 @@
 | FastCollectionsByLeo | Generic collection library (HashMap, etc.) Fast | MQL5 | [NL-NC] | 🌐 Public | Lib |
 | FastNL | Pure MQL5 news library without DLL\WebRequeset, works in tester\live (EX5 Wrraper Library + Extra libs) | MQL5 | [NL-ND-P] | 💰 Paid | Lib |
 | FastNLExamples | Examples of using the FastNL library | MQL5 + Web | [AFS] | 🌐 Public | Lib |
-| FullMt5McpByLeo | Complete MCP server for MT5: Through the MCP protocol, it allows [Trades, Orders, History, Graphic Objects, Terminal Logs, Compilation, etc.] | MQL5, JSON | [NL-ND] | 🌐 Public | Bot\Py server |
+| FullMt5McpByLeo | Complete MCP server for MT5: Through the MCP protocol, it allows [Trades, Orders, History, Graphic Objects, Terminal Logs, Compilation, etc.] | MQL5, JSON | [NL-ND] | 🌐 Public | Bot |
 | GameTestLib | Simple video games implemented in mql5 | MQL5, CL | ? | 🌐 Public | Bots |
 | GeneralByLeo | Indicators, and trailing stop | MQL5 | [NL-ND-P] | 🔗 Unlockable (requires FastNL or ICTLibrary) | Lib + Indicators |
 | GrapichsByLeo | framework that contains several libraries for creating graphics in MQL5, such as histograms, text, etc., using a class derived from CCanvas | MQL5 | ? | 🌐 Public | Lib |

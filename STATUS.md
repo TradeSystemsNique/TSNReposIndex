@@ -34,25 +34,27 @@
 | BigNumberByLeo | Lib | 🚧 WIP |
 | BotKr4v3n5 | Bot | 🚧 WIP |
 | CLByLeo | Lib | ✅ Stable |
-| ChallangeSimulator | Lib |🚧 WIP  |
+| ChallangeSimulator | Lib | ✅ Stable |
 | CppBases | Lib | ✅ Stable |
 | CryptoByLeo | Lib | 🌱 Growing |
-| EAFModExtra | Lib |✅ Stable  |
+| EAFModExtra | Lib |🚧 WIP  |
 | EasyAndFastMod | Lib | ✅ Stable |
 | EasySbAi | Bot | 🚧 WIP|
 | ExpressEvalByLeo | Lib | 🗄️ Archived |
 | ExtraCodes | Lib | ✅ Stable |
 | FastCollectionsByLeo | Lib |✅ Stable  |
 | FastNL | Lib | ✅ Stable |
-| FullMt5McpByLeo | Bot\C++ server |🚧 WIP  |
+| FastNLExamples | Lib |  ✅ Stable|
+| FullMt5McpByLeo | Bot |🚧 WIP  |
 | GameTestLib | Bots | 🗄️ Archived |
 | GeneralByLeo | Lib + Indicators |✅ Stable |
 | GrapichsByLeo | Lib | ✅ Stable|
 | Gurus1.2 | Bots | 🚧 WIP|
 | ICTEstrategias | Bots |🚧 WIP |
 | ICTLibrary | Lib | ✅ Stable |
-| ICTLibraryEasy | Libs + Bots | 🚧 WIP |
-| ICTLibraryExamples | Bots | 🚧 WIP |
+| ICTLibraryEasy | Libs | ✅ Stable|
+| ICTLibraryExamples | Bots | ✅ Stable|
+| ICTLibraryImp | EX5 Lib | ✅ Stable|
 | IctKiller | Bots |🚧 WIP  |
 | Introsort | Lib | ✅ Stable|
 | JsonParserByLeo | Lib |✅ Stable |
@@ -82,9 +84,11 @@
 | StrategyBuilderApp | Bots |🚧 WIP |
 | TSNDep | Lib | 🚧 WIP|
 | TSNReposIndex | Doc | ✅ Stable|
+| TSNStd | Lib | ✅ Stable|
+| TSNTranslations | Lib | 🚧 WIP |
 | TbpWrraper | Lib |✅ Stable|
 | Team9 | Bot |🗄️ Archived |
-| TelegramByLeo | Lib |🚧 WIP |
+| TelegramByLeo | Lib |🌱 Growing |
 | TelegramComplex | Bot |🚧 WIP |
 | TelegramControler | Bot |🚧 WIP |
 | TheSmcIctIndEx | Bots | ✅ Stable|
@@ -92,12 +96,13 @@
 | TimeUtils | Lib | ✅ Stable|
 | TlgNewsInformer | Util-EA | ✅ Stable|
 | TsnTables | Lib | ✅ Stable|
+| WebUtilsByLeo | Lib |  ✅ Stable|
 | VmByLeo | Lib | 🚧 WIP|
 | WorkflowsByLeo | Lib | ✅ Stable|
 | Xoshiro256 | Lib |✅ Stable |
 | YamlParserByLeo | Lib | ✅ Stable|
 | fast_json | Lib | ✅ Stable|
-| ICT | Lib | 🚧 WIP|
+| ICT | Lib | ✅ Stable |
 | NewsLibrary | Lib |✅ Stable |
 | Distribuciones | Lib |🚧 WIP |
 
