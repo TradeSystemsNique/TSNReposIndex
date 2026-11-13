@@ -83,18 +83,15 @@ Sharing the Software or a Derivative Work, by any means, is permitted only **fre
 
 1. **Source Code: absolute prohibition.** The sale, licensing, rental or any other commercialization of Source Code (including any fragment), whether original or modified, and whether standing alone or as part of a Library Derivative or any other Derivative Work distributed as Source Code, is **strictly and absolutely prohibited**, without exception and without possibility of authorization. There is no review or authorization process for this restriction. This prohibition is non-waivable.
 
-2. **Library Derivatives without innovation.** The commercialization of a Library Derivative that does not incorporate Substantial Innovation is **prohibited**.
 
-3. **Library Derivatives in Compiled Form with innovation.** The commercialization of a Library Derivative in Compiled Form is permitted only where it incorporates verifiable and documented Substantial Innovation AND with **prior explicit written authorization from the original authors**, who reserve the sole right to determine whether Substantial Innovation has been achieved. This paragraph never authorizes the sale of Source Code, which remains governed by Section 4.1.
-
-4. **Compiled End-User Products.** The sale or commercialization of a Compiled End-User Product that uses the Software solely as an internal dependency is **permitted without prior authorization**, whether the seller is an individual, company or any other entity, provided ALL of the following are met:
+2. **Compiled End-User Products.** The sale or commercialization of a Compiled End-User Product that uses the Software solely as an internal dependency is **permitted without prior authorization**, whether the seller is an individual, company or any other entity, provided ALL of the following are met:
    - The Software, and any Library Derivative of it, is not distributed, exposed, extracted or made separately usable as a library within or alongside the product.
    - The Source Code is not included or distributed together with the product.
    - The product does not present itself as, replace, or compete with the Software as a library or infrastructure offering.
 
    Paragraphs 2 and 3 do not apply to a Compiled End-User Product that satisfies these conditions.
 
-5. **Support Services.** You may charge fees for Support Services provided ALL of the following are met:
+3. **Support Services.** You may charge fees for Support Services provided ALL of the following are met:
    1. **The fee pays for the service, not the Software.** The Software must be, and must be stated to be, available free of charge and without conditions under Section 3.
    2. **No conditioning.** Access to or use of the Software must not depend on purchasing Support Services, and the price must not include, disguise or be inflated to cover the Software.
    3. **No bundling.** Support Services must not be sold together with the Software or a Derivative Work as a single package. A course or tutorial is allowed only if its subject is how to use the Software and it does not include the Software or Source Code as part of the paid content.
