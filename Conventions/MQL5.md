@@ -270,7 +270,7 @@ The documentation will be divided into (2-3) parts:
 2. Docs (in the libraries folder): Additional pages referenced within the final Doxygen-generated website; this includes usage examples, tables, explanations, architecture, the rationale behind design decisions, etc.
 For final applications, depending on their scale, an internal wiki might suffice; for medium-to-large-scale projects, a static website would be the best approach.
 
-```mql5
+```cpp
 //+------------------------------------------------------------------+
 //| CalculateSma                                                     |
 //+------------------------------------------------------------------+
@@ -288,7 +288,7 @@ double CalculateSma(const double &series[], int period) {
   }
   return sum / period;
 }
-
+```
 For Doxygen:
 1. When dealing with a class, we prefer to have the documentation at the function definition rather than within the class body. In other words:
 - If the class body contains only the signature and the implementation is elsewhere, the documentation should be placed where the function is defined; otherwise, it should be placed within the class itself.
