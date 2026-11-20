@@ -295,7 +295,7 @@ For Doxygen:
 2. Do not limit yourself to basic commands; feel free to use `@warning`, `@bug`, `@todo`, or any other necessary tags, as well as Markdown.
 
 
-```
+
 
 ### File Header mqh (in case of EA, additional properties such as description, icon, etc. can be added)
 
