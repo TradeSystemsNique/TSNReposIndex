@@ -58,7 +58,8 @@ RepoName/
 ├── Docs/          # Extra documentacion por doxygen (extra pages)
 ├── Agents/        # Skills\AGENTS.md\CLUADE.md, etc..
 ├── Src/           # Actual code of the repo
-├── Validation/    # Folder for final repo tests (for CI)
+├── CI_TEST_NAME/  # Folder for final repo tests (for CI)
+├── TEST_FOLDER/   # Examples of use, Basic Tests  
 └── Images/        # Images to be used in the wiki/MDs/banner of the repo
 ```
 
@@ -70,8 +71,8 @@ For projects that are modules/libraries, the following structure is recommended:
 RepoName/
 ├── # Note: Folders for workflows, etc. may be included here
 ├── Core/          # Main + Defines + EAName + Global + (Functions if applicable)
-├── Validation/    # Folder for final EA tests (for CI)
-├── Resrc/         # Embedded resources (optional, only if applicable)
+├── CI_NAME/    # Folder for final EA tests (for CI)
+├── CI_TEST_NAME/         # Embedded resources (optional, only if applicable)
 └── Images/        # Images to be used in the wiki/MDs/banner of the repo
 ```
 
@@ -86,6 +87,28 @@ RepoName/
 ├── Models/        # Integration of specific ONNX models
 ├── Core/          # Main + Defines + EAName + Global + (Functions if applicable)
 ├── Resrc/         # Embedded resources of the EA
-├── Validation/    # Folder for final EA tests (for CI)
+├── CI_TEST_NAME/    # Folder for final EA tests (for CI)
 └── Images/        # Images to be used in the wiki/MDs/banner of the repo
 ```
+
+### `TEST_FOLDER` and `CI_TEST_NAME`
+#### `TEST_FOLDER`
+Folder where the following are located:
+- Simple tests
+- Examples of library usage
+Recommended names (choose one)
+- Examples
+- Test
+
+#### `CI_TEST_NAME`
+
+Here are the (actual) tests, such as:
+- Functionality testing
+- Ensuring behavior matches the previous version (critical for EAs—to avoid unexpected differences in performance)
+- Fuzzing
+Among others
+
+Recommended names for this folder (Choose one)
+1. Wf: Workflows
+2. CI
+3. Validation
