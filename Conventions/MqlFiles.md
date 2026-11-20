@@ -42,6 +42,8 @@ For projects that are modules/libraries, the following structure is recommended:
 ```
 RepoName/
 ├── # Note: Folders for workflows, etc. may be included here
+├── Docs/          # Extra documentacion por doxygen (extra pages)
+├── Agents/        # Skills\AGENTS.md\CLUADE.md, etc..
 ├── Src/           # Actual code of the repo
 ├── Validation/    # Folder for final repo tests (for CI)
 └── Images/        # Images to be used in the wiki/MDs/banner of the repo

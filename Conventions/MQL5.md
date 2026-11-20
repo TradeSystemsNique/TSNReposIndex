@@ -265,21 +265,22 @@ void ProcessSignals() {
 
 ### Function Headers
 
-In the TSN ecosystem, the documentation method varies depending on complexity and whether it's a product:
-1. If it's a product, it's generally documented in the repository wiki (this also applies to free repositories)
-2. If there's no wiki, it's generally documented in the code itself
+The documentation will be divided into (2-3) parts:
+1. Doxygen: Code documentation.
+2. Docs (in the libraries folder): Additional pages referenced within the final Doxygen-generated website; this includes usage examples, tables, explanations, architecture, the rationale behind design decisions, etc.
+For final applications, depending on their scale, an internal wiki might suffice; for medium-to-large-scale projects, a static website would be the best approach.
 
 ```mql5
 //+------------------------------------------------------------------+
-//| Description....                                                  |
-//| Inputs:                                                          |
-//| - series: double array where the series is located               |
-//| - period: calculation period                                     | 
-//| Output:                                                          | 
-//| - Sma                                                            |
-//| Notes:                                                           | 
-//| - Period must be greater than 0                                  |
+//| CalculateSma                                                     |
 //+------------------------------------------------------------------+
+/*
+*@brief Calculate SMA for series array
+*@param[in] series double array where the series is located
+*@param[in] period calculation period
+*@return Sma value
+*@warning Period must be greater than 0 (It does not validate)
+*/
 double CalculateSma(const double &series[], int period) {
   double sum = 0.0;
   for (int i = 0; i < period; i++) {
@@ -288,7 +289,12 @@ double CalculateSma(const double &series[], int period) {
   return sum / period;
 }
 
-And if it's on the wiki, a similar style to the MQL5 Docs is followed - one page per function... and what it receives, etc.
+For Doxygen:
+1. When dealing with a class, we prefer to have the documentation at the function definition rather than within the class body. In other words:
+- If the class body contains only the signature and the implementation is elsewhere, the documentation should be placed where the function is defined; otherwise, it should be placed within the class itself.
+2. Do not limit yourself to basic commands; feel free to use `@warning`, `@bug`, `@todo`, or any other necessary tags, as well as Markdown.
+
+
 ```
 
 ### File Header mqh (in case of EA, additional properties such as description, icon, etc. can be added)
