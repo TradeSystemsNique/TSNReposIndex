@@ -100,6 +100,10 @@ Recommended names (choose one)
 - Examples
 - Test
 
+It is worth noting that we do not require a single `Test` folder containing every possible test; if a library is relatively large or if you find it inconvenient, you can have multiple `Test` folders—one for each module.
+This approach is used, for example, in several repositories within the TSN ecosystem, such as `BasesParserSLan` or `MQLarticles`. These are large repositories with sub-libraries, where having a single, unified `Test` folder would complicate development.
+On the other hand, for modules like `JsonParserByLeo`—which is essentially a single library—it is simpler to use just one `Test` folder.
+
 #### `CI_TEST_NAME`
 
 Here are the (true) tests and CI (workflows), such as:
