@@ -102,9 +102,9 @@ Recommended names (choose one)
 
 #### `CI_TEST_NAME`
 
-Here are the (actual) tests, such as:
+Here are the (true) tests and CI (workflows), such as:
 - Functionality testing
-- Ensuring behavior matches the previous version (critical for EAs—to avoid unexpected differences in performance)
+- Ensuring behavior matches the previous version (critical for EAs—to avoid unexpected differences in trading-results)
 - Fuzzing
 Among others
 
