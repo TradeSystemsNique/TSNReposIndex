@@ -19,6 +19,14 @@ Main.mqh
 
 > In the case of TSN Ecosystem, I’d say that around 60–80% of the files are in EN, and the rest are in ES.
 
+
+## Extra files (in the root directory)
+1. CHANGELOG.md: Not mandatory, but good to have.
+2. CONTRIBUTING.md: Also not mandatory; it’s optional. In the case of TSN—since it’s a bit more niche—we don’t include one.
+3. SECURITY.md: Depends on the nature of your project; it’s rarely used in MQL5.
+4. AI-related files (e.g., CLAUDE.md, AGENTS.md): Place these in an `Agents/` directory at the root level, or in subfolders if necessary.
+
+
 ## Templates
 
 Below are some specific templates for organizing files, depending on the type of project.

@@ -130,7 +130,7 @@ This prohibition is limited to Text Generation Models, does not restrict other t
 
 3. **No opt-out, no use.** If a provider offers none of these mechanisms, you must not submit Source Code to it.
 
-4. **Reference list (non-exhaustive).** Check [List of AI modelos (How to disable LLM model improvement)](./AI_USE_LIST.md)
+4. **Reference list (non-exhaustive).** Check [List of AI models (How to disable LLM model improvement)](./AI_USE_LIST.md)
    
 5. **Responsibility.** A user who complies with Sections 5B.2 and 5B.3 does not violate Section 5(d) if the provider later fails to honor its own terms. Failure to comply with Section 5B constitutes a violation of Section 5(d).
 
