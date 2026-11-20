@@ -333,14 +333,18 @@ All these fields are defined before creating the file, some when creating the pr
 
 ### Current Recommendation
 
-**Spanish** is recommended for code internal to the TSN ecosystem, but with considerations:
-
-- **Public variables/libraries:** Consider English for greater reach (this depends on your knowledge of that language)
-- **Complex comments:** Spanish for clarity
-- **Class/function names:** Consistency in the project
-
----
-
+1. For internal code \ doxygen
+   Use the language that makes it easiest for you to iterate.
+   In the case of TSN, we use Spanish 70–80% and English 20–30%.
+   This is because it’s easier for me to iterate and code without having to constantly rely on a translator or LLM models.
+   My priority—over public readability—is making it easy for me to program and explain my ideas.
+   I also use English, but to a lesser extent—only when I already have the "meaning" clear in my mind.
+2. For public-facing documentation, such as:
+    - README files
+    - Web-based documentation
+    English is preferred for greater visibility.
+    The internal `Docs/` folder within the project can also be in English; however, since this is more "low-level" documentation, feel free to use whichever language you are most comfortable with.
+    
 ## Historical Note
 
 **Important:** Some repositories in the TSN ecosystem (especially the older ones) **do not exactly follow** these conventions. This is because they were developed before formal standards were implemented.

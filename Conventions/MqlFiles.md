@@ -14,6 +14,11 @@ Main.mqh
 > .mqh files, it's better to use more descriptive names—like Core, Logger, 
 > or something informative—rather than generic ones, to improve readability.
 
+## Language
+- English, preferably... but only if it comes naturally to you; otherwise, use whichever language you prefer.
+
+> In the case of TSN Ecosystem, I’d say that around 60–80% of the files are in EN, and the rest are in ES.
+
 ## Templates
 
 Below are some specific templates for organizing files, depending on the type of project.
