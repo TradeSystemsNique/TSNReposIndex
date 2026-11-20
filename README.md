@@ -103,7 +103,7 @@
 | StatTrading | Patterns Statics | MQL5 | ? | 🌐 Public | Lib |
 | StrategyBuilder | Building strategies in MQL5 using a custom language | MQL5, CMODEL, CPATTERN | [ARR] | ⛔ Unavailable | Lib |
 | StrategyBuilderApp | CMODEL code editor for building strategies in MQL5 | MQL5, CMODEL, CPATTERN | [ARR] | ⛔ Unavailable | Bots |
-| TSNDep | TSNDep - Dependency Manager for TSN MQL5 Ecosystem. Manages dependencies recursively with hooks support | Python | [NL-NC] | 🌐 Public | Lib |
+| TSNDep | TSNDep - Dependency Manager for TSN MQL5 Ecosystem. Manages dependencies recursively with hooks support | Python | [AFS] | 🌐 Public | Lib |
 | TSNReposIndex | Index of all my repositories, licenses and projects. TSN Ecosystem | MD | [MIT] | 🌐 Public | Doc |
 | TSNStd | Fast, standard libraries for the TSN ecosystem (string, buffer, logger, glob patterns, file, path, etc.) | MQL5 | [NL-NC] | 🌐 Public | Lib |
 | TSNTranslations | Rapid translations for GUIs via (custom) JSON | MQL5 | [NL-NC] | 🌐 Public | Lib |
