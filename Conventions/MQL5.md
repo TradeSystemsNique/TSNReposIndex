@@ -258,6 +258,7 @@ COrderBlockTick g_ob;
 void ProcessSignals() {
   // logic
 }
+```
 
 ---
 
